@@ -1,0 +1,51 @@
+{
+  "id": "heartbeat",
+  "name": "心跳",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "category": "knowledge",
+  "description": "给角色一颗会跳的心：被戳中时心跳变快、会心动会害羞，之后随时间自然平复。它用 heart_beat 记下此刻的反应，插件把「身体感觉」注入下一轮提示词，影响的是语气（句子变短、嘴硬、答非所问），不是报出一串数字。和 inner-life（按小时算的情绪基调）、affinity（按人累计的好感）不是一个时间尺度：这里管的是这一场对话里的生理反应。默认每轮带一小段使用说明，装上即可用。",
+  "author": "QQ Agent",
+  "entry": "index.js",
+  "enabledByDefault": true,
+  "capabilities": [],
+  "requires": [],
+  "settings": {
+    "enabled": true,
+    "injectGuide": true,
+    "halfLifeMin": 8,
+    "maxLevel": 3,
+    "quietWhenCalm": true
+  },
+  "configSchema": {
+    "enabled": {
+      "type": "boolean",
+      "label": "启用心跳",
+      "description": "关掉后不记录也不注入，已存的状态留在磁盘上不删。"
+    },
+    "injectGuide": {
+      "type": "boolean",
+      "label": "自动注入使用说明",
+      "description": "开启后每轮带一小段说明，模型才知道可以调 heart_beat。关掉省一点 token，但要自己把人设指令写进角色卡。"
+    },
+    "halfLifeMin": {
+      "type": "number",
+      "label": "平复半衰期（分钟）",
+      "description": "心动/害羞每过这么久衰减一半。默认 8 分钟 —— 一场对话内还有余温，隔一顿饭就该平了。",
+      "min": 1,
+      "max": 180
+    },
+    "maxLevel": {
+      "type": "number",
+      "label": "强度上限",
+      "description": "心动/害羞的最大档位，默认 3。调小会更含蓄。",
+      "min": 1,
+      "max": 5
+    },
+    "quietWhenCalm": {
+      "type": "boolean",
+      "label": "平静时不注入状态",
+      "description": "默认开启：没事的时候只带使用说明，不带「身体反应」，避免每轮都提心跳。关掉则总是注入当前数值。"
+    }
+  }
+}

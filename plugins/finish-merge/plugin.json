@@ -1,0 +1,24 @@
+{
+  "id": "finish-merge",
+  "name": "省token·合并收尾",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "category": "utility",
+  "description": "省 token：现在每发一次言要打两次模型调用（先 send_message、再单独一次 finish 说『我收尾了』）。本插件提示模型在同一次响应里把两件事做完，每次发言省一整轮。实测 2 轮的 run 占一半，预计省约四成成本。代价：管理端会话卡片底部的「收尾理由」(finishReason) 会是空的。不想要就在插件页禁用它，或删掉本目录。",
+  "author": "本地自建",
+  "enabledByDefault": true,
+  "capabilities": [],
+  "requires": [],
+  "settings": {},
+  "configSchema": {},
+  "prompt": {
+    "sections": [
+      {
+        "id": "finish-merge-note",
+        "title": "收尾省一轮",
+        "priority": 60,
+        "content": "【收尾：打完字就直接结束，不用再单独调 finish】\n- 想说话就调 send_message；说完这一轮就结束，**不要再单独调一次 finish**。\n- 你可以在同一次响应里同时调 send_message 和 finish（两个一起调也只算一轮），但不要「先发消息、等结果、再专门调一次 finish」——那会白白多打一次模型调用。\n- 系统在没有工具调用的那一轮会自然结束，不需要你显式收尾。\n- 决定不说话时（看完决定不接），直接结束就行，也不必调 finish。"
+      }
+    ]
+  }
+}

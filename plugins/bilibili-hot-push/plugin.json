@@ -1,0 +1,127 @@
+{
+  "id": "bilibili-hot-push",
+  "name": "B站热门推送",
+  "version": "1.1.0",
+  "apiVersion": 1,
+  "category": "media",
+  "description": "让机器人自己刷 B 站：定时抓热门视频（或自搜关于自己的视频），按概率挑一条主动发到指定群。纯后台抓取不花 token。带每日上限，防止刷屏。",
+  "author": "本地",
+  "enabledByDefault": false,
+  "capabilities": [],
+  "requires": [],
+  "permissions": ["web_fetch"],
+  "settings": {
+    "enabled": true,
+    "targetGroups": "",
+    "pushProbability": 0.2,
+    "checkIntervalMin": 15,
+    "maxPerDay": 8,
+    "onlySelf": false,
+    "selfTerms": "大肥鱼,DeepSeek娘,小鲸鱼 DeepSeek,蓝色大肥鱼",
+    "selfPages": 2,
+    "perRound": 1,
+    "minDurationSec": 0,
+    "maxDurationSec": 3600,
+    "titleBlocklist": "预告,直播回放,切片",
+    "quietStartHour": 1,
+    "quietEndHour": 8,
+    "keepHistory": 500
+  },
+  "configSchema": {
+    "enabled": {
+      "type": "boolean",
+      "label": "启用自动推送",
+      "description": "关掉后不再主动发任何消息（定时器会停）。"
+    },
+    "targetGroups": {
+      "type": "string",
+      "label": "推送到哪些群",
+      "description": "群号，多个用英文逗号隔开，如 984642093,923914932。留空 = 不推送任何群（只在日志里记录）。只填群号数字，不要写 group: 前缀。"
+    },
+    "pushProbability": {
+      "type": "number",
+      "label": "每次检查推送的概率",
+      "description": "0~1。0.6 = 每 10 次检查约推 6 次。想让机器人话少点就调小。0 = 永不推送。",
+      "min": 0,
+      "max": 1
+    },
+    "checkIntervalMin": {
+      "type": "number",
+      "label": "检查间隔（分钟）",
+      "description": "多久检查一次并掷骰子。5~720，默认 15。调小 = 更频繁（配合下面的每日上限用）。",
+      "min": 5,
+      "max": 720
+    },
+    "maxPerDay": {
+      "type": "number",
+      "label": "每天最多推几条（安全阀）",
+      "description": "硬上限：当天推到这个数就不再推，第二天重置。0 = 不限制（不建议）。默认 8。这是防止刷屏和 B 站风控的最后一道闸。",
+      "min": 0,
+      "max": 200
+    },
+    "onlySelf": {
+      "type": "boolean",
+      "label": "只推「关于自己」的视频",
+      "description": "开启后不再抓全站热门榜，改成自搜（大肥鱼 / DeepSeek娘 等关键词），只推提到机器人的视频。默认关。"
+    },
+    "selfTerms": {
+      "type": "string",
+      "label": "自搜关键词",
+      "description": "onlySelf 开启时用这些词搜自己，逗号隔开。最多 6 个。"
+    },
+    "selfPages": {
+      "type": "number",
+      "label": "自搜翻几页",
+      "description": "每个关键词翻几页（每页 20 条）。1~5，默认 2。翻越多越全，也越慢、越容易被 B 站风控。",
+      "min": 1,
+      "max": 5
+    },
+    "perRound": {
+      "type": "number",
+      "label": "每次最多推几条",
+      "description": "1~3，默认 1。不建议调大，容易像刷屏机器人。",
+      "min": 1,
+      "max": 3
+    },
+    "minDurationSec": {
+      "type": "number",
+      "label": "最短时长（秒）",
+      "description": "过滤太短的视频。默认 0（不过滤）——因为关于机器人自己的梗视频往往只有几十秒。"
+    },
+    "maxDurationSec": {
+      "type": "number",
+      "label": "最长时长（秒）",
+      "description": "过滤太长的（默认 3600 秒 = 1 小时）。直播回放、几小时合集会被挡掉。填 0 不过滤。"
+    },
+    "titleBlocklist": {
+      "type": "string",
+      "label": "标题排除词",
+      "description": "标题含这些词就不推。多个用英文逗号隔开。默认排除预告、直播回放、切片。留空 = 不排除任何词。"
+    },
+    "quietStartHour": {
+      "type": "number",
+      "label": "安静时段开始（点）",
+      "description": "0~23。这段时间内不推送。默认 1 点开始。"
+    },
+    "quietEndHour": {
+      "type": "number",
+      "label": "安静时段结束（点）",
+      "description": "0~23。默认 8 点结束。跨零点（23→7）也支持。"
+    },
+    "keepHistory": {
+      "type": "number",
+      "label": "去重记录保留条数",
+      "description": "记住最近推过哪些视频，避免重复。默认 500 条（高频模式下调大，否则推过的会被再推一遍）。"
+    }
+  },
+  "prompt": {
+    "sections": [
+      {
+        "id": "bilibili-hot-push-note",
+        "title": "B站热门推送",
+        "priority": 30,
+        "content": "群里偶尔会出现机器人自己发的 B 站视频链接——可能是热门榜的，也可能是它自搜到的「关于自己」的视频。那不是群友发的，是机器人主动分享的。如果有人接这个话题，正常聊就行；没人理它，也不要替它解释或道歉。"
+      }
+    ]
+  }
+}

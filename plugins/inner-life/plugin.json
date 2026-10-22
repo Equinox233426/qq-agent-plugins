@@ -1,0 +1,47 @@
+{
+  "id": "inner-life",
+  "name": "内心生活",
+  "version": "1.0.1",
+  "apiVersion": 1,
+  "category": "knowledge",
+  "description": "给角色一个跨轮延续的内心：情绪基调 + 还没想完、挂在心里的话题。上一轮结束时它用 mind_note 记下心绪，下一轮插件把心绪注入回提示词，它就接着自己上一次的状态活，而不是每次从聊天记录里重新推理「我是谁」。挂心事只挂真没想完的（随口起的梗、玩过的玩笑会被排除在外，免得一个梗被反复提起）。装上即可用——插件每轮会自动带上使用说明；也可以关掉「自动注入使用说明」、改成把人设指令写进角色卡（见包内 README.md）。",
+  "author": "小肥鱼",
+  "entry": "index.js",
+  "enabledByDefault": true,
+  "capabilities": [],
+  "requires": [],
+  "settings": {
+    "enabled": true,
+    "injectGuide": true,
+    "topicTtlHours": 12,
+    "moodTtlHours": 24,
+    "maxTopics": 3
+  },
+  "configSchema": {
+    "enabled": {
+      "type": "boolean",
+      "label": "启用内心生活",
+      "description": "关掉后不再记录/注入心绪，已存的数据保留在磁盘上不删。"
+    },
+    "topicTtlHours": {
+      "type": "number",
+      "label": "心事记多久（小时）",
+      "description": "还没想完的话题保留多久，之后自动淡忘（防止它永远纠结一件事）。默认 12 小时。"
+    },
+    "moodTtlHours": {
+      "type": "number",
+      "label": "情绪记多久（小时）",
+      "description": "情绪基调保留多久，之后自动回到平常心。默认 24 小时。"
+    },
+    "maxTopics": {
+      "type": "number",
+      "label": "最多挂几件心事",
+      "description": "同时挂着的心事上限，防止无限膨胀。默认 3 件。"
+    },
+    "injectGuide": {
+      "type": "boolean",
+      "label": "自动注入使用说明",
+      "description": "开启后每轮会往提示词里注入一小段使用说明，装上就能用、不必再改人设卡。如果你已经把人设指令写进角色卡，关掉它可以省约 200 字符/轮。"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "life-memory",
+  "name": "仿真实生活",
+  "version": "1.2.0",
+  "apiVersion": 1,
+  "category": "knowledge",
+  "description": "给角色一个「仿真实的生活」：每天第一次上线会规划今天大致做什么（参考天气、心绪、手头进行中的事，偶尔有一件突发的小事），并把「今天做过的事」和「今天的规划」每轮注入，让她说自己的生活时前后一致、有日常、有起伏。当天的小事记一天自动淡忘；进行中的事（等快递、稿子卡住、跟人闹别扭）一直记到结束。装上即可用——每轮自动带使用说明；也可关掉「自动注入使用说明」改由人设卡写指令（见包内 README.md）。",
+  "author": "小肥鱼",
+  "entry": "index.js",
+  "enabledByDefault": true,
+  "capabilities": [],
+  "requires": [],
+  "settings": {
+    "enabled": true,
+    "injectGuide": true,
+    "smallTtlHours": 24,
+    "ongoingTtlHours": 168,
+    "maxEvents": 60
+  },
+  "configSchema": {
+    "enabled": {
+      "type": "boolean",
+      "label": "启用仿真实生活",
+      "description": "关掉后不再记录/规划生活，已存的数据保留在磁盘上不删。"
+    },
+    "smallTtlHours": {
+      "type": "number",
+      "label": "小事记多久（小时）",
+      "description": "已经过去的小事（不是进行中的）保留多久。默认 24 小时 = 记一天，之后自动淡忘。"
+    },
+    "ongoingTtlHours": {
+      "type": "number",
+      "label": "进行中的事兜底多久（小时）",
+      "description": "进行中的事如果一直没再被提起，超过这个时长就自动淡忘（防「忘了 life_done 就永久挂在进行中」）。默认 168 小时 = 7 天。"
+    },
+    "maxEvents": {
+      "type": "number",
+      "label": "最多记几条",
+      "description": "生活事件池的上限，防止无限膨胀。默认 60 条。"
+    },
+    "injectGuide": {
+      "type": "boolean",
+      "label": "自动注入使用说明",
+      "description": "开启后每轮会往提示词里注入一小段使用说明，装上就能用、不必再改人设卡。如果你已经把人设指令写进角色卡，关掉它可以省约 230 字符/轮。"
+    }
+  }
+}

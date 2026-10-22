@@ -1,0 +1,133 @@
+{
+  "id": "adaptive-group-style",
+  "name": "群风格自适应学习",
+  "version": "1.1.0",
+  "apiVersion": 1,
+  "category": "message",
+  "description": "让机器人自己观察每个群怎么说话：白天读本地存档统计句长、标点、语气词、分条节奏并注入提示词；到了人设卡里写的休息时间（自动从人设文本解析），自动整理、归档当天的聊天记录，对照联网热榜学梗接流行词，复盘自己的语气并降低进攻性、更有活人感。学习成果每天进化，越聊越像这个群的人。",
+  "author": "DSH",
+  "entry": "index.js",
+  "enabledByDefault": true,
+  "capabilities": [],
+  "settings": {
+    "enabled": true,
+    "learnMinutes": 30,
+    "sampleSize": 400,
+    "adoptLevel": "贴近（推荐）",
+    "injectToUser": true,
+    "includeWords": true,
+    "learnFromMemory": true,
+    "minSample": 30,
+    "observeSelf": true,
+    "nightly": true,
+    "nightlyMaxChats": 3,
+    "archiveKeepDays": 30,
+    "toneSoftening": true,
+    "memeInject": true,
+    "webMatch": true,
+    "restStart": "",
+    "restEnd": ""
+  },
+  "configSchema": {
+    "enabled": {
+      "type": "boolean",
+      "label": "启用学习",
+      "description": "关掉后不再观察新消息、也不再注入风格；已经学到的档案保留在磁盘上，重新打开即可继续。"
+    },
+    "learnMinutes": {
+      "type": "number",
+      "label": "重新学习间隔（分钟）",
+      "description": "同一个群隔多久重新统计一次。调小 = 跟得上话题变化但更费一点 CPU；调大 = 更稳、更省。默认 30 分钟。",
+      "min": 1,
+      "max": 1440
+    },
+    "sampleSize": {
+      "type": "number",
+      "label": "每次统计的样本条数",
+      "description": "每次学习最多读本地存档里最近多少条群友消息（不含机器人自己的）。默认 400 条，够看出习惯又不拖慢运行。",
+      "min": 50,
+      "max": 2000
+    },
+    "adoptLevel": {
+      "type": "enum",
+      "label": "模仿程度",
+      "description": "风格提示词对机器人的约束力。观察为主 = 只告诉它群里的习惯、不强制；贴近（推荐）= 明说照做；强模仿 = 连长度和标点都当成硬规则。",
+      "values": [
+        "观察为主",
+        "贴近（推荐）",
+        "强模仿"
+      ]
+    },
+    "injectToUser": {
+      "type": "boolean",
+      "label": "同时写进本次输入",
+      "description": "除了系统提示词，再在本次的用户消息末尾贴一小段风格提醒（这是提示词里最靠近发言位置、模型最当真的地方，实测更不容易走形）。关掉可省一点 token。"
+    },
+    "includeWords": {
+      "type": "boolean",
+      "label": "允许提示常用口头语",
+      "description": "把群里高频出现的语气词/口头语写进提示词当语气参考。若有群友不喜欢被模仿口头禅，可以关掉这一项。"
+    },
+    "learnFromMemory": {
+      "type": "boolean",
+      "label": "参考已有的群友印象",
+      "description": "本地聊天记录样本不够时，从「记忆」页里已经存下的群友印象（说话风格、爱玩的梗）里提取线索补充进来。"
+    },
+    "minSample": {
+      "type": "number",
+      "label": "最少样本条数",
+      "description": "一个群至少积累到这么多条群友消息才开始给出风格建议。样本太少时学出来的东西反而是噪音，默认 30 条。",
+      "min": 10,
+      "max": 500
+    },
+    "observeSelf": {
+      "type": "boolean",
+      "label": "观察自己说过的话",
+      "description": "顺便统计机器人最近发言的长度和标点，找出「和群里不一样」的地方，在提示词里点名要求改。"
+    },
+    "nightly": {
+      "type": "boolean",
+      "label": "夜间整理（休息时间自主学习）",
+      "description": "在人设卡写的休息时间里，自动整理、归档当天的聊天记录，复盘自己的语气（降低进攻性、更有活人感），联网对照热榜学梗和流行词，成果第二天写进提示词。休息时间从人设卡文本自动解析。"
+    },
+    "nightlyMaxChats": {
+      "type": "number",
+      "label": "每晚深度复盘的群数",
+      "description": "按当天消息量取最活跃的前几个群做逐群复盘（每个群一次模型调用）。默认 3 个，控制夜间 token 消耗。",
+      "min": 1,
+      "max": 8
+    },
+    "archiveKeepDays": {
+      "type": "number",
+      "label": "归档保留天数",
+      "description": "夜间归档（data/adaptive-group-style-archive/日期.json）保留多少天，过期自动清理。默认 30 天。",
+      "min": 7,
+      "max": 365
+    },
+    "toneSoftening": {
+      "type": "boolean",
+      "label": "语气软化（降低进攻性）",
+      "description": "夜间复盘时统计机器人今天有没有太冲的话（贬低、连击顶人），第二天在提示词里给出具体的语气修正要求。"
+    },
+    "memeInject": {
+      "type": "boolean",
+      "label": "注入学到的梗和流行词",
+      "description": "把夜间整理学到的梗（群聊与热榜的交集 + 联网查证的新词）写进提示词，让机器人接得上网上的流行话题。"
+    },
+    "webMatch": {
+      "type": "boolean",
+      "label": "联网搜索匹配",
+      "description": "夜间整理时联网获取热榜（本地榜单过期时补抓 B站热搜/抖音热榜），并用搜索引擎查群里出现的新词。关掉就只用本地数据。"
+    },
+    "restStart": {
+      "type": "string",
+      "label": "休息开始（可选覆盖）",
+      "description": "留空 = 自动从人设卡文本解析（如「每日 24:00 到次日 8:00 不回复」）。填 \"HH:MM\" 可强制覆盖，如 \"23:30\"。"
+    },
+    "restEnd": {
+      "type": "string",
+      "label": "休息结束（可选覆盖）",
+      "description": "留空 = 自动从人设卡文本解析。填 \"HH:MM\" 可强制覆盖，如 \"08:00\"。"
+    }
+  }
+}

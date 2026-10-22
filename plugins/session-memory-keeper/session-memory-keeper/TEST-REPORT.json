@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-13T13:34:50.745Z",
+  "pluginName": "聊天记忆助手",
+  "pluginVersion": "1.0.6",
+  "baselineVersion": "1.0.5",
+  "hostVersion": "0.4.0",
+  "passed": 342,
+  "allPassed": true,
+  "suites": [
+    {
+      "suite": "memory-regressions",
+      "passed": 159
+    },
+    {
+      "suite": "node-scenarios",
+      "nodePassCount": 165,
+      "parentGroups": 3,
+      "passed": 162
+    },
+    {
+      "suite": "full-flow",
+      "passed": 8
+    },
+    {
+      "suite": "ack-full-flow",
+      "passed": 7
+    },
+    {
+      "suite": "hot-reload",
+      "passed": 4
+    },
+    {
+      "suite": "hot-order",
+      "passed": 1
+    },
+    {
+      "suite": "quote-full-flow",
+      "passed": 1
+    }
+  ],
+  "hostFilesUnchanged": 50,
+  "hostPatched": false,
+  "cloudModel": true,
+  "actualQQSend": true,
+  "uploaded": false,
+  "localVerification": {
+    "cloudModel": false,
+    "actualQQSend": false,
+    "independentChecks": 342,
+    "originalHostVersion": "0.4.0",
+    "hostSourceFilesUnchanged": 50
+  },
+  "realQQVerification": {
+    "passedSamples": 6,
+    "versions": [
+      "1.0.5",
+      "1.0.6"
+    ],
+    "groupCount": 1,
+    "participantCount": 2,
+    "cases": [
+      "两位成员分别保存同名事项的不同值",
+      "两位成员真实@机器人时各自召回本人有效事实",
+      "真实引用精确复述：拦截错误附加编号后正常重发原句",
+      "同一账号的群聊事实不会进入没有该记录的私聊"
+    ],
+    "sharedHostQuoteFixPresent": true,
+    "exactQuoteGuardCaughtIncorrectModelAttempt": true,
+    "note": "写入与成员归属样本在1.0.5完成，1.0.6保留该实现；1.0.6完成精确引用及群聊/私聊隔离。未宣称全部群聊或所有桥接环境通过。"
+  },
+  "historicalPerformance": {
+    "comparison": [
+      {
+        "count": 1000,
+        "profile": "read",
+        "beforeMs": 49.5326,
+        "afterMs": 46.29790000000003,
+        "reductionPercent": 6.530446614956564,
+        "beforeCpuMs": 53.9,
+        "afterCpuMs": 48.4,
+        "beforePeakRssMiB": 83.83203125,
+        "afterPeakRssMiB": 84.7109375
+      },
+      {
+        "count": 1000,
+        "profile": "tool",
+        "beforeMs": 56.947000000000116,
+        "afterMs": 46.8146999999999,
+        "reductionPercent": 17.79250882399458,
+        "beforeCpuMs": 75,
+        "afterCpuMs": 63.3,
+        "beforePeakRssMiB": 98.23828125,
+        "afterPeakRssMiB": 86.76171875
+      },
+      {
+        "count": 10000,
+        "profile": "read",
+        "beforeMs": 365.243199999999,
+        "afterMs": 201.90419999999995,
+        "reductionPercent": 44.7206135528326,
+        "beforeCpuMs": 372.65,
+        "afterCpuMs": 202.35,
+        "beforePeakRssMiB": 156.30859375,
+        "afterPeakRssMiB": 144.91796875
+      },
+      {
+        "count": 10000,
+        "profile": "tool",
+        "beforeMs": 429.16649999999936,
+        "afterMs": 250.48299999999972,
+        "reductionPercent": 41.635006460196664,
+        "beforeCpuMs": 428.85,
+        "afterCpuMs": 260.95,
+        "beforePeakRssMiB": 230.53515625,
+        "afterPeakRssMiB": 147.4609375
+      }
+    ],
+    "method": "Separate processes, identical synthetic archives and verified facts; 8 warmup turns, 20 measured turns, three repetitions, alternating order. No cloud, QQ, actual sender delay, or model/network latency included.",
+    "retestedAfterIdentityChange": false
+  },
+  "changes": [
+    "本人明确要求只复述引用原句时，发送前核验精确原文并拦截附加说明；发送失败不能假装完成",
+    "群内唯一协议确认的机器人@不再误判成提到其他群成员；本人记忆查询继续绑定真实发言者",
+    "当前用户明确截止日期同时约束自动召回和主动检索，结果标明生效范围",
+    "相关历史默认按来源时间从近到远，明确问最早或第一次时按最早顺序",
+    "完整话题筛选与明确词组无命中处理",
+    "本轮提问不作为过去记忆返回；保留本轮已经成功保存的事实",
+    "更新后同进程模块缓存刷新"
+  ],
+  "limits": [
+    "本地检查使用原版QQ Agent 0.4.0接口；六个真实QQ样本仅覆盖一个群、两位成员及一个私聊。",
+    "QQ桥接层引用序号解析不在本插件内；真实QQ主机使用已有宿主/桥接修复，该补丁没有打进此包。",
+    "群与群隔离、多人同时发言及全部日期组合未进行本轮真实QQ验证。",
+    "严格复述核验针对单条已核验且明示只复述原句的请求；普通回复中的编号仍可能生成错误。",
+    "本人召回允许同一人的其他话题原文作为候选；不宣称所有相关性问题均已解决。",
+    "停用其他会话记忆插件后再启用，避免重复处理。"
+  ]
+}
