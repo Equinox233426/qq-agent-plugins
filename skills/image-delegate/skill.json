@@ -1,0 +1,137 @@
+{
+  "id": "image-delegate",
+  "name": "画图委派",
+  "version": "0.4.0",
+  "apiVersion": 1,
+  "category": "media",
+  "description": "把画图需求交给软件里已接入的画图模型：自动从提供商目录里挑模型、按顺序接力，不需要再填 URL 和 Key。",
+  "author": "本地生成",
+  "enabledByDefault": true,
+  "capabilities": [],
+  "requires": [],
+  "permissions": [
+    "web_fetch"
+  ],
+  "settings": {
+    "useProviders": "",
+    "preferModels": "",
+    "failoverLevel": "safe",
+    "defaultSize": "1024x1024",
+    "promptSuffix": "",
+    "maxCount": 2,
+    "responseFormat": "auto",
+    "extraBody": "",
+    "timeoutMs": 120000,
+    "downloadTimeoutMs": 60000,
+    "maxRetries": 1,
+    "maxImageMB": 8,
+    "keepLocal": 20,
+    "extraBaseUrl": "",
+    "extraApiKey": "",
+    "extraModel": "",
+    "extraStyle": "auto"
+  },
+  "configSchema": {
+    "useProviders": {
+      "type": "string",
+      "label": "只用这些提供商（可空）",
+      "description": "留空 = 所有已接入的提供商按「模型管理」里的顺序依次接力。填了就只用列出的那些，顺序按你写的来。多个用逗号分隔，填提供商的名字或 id，例如：A6API, 硅基流动"
+    },
+    "preferModels": {
+      "type": "string",
+      "label": "优先模型（可空）",
+      "description": "想让某个模型排在前面就填它的名字（可写片段），多个用逗号分隔、按顺序生效，例如：gpt-image-1, flux-schnell。留空 = 每个提供商自动挑一个最像画图的模型。"
+    },
+    "failoverLevel": {
+      "type": "enum",
+      "label": "失败接力级别",
+      "values": [
+        "safe",
+        "aggressive"
+      ],
+      "description": "safe（默认）= 只在「确定没被受理」时换下一个：连不上、4xx/5xx、429，这些没生成图、不花钱。aggressive = 连「结果不确定」也换（超时、响应中断、返回 200 但没图）—— 出图更稳，但那一发可能已经计过费，换接口等于再花一次钱。"
+    },
+    "defaultSize": {
+      "type": "string",
+      "label": "默认尺寸",
+      "description": "模型没指定尺寸时用这个，如 1024x1024、1024x1536。留空则不传 size。注意 chat 形态不传 size，比例要求用「额外请求字段」自己填。"
+    },
+    "promptSuffix": {
+      "type": "string",
+      "label": "提示词后缀",
+      "description": "可选。每次画图都追加在描述后面，用来统一画风，例如「masterpiece, best quality, 精细光影」。"
+    },
+    "maxCount": {
+      "type": "number",
+      "label": "单次最多几张",
+      "description": "默认 2（上限 4）。只有图片接口形态支持一次多张；聊天式出图永远只出 1 张。"
+    },
+    "responseFormat": {
+      "type": "enum",
+      "label": "返回格式（图片接口形态）",
+      "values": [
+        "auto",
+        "url",
+        "b64_json"
+      ],
+      "description": "auto = 不传 response_format（兼容性最好）；url = 要求返回链接；b64_json = 要求返回 base64。报「不支持 response_format」时改回 auto。"
+    },
+    "extraBody": {
+      "type": "string",
+      "label": "额外请求字段（JSON）",
+      "description": "可选。例如 {\"quality\":\"high\"} 或聊天式出图要的 {\"modalities\":[\"image\",\"text\"]}。model、prompt、n、size 由代码负责，不会被它覆盖。"
+    },
+    "timeoutMs": {
+      "type": "number",
+      "label": "单次生成超时（毫秒）",
+      "description": "默认 120000（2 分钟）。不建议低于 60000。超时属于「结果不确定」，safe 级别下不重试也不接力。"
+    },
+    "downloadTimeoutMs": {
+      "type": "number",
+      "label": "图片下载超时（毫秒）",
+      "description": "默认 60000。生成成功后要把图从图床下载回来。下载失败会免费重试 1 次，不算重新生成。"
+    },
+    "maxRetries": {
+      "type": "number",
+      "label": "同一接口内的重试次数",
+      "description": "默认 1（0~3）。只对「确定没被受理」的失败重试（429、5xx、上游暂时不可用）；超时和中断一律不重试。"
+    },
+    "maxImageMB": {
+      "type": "number",
+      "label": "图片体积上限（MB）",
+      "description": "默认 8（1~32）。超过就不发送，避免把协议端搞挂。"
+    },
+    "keepLocal": {
+      "type": "number",
+      "label": "本地留档张数",
+      "description": "默认 20。发送失败时这张图还能从本地捞回来。填 0 = 不清理。"
+    },
+    "extraBaseUrl": {
+      "type": "string",
+      "label": "补充接口 · Base URL（一般不用填）",
+      "description": "只有当画图模型没法加进软件的「模型管理」里时才用它，位置排在所有已接入接口之后。填到 /v1 为止即可。"
+    },
+    "extraApiKey": {
+      "type": "string",
+      "label": "补充接口 · API Key",
+      "description": "配合上面的 Base URL 使用。留空/填 ****** 表示不修改。",
+      "secret": true
+    },
+    "extraModel": {
+      "type": "string",
+      "label": "补充接口 · 模型",
+      "description": "补充接口必须填模型名；两个都填了这个补充接口才会生效。"
+    },
+    "extraStyle": {
+      "type": "enum",
+      "label": "补充接口 · 形态",
+      "values": [
+        "auto",
+        "images",
+        "chat"
+      ],
+      "description": "同上：images = 图片接口，chat = 聊天里吐图，auto = 先图片接口、404 才聊天。"
+    }
+  },
+  "prompt": null
+}

@@ -61,7 +61,7 @@
     "skipChats": {
       "type": "string",
       "label": "不手滑的会话",
-      "description": "填 group:870817228 这种（多个用逗号分隔），比如工作群、正经群。"
+      "description": "填 group:100000000 这种（多个用逗号分隔），比如工作群、正经群。"
     },
     "quiet": {
       "type": "boolean",

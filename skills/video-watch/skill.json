@@ -1,0 +1,102 @@
+{
+  "id": "video-watch",
+  "name": "视频与动图识读",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "category": "media",
+  "description": "让机器人真的看懂视频和动图（GIF）。把整段内容铺成一张带帧号的联络表，先一眼看全片，再放大你要的几段细看，最后按「第几秒发生了什么」说出来。支持读画面里的文字、按时间段只看某一段、动图按真实时间轴展开。底层用 ffmpeg + ImageMagick 在全片上量测（零 token），模型只负责看图命名。",
+  "author": "QQ Agent",
+  "enabledByDefault": true,
+  "capabilities": [
+    "video.watch",
+    "video.watch.available"
+  ],
+  "requires": [],
+  "permissions": [],
+  "settings": {
+    "enabled": true,
+    "pythonPath": "",
+    "vwScript": "",
+    "overviewFrames": 25,
+    "overviewCols": 5,
+    "zoomFrames": 9,
+    "zoomCols": 3,
+    "maxWidthPx": 1600,
+    "jpegQuality": 4,
+    "sendOverviewToChat": true,
+    "keepWorkFiles": false,
+    "maxClipSeconds": 600
+  },
+  "configSchema": {
+    "enabled": {
+      "type": "boolean",
+      "label": "启用视频识读",
+      "description": "总开关。关掉后模型看不到这些工具，视频只会被当成「一条视频」而不去看画面。"
+    },
+    "pythonPath": {
+      "type": "string",
+      "label": "python 路径",
+      "description": "留空自动在 PATH 里找 python。装了多个 Python 或提示找不到模块时才需要填完整路径，例如 C:\\Users\\你\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+    },
+    "vwScript": {
+      "type": "string",
+      "label": "vw.py 路径",
+      "description": "留空即可 —— 技能会优先用自带的 vendor/vw.py（随包携带）。只有你自己另外下载了一份、想指定用那份时，才需要填绝对路径。"
+    },
+    "overviewFrames": {
+      "type": "number",
+      "label": "速览图帧数",
+      "description": "默认 25（5×5 铺一张图）。这一张图就代表全片，模型看它就建立了整体印象。帧数越多单格越小、越看不清细节。"
+    },
+    "overviewCols": {
+      "type": "number",
+      "label": "速览图列数",
+      "description": "默认 5。25 帧 + 5 列 = 5 行，接近方形，视觉上最好扫。"
+    },
+    "zoomFrames": {
+      "type": "number",
+      "label": "细看图默认帧数",
+      "description": "默认 9（3×3）。看某一段细节时的默认密度，比速览密得多，单格大得多。"
+    },
+    "zoomCols": {
+      "type": "number",
+      "label": "细看图默认列数",
+      "description": "默认 3。3 列 × 3 行，每格够大，能看清表情、文字、动作细节。"
+    },
+    "maxWidthPx": {
+      "type": "string",
+      "label": "输出图最大宽度",
+      "description": "默认 1600。太大的图会被模型侧压缩，反而白花 token。1600 在清晰度和成本之间比较平衡。"
+    },
+    "jpegQuality": {
+      "type": "number",
+      "label": "JPEG 质量（2~31，越小越清晰）",
+      "description": "默认 4。调大可以减小体积，但文字边缘会糊。"
+    },
+    "sendOverviewToChat": {
+      "type": "boolean",
+      "label": "速览图发到聊天",
+      "description": "默认开。机器人看完视频会把那张联络表发到群里，大家能跟着一起看。关掉则只给模型看。"
+    },
+    "keepWorkFiles": {
+      "type": "boolean",
+      "label": "保留中间文件",
+      "description": "默认关。关掉时处理完就删掉临时帧和图片；打开会留在 data/video-watch 里方便排查，但会占磁盘。"
+    },
+    "maxClipSeconds": {
+      "type": "number",
+      "label": "最长处理时长（秒）",
+      "description": "默认 600（10 分钟）。超长的视频处理很慢也费 token，超过这个时长会拦下来并提示。"
+    }
+  },
+  "prompt": {
+    "sections": [
+      {
+        "id": "video-watch-usage",
+        "title": "视频与动图：分两步看，别装懂",
+        "priority": 62,
+        "content": "群里有人发了视频或动图时，你手上会有 video-watch 的工具。按这个顺序用，不要跳步：\n\n**第一步 速览**：用 `video-watch__overview` 把整段铺成一张带帧号的联络表。看图，建立「这段大概是什么」的印象。\n**第二步 细看**：只在你说不清的地方用 `video-watch__zoom` 指定时间段（例如「第 20 到 28 秒」）放大看。帧数少、单格大，才看得清表情和文字。\n**第三步 说话**：按「第几秒发生了什么」描述。可以引用帧号和秒数。\n\n硬规矩：\n· **只说你真的看到的**。速览图是稀疏采样，两格之间的过程你**没有**看到，不要说「他慢慢站起来」这种中间过程，只能说「第 12 秒还坐着，第 16 秒已经站着」。\n· 拿不准就再 zoom 一次，别猜。猜错了群里所有人都看得见。\n· 动图（GIF）和视频不一样：动图是循环的短动作，按真实时间轴展开的，要看清节奏就多给几帧。\n· 不要为了显得厉害就复述画面细节。人家问「这视频在讲啥」，就答在讲啥。\n· 视频里如果有别人的隐私（身份证、聊天记录、车牌、住址），复述时**不要**把这些念出来。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1611 @@
+{
+ "note": "Malody 官方 wiki（m.mugzone.net，官方运营团队维护）词条，整理自：Malody 5.0 FAQ、Key Mode Stable Criteria(Draft)、Level Reference for charts、RM 模式计分特性介绍、Malody Metric、4K Mapping Event。每条 source 字段标明具体页面。",
+ "entries": [
+  {
+   "title": "RC 版模式逐步开放",
+   "aliases": [
+    "RC1 开放模式",
+    "模式逐个开放"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "基本常识",
+   "summary": "为确保每个模式都被充分测试，RC 版逐个开放模式，RC1 只开放 Key。",
+   "details": "FAQ：为保证每个模式都得到完整测试，RC 版本会逐个开放模式；RC1 版本只开放 Key 模式与 Key Editor。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody 5.0 FAQ》"
+  },
+  {
+   "title": "同一时刻同一列不能有两个音符",
+   "aliases": [
+    "同一列重叠音符",
+    "two notes same column"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "键型",
+   "summary": "谱面不允许在同一时刻的同一列上出现两个音符。",
+   "details": "Stable Criteria：谱面不应存在同一时间、同一列上的两个音符（two notes at the same time and same column）。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "音符要对应音乐",
+   "aliases": [
+    "overchart",
+    "不推荐 overmap"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "键型",
+   "summary": "音符应当表现歌曲本身，不推荐 overchart。",
+   "details": "Stable Criteria：音符应当表现歌曲（Notes should represent the song），不推荐 overchart。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "超过 Lv.30 谱面的等级值",
+   "aliases": [
+    "Lv.100 谱面",
+    "高等级等级值"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "Lv.30 以上谱面也有对应等级值，只是未在页面中列出。",
+   "details": "出自 Malody 官方 wiki《Malody Metric》FAQ：There are corresponding value for those charts as well, but they are not listed here due to space limitations。However, rest assured that even for Lv. 100 charts, there are values, so the only concern is whether you can actually clear the chart。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody Metric》"
+  },
+  {
+   "title": "等级设置",
+   "aliases": [
+    "Level Setting",
+    "定级"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "谱面的等级应当如实反映该谱面的实际难度。",
+   "details": "Stable Criteria：谱面的等级（level）应当代表这张谱面的难度。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "等级系数 L（代表值）",
+   "aliases": [
+    "等级值 L",
+    "level value"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "L 随谱面等级递增：Lv.1=1、Lv.10=1.5513、Lv.20=2.1880、Lv.30=2.6672。",
+   "details": "出自 Malody 官方 wiki《Malody Metric》的等级值表：Lv.1 1、Lv.2 1.05、Lv.3 1.1025、Lv.4 1.1576、Lv.5 1.2155、Lv.6 1.2762、Lv.7 1.3400、Lv.8 1.4071、Lv.9 1.4774、Lv.10 1.5513、Lv.11 1.6133、Lv.12 1.6779、Lv.13 1.7450、Lv.14 1.8148、Lv.15 1.8874、Lv.16 1.9440、Lv.17 2.0023、Lv.18 2.0624、Lv.19 2.1243、Lv.20 2.1880、Lv.21 2.2318、Lv.22 2.2764、Lv.23 2.3219、Lv.24 2.3684、Lv.25 2.4157、Lv.26 2.4640、Lv.27 2.5133、Lv.28 2.5636、Lv.29 2.6149、Lv.30 2.6672、Lv.31 2.7205、Lv.32 2.7749、Lv.33 2.8304、Lv.34 2.8870、Lv.35 2.9448、Lv.36 3.0037、Lv.37 3.0637。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody Metric》"
+  },
+  {
+   "title": "等级系数的来源",
+   "aliases": [
+    "等级值拟合",
+    "L 值科学依据"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "等级值来自近三年玩家上传的海量成绩数据拟合得出。",
+   "details": "出自 Malody 官方 wiki《Malody Metric》FAQ：We have analyzed the millions of scores uploaded by players over the past three years and calculated the fitting values, which can better reflect the relationship between player ability and chart difficulty。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody Metric》"
+  },
+  {
+   "title": "禁止冒犯与歧视内容",
+   "aliases": [
+    "offensive content",
+    "歧视内容"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "含冒犯性或歧视性内容的谱面一律不被允许。",
+   "details": "Stable Criteria：冒犯性或歧视性内容（Offensive or discrimination content）不被允许。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "难度分布",
+   "aliases": [
+    "Difficulty Spread",
+    "难度铺开"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "一套难度至少应有 2 张谱面，其中一张低于 Lv.10。",
+   "details": "Stable Criteria：一套难度分布（a set of difficulty）至少要有 2 张谱面，且这一套中应有一张低于 Lv.10。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "谱面等级改动会重算 MM",
+   "aliases": [
+    "等级改动重算",
+    "MM 重算"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "谱面等级是人定的，一旦改动，所有打过该谱的玩家 MM 会被重算。",
+   "details": "出自 Malody 官方 wiki《Malody Metric》FAQ：The level is set by humans... If the level is changed, all players who have played the chart will have their MM points recalculated。官方认为 stable 谱面的标定经过仔细考量，偏差应当不大。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody Metric》"
+  },
+  {
+   "title": "谱面时长需超过 60 秒",
+   "aliases": [
+    "60 秒",
+    "chart length"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "Stable 谱面的时长必须在 60 秒以上。",
+   "details": "Stable Criteria：谱面长度必须在 60 秒以上（The length of the chart must above 60 seconds）。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "谱名不能含糊",
+   "aliases": [
+    "chart name",
+    "谱面命名"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "无法恰当描述游玩模式或难度的含糊谱名不被允许。",
+   "details": "Stable Criteria：不能恰当描述游玩模式或难度的含糊谱面名称（Ambiguous chart name）是不被允许的。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "物量必须合理",
+   "aliases": [
+    "note count",
+    "物量"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "物量过少或过多都属不合理，不被允许。",
+   "details": "Stable Criteria：不合理的物量（note count）——过少（inadequate）或过多（overabundance）——都不被允许。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "音频码率不高于 192kbps",
+   "aliases": [
+    "192kbps",
+    "bitrate"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "Stable 谱面音频的码率不应高于 192kbps。",
+   "details": "Stable Criteria：音频的码率（bitrate）不应高于 192kbps。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "音频须为 OGG 格式",
+   "aliases": [
+    "OGG 格式",
+    "音频格式要求"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "Stable 谱面使用的音频应为 OGG 格式。",
+   "details": "Stable Criteria：谱面使用的音频应为 OGG 格式。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "BPM 与 offset 必须正确",
+   "aliases": [
+    "offset",
+    "BPM 错误"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "Stable 谱面的 BPM 与 offset 不正确是不被允许的。",
+   "details": "Stable Criteria：BPM 和 offset 不正确（Incorrect BPM and offset is not allowed）被明确禁止。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "Cup",
+   "aliases": [
+    "Catch Cup",
+    "接球 Cup"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "Catch 模式最容易的难度，无 stream、无 overmap，等级区间 1-4。",
+   "details": "Level Reference：Cup 是 Catch 模式最容易的难度，没有 stream、没有 overmapped 内容，大多数时候是单键，新玩家应当容易取得 Full Combo；Cup 的等级区间大多数情况下是 level 1-4。",
+   "tips": [
+    "音符间距多数时候为 1-3 格，确保玩家只需移动很短距离",
+    "下落速度（Drop speed）5=>，推荐 5",
+    "物量应与 Salad 难度大致相当"
+   ],
+   "source": "Malody 官方 wiki《Level Reference for charts》"
+  },
+  {
+   "title": "Lv.1（4K）",
+   "aliases": [
+    "4K Lv.1",
+    "最低难度"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "4K 中理论上的最低难度，日常不使用，只保留给新手教学。",
+   "details": "Level Reference：Lv.1 理论上是 4K 最低难度，该等级的谱面可能只有分数音符；此等级日常并不使用，只是为新手教学（novice tutorial）保留。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Level Reference for charts》"
+  },
+  {
+   "title": "Lv.11 - Lv.16（Standard）",
+   "aliases": [
+    "4K Standard",
+    "Standard 等级段"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "4K 的 Standard 段：谱面应完全跟随节奏、旋律或歌词来制作。",
+   "details": "Level Reference：Lv.11 - Lv.16 为 Standard。该等级段的谱面应完全按照节奏、旋律或歌词制作，玩家在合理的游玩次数内可以取得好成绩。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Level Reference for charts》"
+  },
+  {
+   "title": "Lv.17 - Lv.22（Advanced）",
+   "aliases": [
+    "4K Advanced",
+    "Advanced 等级段"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "4K 的 Advanced 段：谱面细节明显更多，并有一些较难的键型。",
+   "details": "Level Reference：Lv.17 - Lv.22 为 Advanced。该等级段内谱面可能有多得多的细节（much more details）以及一些较难的键型。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Level Reference for charts》"
+  },
+  {
+   "title": "Lv.2 - Lv.6（Easy）",
+   "aliases": [
+    "4K Easy",
+    "Easy 等级段"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "4K 的 Easy 段：没玩过音游的新手练几次即可通过并拿到好成绩。",
+   "details": "Level Reference：Lv.2 - Lv.6 为 Easy。在此等级段内，从未玩过音游的新玩家玩几次后就能通过并取得不错的成绩；谱面只应有少量必须同时击打的音符，且没有必须使用特定手法才能完成的键型，谱面长度也不长（一般小于 100 秒）。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Level Reference for charts》"
+  },
+  {
+   "title": "Lv.23 - Lv.33（Challenging）",
+   "aliases": [
+    "4K Challenging",
+    "Challenging 等级段"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "4K 的 Challenging 段：作者可表达对音乐的理解，键型多样。",
+   "details": "Level Reference：Lv.23 - Lv.33 为 Challenging。该等级段内谱面作者可以展现自己对音乐的思考与理解，并可能使用各种类型的键型。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Level Reference for charts》"
+  },
+  {
+   "title": "Lv.34 或更高（Fierce）",
+   "aliases": [
+    "4K Fierce",
+    "赏析向难度"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "4K 的 Fierce 段，为供赏析而非游玩的谱面保留。",
+   "details": "Level Reference：Lv.34 或更高为 Fierce。该等级保留给为赏析（appreciation）而非游玩而制作的谱面。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Level Reference for charts》"
+  },
+  {
+   "title": "Lv.7 - Lv.10（Initiate）",
+   "aliases": [
+    "4K Initiate",
+    "Initiate 等级段"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "4K 的 Initiate 段：入门玩家以适当次数练习即可取得好成绩。",
+   "details": "Level Reference：Lv.7 - Lv.10 为 Initiate。该等级段内入门玩家能享受游戏，并在适当的游玩次数下取得好成绩；谱面可能有多个音符需要同时击打，但没有必须使用特定手法才能完成的键型。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Level Reference for charts》"
+  },
+  {
+   "title": "Overdose",
+   "aliases": [
+    "Catch Overdose",
+    "最高难度 Catch"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "Catch 最高难度，单指已很难，等级区间为 level 15+。",
+   "details": "Level Reference：Overdose 是 Catch 最高难度；若还有比 Overdose 更难的难度，则称之为 Special/Extra/Deluge。到这一档，一根手指已真正难以完成，多指玩家也可能感到吃力；Overdose 的等级区间是 level 15+。",
+   "tips": [
+    "可以自由使用任何格距",
+    "下落速度为 10",
+    "只要合理什么都可放，但不要 overmap；物量应多于之前的难度"
+   ],
+   "source": "Malody 官方 wiki《Level Reference for charts》"
+  },
+  {
+   "title": "Platter",
+   "aliases": [
+    "Catch Platter"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "Catch 的中等难度，极端情况下才用 dash，等级区间 8-12。",
+   "details": "Level Reference：Platter 可以有 dash 音符但只在极端情况下使用，即偶尔用而不是连续使用；它仍应能用一根手指游玩，等级区间大多数时候是 level 8-12。物量应多于 Salad 但不多于 Rain。",
+   "tips": [
+    "音符间距大多数时候为 2-6 格，因为它是 Catch 的中间难度",
+    "下落速度 7-8，推荐 8",
+    "可以使用曲线 stream、jump 音符、单个 dash 等进阶键型"
+   ],
+   "source": "Malody 官方 wiki《Level Reference for charts》"
+  },
+  {
+   "title": "Rain",
+   "aliases": [
+    "Catch Rain"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "Catch 高难度段，可自由放 dash，等级区间 11-16。",
+   "details": "Level Reference：Rain 可以放 dash 音符；它或许能用一根手指游玩，但更难的 Rain 更偏向多指玩家，等级区间大多数时候是 level 11-16。Rain 相当于 insane 难度，推荐尝试覆盖歌曲中每一个明显的声音；如果 Rain 是你这套谱的最高难度，甚至可以覆盖所有存在的声音，也可以混合 vocal 与伴奏。",
+   "tips": [
+    "音符间距大多数时候为 2-8 格",
+    "下落速度 8-10，推荐 9",
+    "只要合理、说得通，什么都可以放"
+   ],
+   "source": "Malody 官方 wiki《Level Reference for charts》"
+  },
+  {
+   "title": "Salad",
+   "aliases": [
+    "Catch Salad"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "Catch 难度段之一，单指可玩、不放 dash，等级区间 5-9。",
+   "details": "Level Reference：Salad 不应放入 dash 音符，应当能轻松用一根手指游玩；其等级区间大多数情况下是 level 5-9。物量应多于 Cup 但不多于 Platter，推荐只覆盖歌曲中的一种声音（如只做 vocal 或只做鼓），更全面的覆盖应留给 Rain 及以上。",
+   "tips": [
+    "音符间距大多数时候在 1-4 格之间，让玩家玩得轻松",
+    "下落速度 5-6，推荐 6",
+    "不要有 tricky 键型；stream 应直白，除非有理由"
+   ],
+   "source": "Malody 官方 wiki《Level Reference for charts》"
+  },
+  {
+   "title": "Stable 谱必须有低于 Lv.10 的谱",
+   "aliases": [
+    "低于 Lv.10",
+    "新手谱要求"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "任何拥有 Stable 谱的歌曲，都必须包含一张低于 Lv.10 的谱面。",
+   "details": "Stable Criteria：所有拥有任何 Stable 谱面的歌曲，都必须包含一张低于 Lv.10 的 Stable 谱面。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "Taiko 难度名",
+   "aliases": [
+    "Kantan",
+    "Futsuu",
+    "Muzukashii",
+    "Extreme",
+    "Oni"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "Level Reference 中 Taiko 模式使用的难度名：Kantan 到 Oni。",
+   "details": "Level Reference：Taiko mode reference 一节列出的难度名依次为 Kantan、Futsuu、Muzukashii、Extreme、Oni（该页示例中 Kantan 为 Lv.4、Futsuu 为 Lv.9、Muzukashii 为 Lv.13、Extreme 为 Lv.19、Oni 为 Lv.23）。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Level Reference for charts》"
+  },
+  {
+   "title": "Title 与 Artist 元信息必须正确",
+   "aliases": [
+    "元信息",
+    "meta info"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "难度体系",
+   "summary": "谱面中 Title、Artist 等元信息错误是不被允许的。",
+   "details": "Stable Criteria：Title、Artist 等元信息（meta info）不正确是不被允许的。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "道具与 ST 的全局分数倍率",
+   "aliases": [
+    "道具倍率",
+    "ST 倍率",
+    "0.8x"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "开启道具或 ST 功能时，套用全局 0.8x 分数倍率。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》：Activating items or the ST function will apply a global score multiplier of 0.8x。该倍率与 Judge、Mod 倍率共同作用于得分。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "结算界面 BEST / COOL / GOOD / MISS",
+   "aliases": [
+    "BEST",
+    "COOL",
+    "GOOD",
+    "MISS",
+    "结算项"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "结算四项：BEST 统计 Big P，COOL 统计 p1+p2+p3，GOOD 统计 G，MISS 统计 M。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》：BEST counts the number of Extremely Perfect (Big P) hits；COOL counts the total of p1 + p2 + p3 (Small p sub-tier) hits；GOOD counts the number of Great (G) hits；MISS counts the number of Miss (M) hits。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "每 note 得分随 Combo 变化",
+   "aliases": [
+    "Combo 分数",
+    "Score per Note"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "单 note 得分与当前 Combo 有关，Combo 越高单 note 得分越高。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》：在 D Judge、无道具/ST/Mod 的情况下，打出 Extremely Perfect (Big P) 的得分为——Combo 0-20 得 200、Combo 21-50 得 332、Combo 51-100 得 466、Combo 100+ 得 600。combo 数值区间以 0-20 / 21-50 / 51-100 / 100+ 划分。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "判定策略统一",
+   "aliases": [
+    "统一判定",
+    "旧版移动端判定",
+    "judge timing 统一"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "Malody V 全平台默认判定与旧版移动端判定一致，并共用旧移动端榜。",
+   "details": "FAQ：旧版中 PC 判定相对更紧、移动端更松；考虑到越来越多移动设备支持外接键盘、部分 PC 也有触屏，这种按平台区分判定的策略并不平衡。因此 Malody V 上所有平台的默认 judge timing 都与旧版移动端判定相同，排行榜也共用旧版移动端榜。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody 5.0 FAQ》"
+  },
+  {
+   "title": "判定窗口的影响因素",
+   "aliases": [
+    "判定窗口不受变速影响",
+    "Judge 难度设置"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "判定窗口不受变速 mod 影响，但会随 Judge 难度设置改变。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》：The judgment windows for each note remain unaffected by speed modification mods but will adjust according to Judge difficulty settings。也就是说改下落速度不会放宽或收紧判定，只有切换 Judge A~E 才会改变窗口。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "判定档位对应的 acc 百分比",
+   "aliases": [
+    "acc 对应表",
+    "判定对 acc"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "Big P 100%、p1 90%、p2 85%、p3 80%、G 40%、M 0%。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》的 acc 对应表：Big P 100%、p1 90%、p2 85%、p3 80%、G 40%、M 0 %。每个音符按其判定档位取对应 acc 值。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "Auto Mod 应能满分",
+   "aliases": [
+    "Auto Mod",
+    "自动满分"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "在正常情况下，Auto Mod 应当能够拿到满分。",
+   "details": "Stable Criteria：在正常条件下，Auto Mod 应当获得满分（full score）。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "Judge 分数倍率",
+   "aliases": [
+    "Judge Score Multipliers",
+    "判分倍率"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "E 判 1.2x、D 判 1.1x、C 判（标准）1.0x、B 判 0.85x、A 判 0.78x。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》的 Judge Score Multipliers：E Judge 1.2x、D Judge 1.1x、C Judge (Standard) 1.0x、B Judge 0.85x、A Judge 0.78x。判定越严，分数倍率越高，其中 C Judge 为标准倍率。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "Judge A~E 判定窗口（毫秒表）",
+   "aliases": [
+    "判定窗口",
+    "Judge 窗口",
+    "Judgement Window"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "五档 Judge 的六列毫秒窗口：Judge A 到 Judge E 的 Big P/p1/p2/p3/G/M。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》的判定窗口表（单位：毫秒），六列依次为 Big P / p1 / p2 / p3 / G / M。Judge A：Big P ±60ms、p1 ±105ms、p2 ±120ms、p3 ±135ms、G ±200ms、M 200ms+。Judge B：Big P ±47ms、p1 ±63ms、p2 ±88ms、p3 ±118ms、G ±200ms、M 200ms+。Judge C：Big P ±40ms、p1 ±56ms、p2 ±81ms、p3 ±111ms、G ±200ms、M 200ms+。Judge D：Big P ±34ms、p1 ±50ms、p2 ±75ms、p3 ±105ms、G ±200ms、M 200ms+。Judge E：Big P ±25ms、p1 ±50ms、p2 ±75ms、p3 ±105ms、G ±200ms、M 200ms+。五档的 G 与 M 窗口一致，差异集中在 Big P 与 p1~p3。",
+   "tips": [
+    "Judge 越严（A→E），Big P 窗口从 ±60ms 收紧到 ±25ms，而 G / M 始终为 ±200ms / 200ms+。"
+   ],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "Key 模式取前 100 个 MM 之和",
+   "aliases": [
+    "top 100 MM",
+    "总 MM"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "Key 模式下，玩家总 MM 取成绩最好的前 100 个 MM 之和。",
+   "details": "出自 Malody 官方 wiki《Malody Metric》：For Key modes, the sum of the top 100 MM scores is taken as the player's total MM value in Key modes。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody Metric》"
+  },
+  {
+   "title": "Malody Metric（MM 分）",
+   "aliases": [
+    "MM",
+    "MM 分",
+    "Malody Metric"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "基于表现（performance）衡量玩家技术水平的算法，与传统经验等级系统平行且不影响它。",
+   "details": "出自 Malody 官方 wiki《Malody Metric》：Malody's MM point is an algorithm based on performance that accurately measures a player's skill level。It is parallel to the traditional experience level system and does not affect it。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody Metric》"
+  },
+  {
+   "title": "MM 的精度奖励 A",
+   "aliases": [
+    "精度奖励",
+    "accuracy reward"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "acc 大于 99.6% 时最多可获得 0.05 的奖励分。",
+   "details": "出自 Malody 官方 wiki《Malody Metric》：The accuracy reward is calculated. When accuracy is greater than 99.6%, up to 0.05 bonus points are awarded。奖励分即公式 MM = ((S+A) * L - 1) * 60 中的 A。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody Metric》"
+  },
+  {
+   "title": "MM 分常见疑问（重复打图 / 为何取 100）",
+   "aliases": [
+    "MM FAQ",
+    "刷图无用"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "用 E 判打 stable 图、图越难 MM 越高；只算前 100，重复刷同一张图没有收益。",
+   "details": "出自 Malody 官方 wiki《Malody Metric》FAQ：Play a stable chart with E judgment, and the higher the difficulty of the chart, the higher the MM point。However, only the top 100 MM scores are taken into account, so farming the same chart repeatedly will not yield any benefits。对于“为什么取前 100 而不是 99 或 101”，官方回答是经过讨论后决定取前 100。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody Metric》"
+  },
+  {
+   "title": "MM 分计算公式",
+   "aliases": [
+    "MM 公式",
+    "MM = ((S+A) × L - 1) × 60"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "MM = ((S+A) × L - 1) × 60。",
+   "details": "出自 Malody 官方 wiki《Malody Metric》：**MM = ((S+A) * L - 1) * 60**。其中 S 为完成度、L 为谱面等级系数、A 为精度奖励；计算流程为：打出一张 stable 谱面并上传有效成绩 → 算出 S → 取该谱面等级值 L → 计算精度奖励 A → 代入公式。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody Metric》"
+  },
+  {
+   "title": "Mod 分数倍率",
+   "aliases": [
+    "Mod Score Multipliers",
+    "Mod 倍率"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "Slow 0.55x、Dash 1.05x、Rush 1.12x、Const 0.95x、Death 1.0x、Flip 1.0x。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》的 Mod Score Multipliers：Slow 0.55x、Dash 1.05x、Rush 1.12x、Const 0.95x、Death 1.0x、Flip 1.0x。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "New Flick Judgment（新划键判定）",
+   "aliases": [
+    "New Flick Judgment",
+    "划键判定"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "开启后划键按“起手输入时机”判定，关闭则按“到达判定点时机”判定。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》的游戏内暂停→设置项：New Flick Judgment 开启后 flick note judgment 与默认模式不同。Disabled：Judgment is based on the timing of reaching the flick target position；Enabled：Judgment is based on the timing of initiating the flick input。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "Pro 榜",
+   "aliases": [
+    "PC 榜改名",
+    "rank board"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "旧的 “PC” 排行榜改名为 “Pro”，以对应 Pro Judge 选项。",
+   "details": "FAQ：为反映 Pro Judge 带来的变化，旧的 “PC” 排行榜被改名为 “Pro”。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody 5.0 FAQ》"
+  },
+  {
+   "title": "Pro Judge（专业判定）",
+   "aliases": [
+    "Pro Judge",
+    "Pro 榜"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "开启 Pro Judge 会锁定 E 判、禁用道具与 ST，成绩上传 Pro 榜。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》：Enabling Pro Judge locks the game to E Judge with no items or ST。Scores under this mode are uploaded to the Pro Leaderboard, which can be used for competitive rankings。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "RC 版不上传成绩",
+   "aliases": [
+    "成绩上传禁用",
+    "RC1 成绩"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "RC1 处于公开测试阶段，成绩上传被禁用以避免错误成绩被记录。",
+   "details": "FAQ：RC1 版本处于公开测试阶段，为避免有问题的结果被记录下来，成绩上传功能被禁用。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody 5.0 FAQ》"
+  },
+  {
+   "title": "RM 的 acc 计算方式",
+   "aliases": [
+    "Accuracy",
+    "精度",
+    "acc"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "acc 只由每个音符的判定结果决定，与分数无关。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》：The Accuracy (acc) displayed during gameplay and on the result screen is calculated based solely on the judgment results of each note and is independent of the score。因此分数倍率（Judge、Mod、道具）不会影响 acc。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "RM 的 Combo 规则",
+   "aliases": [
+    "Combo Rules",
+    "连击"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "Tap/Flick 漏掉会清零 Combo；Hold 断掉只停止累积、不清零。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》的 Combo Rules：Missing any Tap/Flick note resets the Combo to zero；Breaking a Hold note stops Combo accumulation but does not reset it to zero。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "RM 判定四档（Big P / Small p / G / M）",
+   "aliases": [
+    "Extremely Perfect",
+    "Perfect",
+    "Great",
+    "Miss",
+    "Big P"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "RM 模式共四档判定：Extremely Perfect(Big P)、Perfect(Small p)、Great(G)、Miss(M)。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》：RM Mode features four judgment tiers: Extremely Perfect (Big P), Perfect (Small p), Great (G), and Miss (M)。其中 Small p 档在游戏内统一显示为暗金色“Perfect”。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "S（完成度）的计算",
+   "aliases": [
+    "S 完成度",
+    "Score 公式"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "S = Score / (2400 × best&cool&good&miss)。",
+   "details": "出自 Malody 官方 wiki《Malody Metric》：After playing a stable chart and uploading a valid score, the completion percentage S of the score is calculated，公式为 S = Score / (2400 * best&cool&good&miss)。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody Metric》"
+  },
+  {
+   "title": "Small p 细分 p1 / p2 / p3",
+   "aliases": [
+    "p1",
+    "p2",
+    "p3",
+    "小 P 细分"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "判定与结算",
+   "summary": "Small p 判定再分三个子档 p1、p2、p3，游戏内均显示为暗金 Perfect。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》：The Small p tier is further divided into three sub-levels (p1, p2, p3), all displayed as dark gold \"Perfect\" in-game。三个子档在精度（acc）上分别对应 90% / 85% / 80%，在结算的 COOL 一项中合并统计。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "旧皮肤兼容性",
+   "aliases": [
+    "skin 兼容",
+    "皮肤系统"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "设备与设置",
+   "summary": "Malody V 将来会兼容旧皮肤，但不保证 100% 兼容。",
+   "details": "FAQ：Malody V 全新重制，内部为未来更灵活的皮肤系统做了设计，因此将来会兼容旧皮肤，但官方明确不保证 100% 兼容。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody 5.0 FAQ》"
+  },
+  {
+   "title": "倾角与缩放设置",
+   "aliases": [
+    "Tilt Angle",
+    "Scaling",
+    "倾角",
+    "缩放"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "设备与设置",
+   "summary": "倾角调节轨道基座的垂直高度，缩放调节轨道宽度比例。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》的游戏内暂停→设置项：Tilt Angle 用于 Adjusts the vertical height of the lane bases；Scaling 用于 Adjusts the width scaling of the lanes。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "私人服务器",
+   "aliases": [
+    "自建谱面服务器",
+    "服务器地址",
+    "Private Server"
+   ],
+   "tags": [
+    "Malody",
+    "官方",
+    "服务器",
+    "Malody V"
+   ],
+   "category": "设备与设置",
+   "summary": "在游戏客户端设置里填入服务器地址，即可接入任意私人服务器。",
+   "details": "FAQ：玩家基于 Store API 自建谱面服务器后，只需在游戏客户端的设置中输入服务器地址，就能接入任意私人服务器。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody 5.0 FAQ》；萌娘百科《Malody》"
+  },
+  {
+   "title": "新版本性能要求更高",
+   "aliases": [
+    "性能优化",
+    "流畅度"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "设备与设置",
+   "summary": "能流畅运行旧版的设备，在新版上性能表现不一定相同。",
+   "details": "FAQ：在性能方面，能够流畅运行旧版的设备在新版上不一定有相同表现；官方已意识到该问题，并会在后续版本继续优化性能。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody 5.0 FAQ》"
+  },
+  {
+   "title": "移动端平台要求",
+   "aliases": [
+    "iOS 11+",
+    "Android 5.0+"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "设备与设置",
+   "summary": "Malody V 移动端最低要求 iOS 11+ 与 Android 5.0+。",
+   "details": "FAQ：Malody V 使用全新游戏引擎，移动平台要求 iOS 11+ 和 Android 5.0+。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody 5.0 FAQ》"
+  },
+  {
+   "title": "游戏内设置改动的生效时机",
+   "aliases": [
+    "暂停设置",
+    "In-Game Settings"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "设备与设置",
+   "summary": "游戏中途在设置里做的改动，要退出并重新进入谱面才生效。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》：Changes made in Settings during gameplay only take effect after exiting and re-entering the chart。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "Auto ST（SuperTime 自动开启）",
+   "aliases": [
+    "Auto ST",
+    "SuperTime"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "设备与设置",
+   "summary": "ST 槽满时自动触发 ST。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》的游戏内暂停→设置项：Auto ST (SuperTime) 用于 Toggles automatic ST activation when the ST gauge is full。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "Enable Items（道具开关）",
+   "aliases": [
+    "Enable Items",
+    "道具开关"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "设备与设置",
+   "summary": "在游戏内切换是否启用道具功能。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》的游戏内暂停→设置项：Enable Items 用于 Toggles the item functionality during gameplay。启用道具会触发全局 0.8x 分数倍率。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "Enable Key Sounds（按键音）",
+   "aliases": [
+    "Enable Key Sounds",
+    "按键音"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "设备与设置",
+   "summary": "开关游戏内的按键音效。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》的游戏内暂停→设置项：Enable Key Sounds 用于 Toggles in-game key sound effects。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "Enable ST（手动开启 ST）",
+   "aliases": [
+    "Enable ST",
+    "手动 ST"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "设备与设置",
+   "summary": "允许槽满时手动触发 ST，槽量掉到 50% 以下时可手动取消。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》的游戏内暂停→设置项：Enable ST 用于 Toggles manual ST activation。When enabled, ST can be manually triggered when the gauge is full and manually canceled if the gauge depletes below 50%。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "PC 平台要求",
+   "aliases": [
+    "Windows 10 64 位",
+    "最低配置 PC"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "设备与设置",
+   "summary": "Malody V 的 PC 端最低要求 Windows 10 64 位版本。",
+   "details": "FAQ：Malody V 使用全新游戏引擎，设备最低要求高于旧版；PC 平台要求 Windows 10、64bit 版本。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody 5.0 FAQ》"
+  },
+  {
+   "title": "RM 模式皮肤与分数上传",
+   "aliases": [
+    "RM 皮肤",
+    "RM Skin"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "设备与设置",
+   "summary": "玩 RM 模式前需下载最新皮肤，否则可能无法上传分数。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》：Before playing in RM Mode, players need to download the latest skin from the in-game store（或 https://m.mugzone.net/store/skin/detail/6091）to ensure score submission capability。文中标注最近一次皮肤更新为 October 05, 2025。",
+   "tips": [
+    "页面另推荐了皮肤 RM-Tea_Charm_Lin_Han_Skin（store/skin/detail/6475）。"
+   ],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "RM 皮肤 Lua 校验",
+   "aliases": [
+    "皮肤 Lua 哈希",
+    "skin Lua hash"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "设备与设置",
+   "summary": "RM 皮肤可自定义图片素材，但禁止改 Lua；服务器上传分数前会校验哈希。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》：RM Mode allows players to customize image assets in the default skin for personal preference。However, do not modify Lua files, as the server verifies skin Lua hash values before uploading scores。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "4K Mapping Event (For Stable) #1",
+   "aliases": [
+    "4K Mapping Event",
+    "谱面上架活动"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "Malody 官方团队维护的、向全体 mapper 征集 4K 谱面的活动。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》：页面由 Malody team 维护，主题是“这是一个向全体 Mapper 征集谱面的活动！”。活动分两个阶段：创作阶段与评分阶段。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "4K Mapping Event 必须用内置编辑器",
+   "aliases": [
+    "Malody 内置编辑器",
+    ".mc 格式"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "需用 Malody 游戏内编辑器创作；用 Osu!/ibmsc/SM 等做的要自行转成 .mc。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》的基础要求：谱师需使用 Malody 游戏内编辑器进行创作；若使用其他编辑器创作（Osu!、ibmsc、SM 等），请自行转换至 Malody 专用格式，因非 .mc 格式导致的问题主办方概不负责。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "4K Mapping Event 的 Beta 上架机制",
+   "aliases": [
+    "Beta 状态",
+    "直接上架商店"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "主办方会不定时查看投稿，挑出优秀谱面加入 Beta；进 Beta 即会在活动结束时直接上架商店。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》第二阶段评分阶段：在创作阶段时间内，主办方会不定时查看上传的谱面并且时刻挑出优秀的谱面加入 Beta 状态。进入 Beta 阶段就代表在活动结束时，这张谱面会直接上架商店。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "4K Mapping Event 多人合作署名",
+   "aliases": [
+    "多人合作",
+    "合作谱面"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "允许多人合作，但要在谱师栏目中填入所有参与谱师的游戏名。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》的基础要求：注意——允许多人合作，但是请在谱师栏目中填入所有参与的谱师游戏名。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "4K Mapping Event 活动宗旨",
+   "aliases": [
+    "活动宗旨",
+    "奖项安排"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "宗旨是促进谱师之间交流、以娱乐为主；奖项安排待定。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》的“奖项安排”与“结语”：奖项安排为待定；大赛的宗旨是促进谱师之间交流，以娱乐为主。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "4K Mapping Event 联系方式",
+   "aliases": [
+    "主办方 QQ",
+    "2168134145"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "有疑问可咨询主办方 QQ：2168134145，备注注明来意；wiki 已涉及的问题不予解答。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》的联系方式：若对本 wiki 所提及内容仍有不明白之处，请咨询主办方 QQ:2168134145，并在备注中注明来意，wiki 中已涉及的问题将不予解答。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "4K Mapping Event 投稿方式与难度名",
+   "aliases": [
+    "4K xxx's Hyper",
+    "难度名写法"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "难度名写成 4K xxx's Hyper(/Easy/Normal/Hard) 后在游戏内直接上传商店即视为参加。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》的投稿方式：将谱面难度名改成 4K xxx's Hyper(/Easy/Normal/Hard)（xxx 填入本谱面负责人的游戏名，具体使用哪个难度名可根据谱面难度在这四个中由谱师自行选择一个），并且在 Malody 游戏内直接上传商店，即视为参加活动。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "4K Mapping Event 投稿时间",
+   "aliases": [
+    "投稿时间",
+    "创作阶段"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "投稿时间（北京时间）即刻起至 2026 年 1 月 1 日 00:10（GMT+8）。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》：第一阶段创作阶段的投稿时间为“即刻起 - 2026年1月1日00:10(GMT+8)”；第二阶段评分阶段的评分开始时间为“无固定期限”。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "4K Mapping Event 投稿数量与 Key 数限制",
+   "aliases": [
+    "4K 限制",
+    "每曲目一个难度"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "Key 数须为 4K；允许投多个曲目，但每个曲目最多投稿一个难度。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》的基础要求：Key 数须为 4K。允许投稿多个曲目！但每个曲目最多投稿一个难度。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "4K Mapping Event 主办方",
+   "aliases": [
+    "N0tYour1dol"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "本次活动主办方为 N0tYour1dol。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》：页面“主办方”一栏为 N0tYour1dol（账号页 /accounts/user/801733）。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "75 分以上可修改后上架",
+   "aliases": [
+    "75 分上架线"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "谱面达到 75 分以上的，可在进行少数修改后通过本次活动上架。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》的“征集谱面质量要求”：注意——谱面达到75分以上的可在进行少数修改后，通过本次活动上架。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "谱面商店被移除",
+   "aliases": [
+    "chart store 移除",
+    "4.0 谱面商店"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "出于版权考虑，Malody V 移除了 4.0 可自由上传谱面的谱面商店。",
+   "details": "FAQ：Malody V 把重心放在作为模拟器的游戏客户端与玩家社区上，出于版权问题移除了 4.0 时代可自由上传谱面的 chart store。作为补偿，Malody V 支持 Store API。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody 5.0 FAQ》"
+  },
+  {
+   "title": "一歌多谱投稿",
+   "aliases": [
+    "multiple charts",
+    "同曲多谱"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "同一首歌允许提交多张谱面，且推荐多谱以便不同水平玩家游玩。",
+   "details": "Stable Criteria：同一首歌可以提交多张谱面；虽然允许只有单张谱，但推荐多张谱的歌曲，这样不同技术水平的玩家都能享受这首歌。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "重复歌曲页",
+   "aliases": [
+    "duplicate song page",
+    "重复曲目页"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "不欢迎重复的歌曲页，因为同一首歌的谱面可由不同作者制作。",
+   "details": "Stable Criteria：不欢迎重复的歌曲页（song page），因为同一首歌的谱面完全可以由不同作者制作。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "bug 反馈地址",
+   "aliases": [
+    "bug report",
+    "报 bug"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "官方 bug 反馈入口是 GitLab issues，需附复现步骤与硬件配置。",
+   "details": "FAQ：请前往官方 bug 反馈网站 https://gitlab.com/mugzone_team/malody_report/-/issues 提交详细描述。为便于定位修复，请尽量提供当时出现的场景、复现步骤、截图、你的硬件配置以及其它可疑信息。",
+   "tips": [
+    "反馈地址：https://gitlab.com/mugzone_team/malody_report/-/issues"
+   ],
+   "source": "Malody 官方 wiki《Malody 5.0 FAQ》"
+  },
+  {
+   "title": "Marlo Cup 评分标准 0～19 分",
+   "aliases": [
+    "Marlo Cup 0～19"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "0～19 分：没有评分的必要，仅作占位分数。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》的“征集谱面质量要求”：征集活动不做具体评分，但可大致参考 Marlo Cup 的评分要求。0～19分：没有评分的必要，仅作占位分数。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "Marlo Cup 评分标准 20～39 分",
+   "aliases": [
+    "Marlo Cup 20～39"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "20～39 分：仅有整体的大致对音，看不出键型使用规律与段落结构。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》的“征集谱面质量要求”：20～39分：仅有整体的大致对音，看不出键型的使用规律与段落结构。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "Marlo Cup 评分标准 40～59 分",
+   "aliases": [
+    "Marlo Cup 40～59"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "40～59 分：有少数段落能看出对音乐有思考、有特色，但仍存在明显对音或结构问题。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》的“征集谱面质量要求”：40～59分：有少数段落能看出对音乐有思考的有特色的谱面，仍存在明显对音或结构问题。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "Marlo Cup 评分标准 60～79 分",
+   "aliases": [
+    "Marlo Cup 60～79",
+    "白开水谱面"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "60～79 分：及格谱面，仍存在少量对音或结构问题，即“白开水谱面”。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》的“征集谱面质量要求”：60～79分：及格谱面，仍存在少量对音问题或结构问题，“白开水谱面”。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "Marlo Cup 评分标准 80～89 分",
+   "aliases": [
+    "Marlo Cup 80～89"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "80～89 分：有记忆点、键型使用出色，经极少数修改即可 stable 的谱面。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》的“征集谱面质量要求”：80～89分：有记忆点、键型使用出色，经极少数修改即可stable的谱面。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "Marlo Cup 评分标准 90～100 分",
+   "aliases": [
+    "Marlo Cup 90～100",
+    "保留区间"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "90～100 分为保留区间，极具特色；每首课题曲下最多只允许出现一次。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》的“征集谱面质量要求”：90～100分：保留区间，极具特色的谱面，每首课题曲下最多只允许出现一次该分数。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "Stable 前的标签与元数据准备",
+   "aliases": [
+    "song tag",
+    "description 元数据"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "上 Stable 前需补键数等歌曲标签，并在描述中写 artist、lyric、source。",
+   "details": "Stable Criteria：在 stable 之前，请把键数（key amount）等相关标签加到歌曲 tag 中，并在 description 里补充简单元数据信息；元数据应包含 artist、lyric（如果可能）和 source。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "Stable 上架流程",
+   "aliases": [
+    "Alpha",
+    "Beta",
+    "Stable 状态"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "谱面按 Alpha→Beta→Stable 推进，质量不足会被退回上一状态。",
+   "details": "Stable Criteria：若谱面在 stable 过程中出现严重问题，可能被退回 “Alpha” 状态；助手（Assistants）可以把谱面提升到 “Beta” 状态，但质量不够时仍可能退回 “Alpha”。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Key Mode Stable Criteria (Draft)》"
+  },
+  {
+   "title": "Store API",
+   "aliases": [
+    "谱面 Store API",
+    "malody_store_api",
+    "谱面服务器 API"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "社区与工具",
+   "summary": "Malody V 支持 Store API，玩家可据此自建谱面服务器。",
+   "details": "FAQ：Malody V 支持 Store API（https://gitlab.com/mugzone_team/malody_store_api），玩家可基于该 API 搭建自己的谱面服务器，并按 API 文档支持上传、下载和歌单功能。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody 5.0 FAQ》"
+  },
+  {
+   "title": "Const Mod",
+   "aliases": [
+    "Const"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "游玩技巧",
+   "summary": "音符滚动速度与 BPM 无关；道具开关已移到游戏内暂停→设置。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》：Const 使 Note scroll speed is independent of BPM。（The \"Item\" toggle has been moved to in-game pause → Settings. \"Const\" no longer represents carrying items.）Const 的分数倍率为 0.95x。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "Death Mod",
+   "aliases": [
+    "Death"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "游玩技巧",
+   "summary": "锁定 D 判、禁用道具与 ST，血量归零即结束游戏。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》：Death 会锁 Locks the game to D Judge with no items or ST。The game ends if HP reaches zero。Death 的分数倍率为 1.0x。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "RM 模式（Rhythm Master）",
+   "aliases": [
+    "RM Mode",
+    "Rhythm Master"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "游戏介绍",
+   "summary": "固定轨道的下落式音游模式，用 Tap、Hold、Flick 及其组合进行交互。",
+   "details": "出自 Malody 官方 wiki《RM模式计分特性介绍》：RM Mode is a fixed-lane falling rhythm game mode。玩家通过 Tap、Hold、Flick 以及 Hold & Flick 组合等不同类型的音符进行交互。",
+   "tips": [],
+   "source": "Malody 官方 wiki《RM模式计分特性介绍》"
+  },
+  {
+   "title": "4K Mapping Event 课题曲",
+   "aliases": [
+    "课题曲",
+    "Template 谱面"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "资源",
+   "summary": "主办方逐步公布课题曲，并提供音源（.ogg）和模板谱面（.mc）。",
+   "details": "出自 Malody 官方 wiki《4K Mapping Event (For Stable) #1》：主办方逐步公布课题曲，以及音源（.ogg）和模板谱面（.mc）。页面列出的课题曲为 Tobikiri sugar time（c149381）、Bokura no Jikan（c149379）、Parallel Horizons（c149513）、Heart of the Abyss（c149512）、Vitrum（c149685）、Retro Fusion（c149686），均可在游戏内搜索编号下载。",
+   "tips": [],
+   "source": "Malody 官方 wiki《4K Mapping Event (For Stable) #1》"
+  },
+  {
+   "title": "官网不再提供正式版下载",
+   "aliases": [
+    "官方下载渠道"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "资源",
+   "summary": "Malody 官方网站不再提供正式版本的下载链接。",
+   "details": "FAQ：官方网站不再提供正式版本的下载链接，正式版请走 AppStore、GooglePlay、Steam。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody 5.0 FAQ》"
+  },
+  {
+   "title": "正式版发布渠道",
+   "aliases": [
+    "AppStore",
+    "GooglePlay",
+    "Steam"
+   ],
+   "tags": [
+    "Malody",
+    "官方"
+   ],
+   "category": "资源",
+   "summary": "Malody 最终正式版只在 AppStore、GooglePlay 和 Steam 提供。",
+   "details": "FAQ：最终正式版（release version）将在 AppStore、GooglePlay 和 Steam 上提供。",
+   "tips": [],
+   "source": "Malody 官方 wiki《Malody 5.0 FAQ》"
+  }
+ ]
+}

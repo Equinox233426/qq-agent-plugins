@@ -36,7 +36,7 @@
     "targetGroups": {
       "type": "string",
       "label": "推送到哪些群",
-      "description": "群号，多个用英文逗号隔开，如 984642093,923914932。留空 = 不推送任何群（只在日志里记录）。只填群号数字，不要写 group: 前缀。"
+      "description": "群号，多个用英文逗号隔开，如 100000000,100000000。留空 = 不推送任何群（只在日志里记录）。只填群号数字，不要写 group: 前缀。"
     },
     "pushProbability": {
       "type": "number",

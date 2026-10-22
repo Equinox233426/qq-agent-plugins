@@ -1,0 +1,66 @@
+{
+  "id": "hot-trends",
+  "name": "热梗速查",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "category": "knowledge",
+  "description": "把本地热梗知识库交给模型用：聊到最近的热搜、新梗、群里在说的事时，先查本地（快、免费、不联网）而不是每次都现场搜。配合 hot-trend-tracker 插件使用 —— 插件负责每天定时抓取和保鲜期清理，本技能负责「让机器人知道有这么个东西、并且会用」。插件没装也能用，只是知识库得靠手动刷新。",
+  "author": "本机定制",
+  "enabledByDefault": true,
+  "capabilities": [],
+  "requires": [],
+  "permissions": [],
+  "settings": {
+    "defaultLimit": 10,
+    "maxLimit": 30,
+    "queryDescChars": 200,
+    "showSource": true,
+    "defaultLiveSearch": false
+  },
+  "configSchema": {
+    "defaultLimit": {
+      "type": "number",
+      "label": "默认返回几条话题",
+      "description": "模型没指定条数时给几条。默认 10 —— 热梗是「认得出来」就够，给太多反而占满上下文。",
+      "min": 1,
+      "max": 30,
+      "step": 1
+    },
+    "maxLimit": {
+      "type": "number",
+      "label": "最多允许返回几条",
+      "description": "防止模型一次要走整库（那等于把知识库全文塞进上下文）。默认 30。",
+      "min": 1,
+      "max": 50,
+      "step": 5
+    },
+    "queryDescChars": {
+      "type": "number",
+      "label": "工具查询时简介保留几字",
+      "description": "默认 200 字。这是模型**主动**要的详情，所以比自动小抄（40 字）给得多；填 0 只给标题。",
+      "min": 0,
+      "max": 400,
+      "step": 20
+    },
+    "showSource": {
+      "type": "boolean",
+      "label": "附上来源与更新时间",
+      "description": "告诉模型每条来自哪个榜、什么时候看到的。开着更不容易把旧闻当新闻，建议开。"
+    },
+    "defaultLiveSearch": {
+      "type": "boolean",
+      "label": "默认附带联网搜索",
+      "description": "开启后每次都额外联网搜一遍（更准更新，但每次都花时间和 token）。默认关闭：先信本地库。"
+    }
+  },
+  "prompt": {
+    "sections": [
+      {
+        "id": "hot-trends-rules",
+        "title": "热梗速查",
+        "priority": 55,
+        "content": "你手上有一个每天自动更新的本地热梗库（网上的热搜、贴吧热议、B 站热门）。\n- 群里聊到最近的热搜、新梗、网络流行语，或者你心里没底「这个是不是已经过时了」时，先用 hot_brief 查本地库：不联网、几乎不花时间。查完再决定要不要补一次 web_search。\n- 本地库只有标题和一小段简介。**别把标题当全部事实**：要细节、要确认，就用 web_search / web_fetch 核实；核实不了就只说你确定的那部分，或者干脆不接这个话题 —— 编内容比不知道更糟。\n- 库里的东西是「别人在聊什么」，不是「你该说什么」。别人只是闲聊、或者话题跟热点无关时，不要主动蹦热搜，那样特别像播报机器人。\n- 有人问「你知不知道最近那个梗」「你 out 了吧」时，查一下再回，比硬撑或装懂都自然。"
+      }
+    ]
+  }
+}

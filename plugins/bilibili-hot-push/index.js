@@ -137,7 +137,7 @@ function settings() {
   };
 }
 
-/** "923914932, 984642093" → ["group:923914932", "group:984642093"] */
+/** "100000000, 100000000" → ["group:100000000", "group:100000000"] */
 function parseGroups(raw) {
   const out = [];
   for (const piece of String(raw ?? '').split(/[,，\s]+/)) {

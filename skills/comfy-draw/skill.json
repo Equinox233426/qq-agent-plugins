@@ -1,0 +1,170 @@
+{
+  "id": "comfy-draw",
+  "name": "本地绘图 (ComfyUI)",
+  "version": "1.1.1",
+  "apiVersion": 1,
+  "category": "media",
+  "description": "调用本机 ComfyUI 的画图模型出图，并直接发到当前会话。不联网、无调用费用；ComfyUI 没开时会自动拉起。ComfyUI 的路径自动发现，只需填一个模型文件名。",
+  "author": "QQ Agent",
+  "enabledByDefault": true,
+  "capabilities": [],
+  "requires": [],
+  "settings": {
+    "modelName": "",
+    "clipName": "",
+    "clipName2": "",
+    "clipType": "stable_diffusion",
+    "vaeName": "",
+    "baseUrl": "",
+    "autoStart": true,
+    "comfyDir": "",
+    "pythonExe": "",
+    "modelPathsYaml": "",
+    "outputDir": "",
+    "inputDir": "",
+    "defaultSize": "",
+    "steps": 0,
+    "cfg": 0,
+    "sampler": "auto",
+    "scheduler": "auto",
+    "negativePrompt": "worst quality, low quality, blurry, jpeg artifacts, watermark, signature, text, username",
+    "autoQualityPrefix": true,
+    "notifyStart": true,
+    "timeoutMs": 300000,
+    "startTimeoutMs": 150000,
+    "maxImageMB": 8,
+    "filenamePrefix": "qqagent",
+    "keepImages": 200
+  },
+  "configSchema": {
+    "modelName": {
+      "type": "string",
+      "label": "模型文件名",
+      "description": "必填。填 ComfyUI 里显示的完整模型名（含扩展名）。填错时工具会报错，并把 ComfyUI 里现有的模型名全部列出来，照着改即可。单文件 checkpoint 和拆分模型（只有扩散部分的）都支持，脚本自动判断。"
+    },
+    "clipName": {
+      "type": "string",
+      "label": "文本编码器（拆分模型才要）",
+      "description": "只有「模型文件名」属于拆分模型时才需要填。填 ComfyUI 的 models/text_encoders 目录里显示的文件名（含扩展名）。单文件 checkpoint 请留空。"
+    },
+    "clipName2": {
+      "type": "string",
+      "label": "第二个文本编码器（双编码器模型才要）",
+      "description": "FLUX / SD3 / SDXL 这类拆分模型要两个文本编码器，把第二个的文件名填这里。填了它，技能会自动改用它们专用的双编码器加载节点（两者的类型取值无法通用）。单编码器模型请留空。"
+    },
+    "clipType": {
+      "type": "string",
+      "label": "CLIP 类型（拆分模型才要）",
+      "description": "传给 ComfyUI 的编码器类型值，各模型不同：Qwen-Image 系（含 Anima）用 stable_diffusion，SD3 用 sd3，FLUX 用 flux，Wan 用 wan，SDXL 用 sdxl。拿不准就打开该模型的官方工作流，看它 CLIP 加载节点类型下拉里选的是什么，照抄。"
+    },
+    "vaeName": {
+      "type": "string",
+      "label": "VAE（拆分模型才要）",
+      "description": "同上，填 ComfyUI 的 models/vae 目录里显示的文件名（含扩展名）。单文件 checkpoint 请留空。"
+    },
+    "baseUrl": {
+      "type": "string",
+      "label": "ComfyUI 地址",
+      "description": "留空 = 自动探测本机 8188~8199 上的 ComfyUI（推荐，Comfy Desktop 换端口也能找到）。也可写死，如 http://127.0.0.1:8188。"
+    },
+    "autoStart": {
+      "type": "boolean",
+      "label": "自动拉起 ComfyUI",
+      "description": "开启后：检测不到 ComfyUI 时，由本技能在后台静默启动它（约 10~30 秒就绪，无窗口）。关闭则只提示你手动启动。"
+    },
+    "comfyDir": {
+      "type": "string",
+      "label": "ComfyUI 程序目录",
+      "description": "含 main.py 的目录。留空自动从 Comfy Desktop 的配置里找（推荐）。只有装在非常规位置时才需要手动填。"
+    },
+    "pythonExe": {
+      "type": "string",
+      "label": "Python 解释器",
+      "description": "留空自动找 ComfyUI 自带虚拟环境里的 python（推荐）。手动填时通常形如 <ComfyUI 目录>\\.venv\\Scripts\\python.exe。"
+    },
+    "modelPathsYaml": {
+      "type": "string",
+      "label": "模型路径配置 (yaml)",
+      "description": "留空自动从 Comfy Desktop 目录里找最新的一个（推荐）。这是 Comfy Desktop 生成的 extra_model_paths 配置，不给它 ComfyUI 会读不到共享目录里的模型。"
+    },
+    "outputDir": {
+      "type": "string",
+      "label": "出图目录",
+      "description": "留空自动读 Comfy Desktop 设置里的输出目录（推荐）。必须和 Comfy Desktop 的实际输出目录一致，否则图出来了但发不出去。"
+    },
+    "inputDir": {
+      "type": "string",
+      "label": "输入目录",
+      "description": "留空自动读 Comfy Desktop 设置（推荐）。自动拉起时用。"
+    },
+    "defaultSize": {
+      "type": "string",
+      "label": "默认出图尺寸",
+      "description": "格式 宽x高。留空 = 按模型架构自动（单个文件的模型用 1024x1024，拆分模型用 812x1216）。也可以自己指定，比如 1024x1024、1216x832、1152x1536。尺寸对某些模型很敏感，出图异常时先换 1024x1024 试。"
+    },
+    "steps": {
+      "type": "number",
+      "label": "采样步数",
+      "description": "填 0 = 自动（默认 30）。一般 20~50，越高细节越多、越慢。"
+    },
+    "cfg": {
+      "type": "number",
+      "label": "CFG 提示词权重",
+      "description": "填 0 = 自动（拆分模型用 4，单文件模型用 7.5）。普通模型 CFG 太低会出灰糊图，新式拆分模型太高会过曝。"
+    },
+    "sampler": {
+      "type": "enum",
+      "label": "采样器",
+      "values": ["auto", "euler", "er_sde", "euler_ancestral", "dpmpp_2m", "dpmpp_2m_sde_gpu", "dpmpp_sde", "heun", "ddim", "uni_pc"],
+      "description": "auto = 按模型架构自动选（拆分模型用 euler，单文件模型用 dpmpp_2m）。不确定就留 auto。"
+    },
+    "scheduler": {
+      "type": "enum",
+      "label": "调度器",
+      "values": ["auto", "sgm_uniform", "karras", "simple", "normal", "beta", "linear_quadratic", "exponential"],
+      "description": "auto = 按模型架构自动选（拆分模型用 sgm_uniform，单文件模型用 karras）。"
+    },
+    "negativePrompt": {
+      "type": "string",
+      "label": "默认负向提示词",
+      "description": "每张图都会用。用来压制模糊、水印、文字等常见瑕疵，可按模型喜好调整。",
+      "multiline": true
+    },
+    "autoQualityPrefix": {
+      "type": "boolean",
+      "label": "自动补质量标签",
+      "description": "开启后，若提示词里没有任何质量标签，自动在最前面补 masterpiece, best quality。"
+    },
+    "notifyStart": {
+      "type": "boolean",
+      "label": "画图时先打声招呼",
+      "description": "开启后，动手画之前先发一句：「🎨 画着，稍等」；如果队列里已经有别的任务，会说明「前面还有 N 张在画」。因为一张要等 30~60 秒且首次更久，不说一声很容易被当成机器人卡死了。关掉则全程安静。注意它会占一条消息配额。"
+    },
+    "timeoutMs": {
+      "type": "number",
+      "label": "单张出图超时（毫秒）",
+      "description": "默认 300000（5 分钟）。首次出图要加载模型，比之后慢很多；显存小或模型大时应调更大。"
+    },
+    "startTimeoutMs": {
+      "type": "number",
+      "label": "等待启动超时（毫秒）",
+      "description": "默认 150000。自动拉起 ComfyUI 后最多等这么久。"
+    },
+    "maxImageMB": {
+      "type": "number",
+      "label": "图片体积上限（MB）",
+      "description": "默认 8。超过就不发送，避免把协议端搞挂。"
+    },
+    "filenamePrefix": {
+      "type": "string",
+      "label": "文件名前缀",
+      "description": "本技能生成的图会以此前缀命名（默认 qqagent），用于清理旧图时只删自己的，不碰你手动画的图。"
+    },
+    "keepImages": {
+      "type": "number",
+      "label": "保留旧图数量",
+      "description": "默认 200。超出后自动删除最旧的、且文件名带上面前缀的图。填 0 = 不清理，自己管。"
+    }
+  },
+  "prompt": null
+}

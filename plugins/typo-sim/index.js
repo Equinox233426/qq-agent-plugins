@@ -334,7 +334,7 @@ export const internals = {
     now: Date.now(), lastTypoAt: G.lastTypoAt, gapMs: Date.now() - G.lastTypoAt,
     hour: { ...G.hourState }, budget: hourBudget(),
     cfg: { enabled: settings().enabled, typoChance: settings().typoChance, recallChance: settings().recallChance, maxPerHour: settings().maxPerHour, minChars: settings().minChars, maxChars: settings().maxChars, allowPrivate: settings().allowPrivate, skipChats: settings().skipChats },
-    gate: eligible('group:870817228', '俺觉得这个方案还是可以的'),
+    gate: eligible('group:100000000', '俺觉得这个方案还是可以的'),
     installed: G.installed, hasStore: !!G.storeRef
   }),
   STATE_FILE, HOMOPHONES,

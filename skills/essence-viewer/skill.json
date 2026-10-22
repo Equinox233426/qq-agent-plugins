@@ -1,0 +1,34 @@
+{
+  "id": "essence-viewer",
+  "name": "群精华",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "category": "utility",
+  "description": "让机器人查看 QQ 群的精华消息（弹幕里说的「设精」），可以按关键词筛选后发出来或做总结。",
+  "author": "本地",
+  "enabledByDefault": true,
+  "capabilities": [],
+  "requires": [],
+  "settings": {
+    "limit": 10
+  },
+  "configSchema": {
+    "limit": {
+      "type": "number",
+      "label": "默认显示条数",
+      "description": "机器人没指定条数时，一次最多看几条精华。1~50，默认 10。精华多的群（几百上千条）务必别调太大，很费 token。",
+      "min": 1,
+      "max": 50
+    }
+  },
+  "prompt": {
+    "sections": [
+      {
+        "id": "essence-note",
+        "title": "群精华",
+        "priority": 35,
+        "content": "群友让你看群精华、精华消息、精选内容（群里也叫「设精」「加精」）时，调用 list_essence 工具去查，不要凭印象编。查回来的每条都带 message_id，需要时可以引用具体某条。精华多的群建议先用 keyword 筛一下再说。"
+      }
+    ]
+  }
+}

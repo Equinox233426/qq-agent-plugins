@@ -1,0 +1,56 @@
+{
+  "id": "bilibili-search",
+  "name": "B站搜索",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "category": "media",
+  "description": "让机器人会搜 B 站视频：按关键词搜，返回标题、UP主、播放量、时长和链接，可以发到群里。",
+  "author": "本地",
+  "enabledByDefault": true,
+  "capabilities": [],
+  "requires": [],
+  "permissions": ["web_fetch"],
+  "settings": {
+    "limit": 5,
+    "sort": "totalrank",
+    "selfSearchTerms": "大肥鱼,DeepSeek娘,小鲸鱼 DeepSeek,蓝色大肥鱼",
+    "deepPages": 3
+  },
+  "configSchema": {
+    "limit": {
+      "type": "number",
+      "label": "默认返回条数",
+      "description": "机器人没指定条数时，一次最多返回几条。1~10，默认 5。B 站搜索结果很占字数，别调太大。",
+      "min": 1,
+      "max": 10
+    },
+    "sort": {
+      "type": "enum",
+      "label": "默认排序",
+      "description": "totalrank=综合排序（推荐）；click=按播放量；pubdate=按最新发布；danmaku=按弹幕数。",
+      "values": ["totalrank", "click", "pubdate", "danmaku"]
+    },
+    "selfSearchTerms": {
+      "type": "string",
+      "label": "自搜关键词",
+      "description": "机器人搜「关于自己」的内容时用的词，逗号隔开。默认 大肥鱼、DeepSeek娘、小鲸鱼 DeepSeek、蓝色大肥鱼。想让它搜别的名字就改这里。"
+    },
+    "deepPages": {
+      "type": "number",
+      "label": "深度自搜翻几页",
+      "description": "每个关键词翻几页（每页 20 条）。1~5，默认 3。翻得越多越全，也越慢、越容易被 B 站风控。",
+      "min": 1,
+      "max": 5
+    }
+  },
+  "prompt": {
+    "sections": [
+      {
+        "id": "bilibili-search-note",
+        "title": "B站搜索",
+        "priority": 34,
+        "content": "群友让你去 B 站找视频、问「B站有没有XX的视频」「搜个XX」时，调用 search_bilibili 工具，把要搜的关键词放进 keyword。群友让你「自搜」「看看有没有人提到你」「B站上有没有你的视频」时，改用 self_search_bilibili（它会同时搜多个关于你自己的关键词并翻多页，找得更全）。搜到后可以直接把链接和标题发到群里，不要编造播放量或标题。搜索结果里的【】和 <em> 标签是 B 站的高亮标记，发出去前要清掉。"
+      }
+    ]
+  }
+}

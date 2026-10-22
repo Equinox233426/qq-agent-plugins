@@ -1,0 +1,4378 @@
+{
+ "note": "下落式音游（osu!mania / Malody / Etterna / Quaver 等）社区名词词典词条，整理自《下落式音游齐民要术 v0.74》。格式与其它 kb/*.json 相同，可直接编辑。",
+ "entries": [
+  {
+   "title": "比/逼/b",
+   "aliases": [
+    "比",
+    "逼",
+    "b"
+   ],
+   "tags": [
+    "通用",
+    "基本常识",
+    "俚语"
+   ],
+   "category": "基本常识",
+   "summary": "擅长某类键型的人或群体，带戏谑意味。",
+   "details": "擅长 XX 的人或群体，含轻微贬义或戏谑意味。如：叠比，擅长叠键的人；拍比，擅长拍的人。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "藏",
+   "aliases": [],
+   "tags": [
+    "通用",
+    "基本常识",
+    "俚语"
+   ],
+   "category": "基本常识",
+   "summary": "故意让排名/分数/准度与自身实力不匹配。",
+   "details": "故意让自己的排名/分数/准度与自身实力不匹配。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "等效bpm",
+   "aliases": [],
+   "tags": [
+    "通用",
+    "基本常识",
+    "bpm"
+   ],
+   "category": "基本常识",
+   "summary": "把不同分度的键型 bpm 换算成统一口径。",
+   "details": "当我们讨论某键型的 bpm 时，常将其转化为等效 bpm，即等效 bpm=实际 bpm×实际分度÷常见分度=实际 bpm×实际节拍细分÷常见节拍细分。如下例，已知乱常见分度为 32 分，该谱面 bpm133、实际分度为 48，则 133×48÷32=199.5（133×12÷8=199.5）为等效 bpm。资料中本节（专用名词/社区俚语）标注为未定稿。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "多押",
+   "aliases": [],
+   "tags": [
+    "基本常识",
+    "键型",
+    "通用"
+   ],
+   "category": "基本常识",
+   "summary": "除单押以外的押的统称。",
+   "details": "资料在介绍「押」时说明：除单押以外的押又称为多押。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "分度/分/节拍细分/音符时值/snap",
+   "aliases": [
+    "分度",
+    "分",
+    "节拍细分",
+    "音符时值",
+    "BeatSnapDevisor",
+    "snap"
+   ],
+   "tags": [
+    "通用",
+    "基本常识",
+    "分度"
+   ],
+   "category": "基本常识",
+   "summary": "分度=节拍细分×4，谱面编辑中的节拍细分。",
+   "details": "分度=节拍细分×4，点进谱面编辑，右上角“节拍细分”线对上 note 即为节拍细分。分度的使用频率远远大于音符时值。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "更改ID后谱面的谱师ID没更改",
+   "aliases": [
+    "常见问题2.7.1",
+    "谱师ID没改",
+    "改名后谱面ID"
+   ],
+   "tags": [
+    "基本常识",
+    "osu!mania",
+    "社区与工具"
+   ],
+   "category": "基本常识",
+   "summary": "osu常见问题：改ID后，之前已发布的谱面仍显示旧ID。",
+   "details": "资料以问答说明：更改ID后发布的谱面才会更换为现在的ID，在此之前发布的谱面还是会使用之前的ID。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "和解",
+   "aliases": [],
+   "tags": [
+    "通用",
+    "基本常识",
+    "俚语"
+   ],
+   "category": "基本常识",
+   "summary": "即暂停，来自 AWMRone/狙神的暂停圣经。",
+   "details": "即暂停，来自 AWMRone/狙神的暂停圣经。资料中该条配图出自 Nickname clear epsilon dan 的评论。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "龙/飞龙一般的",
+   "aliases": [
+    "龙",
+    "飞龙一般的"
+   ],
+   "tags": [
+    "通用",
+    "基本常识",
+    "俚语"
+   ],
+   "category": "基本常识",
+   "summary": "形容谱面非常难或玩家非常强。",
+   "details": "“龙”有一个说法是来自 SDVX 的暴龙天，即 SDVX 的最高段位；另一说法是来自龙玉涛；形容谱面非常难或玩家非常强。“飞龙一般的”是来自 ARCAEA F-1 剧情翻译问题，“对立像条飞龙一样往前移动”，后更正为“对立疯狂地冲向对方”，用法同上。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "米",
+   "aliases": [
+    "RC",
+    "点",
+    "圆圈"
+   ],
+   "tags": [
+    "基本常识",
+    "键型",
+    "通用"
+   ],
+   "category": "基本常识",
+   "summary": "普通的 note，即需要单击的音符。",
+   "details": "资料定义为「普通的 note」。其中「圆圈」是官方名称，在 mania 侧几乎无人使用，主要用于主模式侧；「RC」同样在 mania 侧几乎无人使用。",
+   "tips": [
+    "「圆圈」是官方名称，mania 侧几乎无人使用，主要用于主模式侧。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "面",
+   "aliases": [
+    "面条",
+    "longnote",
+    "ln",
+    "滑条",
+    "LN"
+   ],
+   "tags": [
+    "基本常识",
+    "键型",
+    "通用"
+   ],
+   "category": "基本常识",
+   "summary": "需要长按的 note。",
+   "details": "资料定义为「面条比例极高的键型」，并提示详细讲解可参考 [osu!mania 4k] LN 基础图池键型介绍。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "谱面",
+   "aliases": [
+    "beatmap",
+    "map",
+    "chart",
+    "谱面/beatmap/map/chart"
+   ],
+   "tags": [
+    "基本常识",
+    "osu!mania",
+    "通用"
+   ],
+   "category": "基本常识",
+   "summary": "音游里一张可游玩的关卡，社区也叫beatmap/map/chart。",
+   "details": "资料把谱面类型/分类的说明指向“谱面/谱面分类·wiki|osu!”。该章（2.6.4）主要记录rank区第一X星图出现时间。资料标注本章为未定稿（wip）。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "全押",
+   "aliases": [],
+   "tags": [
+    "基本常识",
+    "键型",
+    "通用"
+   ],
+   "category": "基本常识",
+   "summary": "当一行轨道均有键时的押。",
+   "details": "资料在介绍「押」时说明：当一行轨道均有键时成为全押。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "神秘数字",
+   "aliases": [
+    "96.38"
+   ],
+   "tags": [
+    "osu!mania",
+    "基本常识",
+    "俚语"
+   ],
+   "category": "基本常识",
+   "summary": "即 96.38，常出现在高难成绩图上。",
+   "details": "即 96.38，在 kanemining 96.38% clear zeta 后被发现该数字经常出现在高难成绩图上。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "水段",
+   "aliases": [
+    "高潮段"
+   ],
+   "tags": [
+    "通用",
+    "基本常识",
+    "段落"
+   ],
+   "category": "基本常识",
+   "summary": "歌曲中相对简单的段落，高潮段则相反。",
+   "details": "水段指一首歌相对简单的段落，高潮段则相反；高潮段有时根据水段对谱面的分割直接称为第一段、第二段等。此外休息段指没有 note 或难度远低于高潮段的段落，并且夹在两个高潮段之间。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "尾杀",
+   "aliases": [
+    "中杀"
+   ],
+   "tags": [
+    "通用",
+    "基本常识",
+    "段落"
+   ],
+   "category": "基本常识",
+   "summary": "歌曲最后一段的最难段；也有中杀的说法。",
+   "details": "尾杀狭义指歌曲最后一段，并且是整首歌的最难段；广义指歌曲最后一段，难度与最难段大致持平即可；也有中杀的说法，含有三段高潮段歌曲的中间一段叫作中杀。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "稳定版",
+   "aliases": [
+    "stable",
+    "stb"
+   ],
+   "tags": [
+    "通用",
+    "osu!mania",
+    "官方名词"
+   ],
+   "category": "基本常识",
+   "summary": "资料中 osu 的默认版本；若无特别说明，默认 osu 使用 stable。",
+   "details": "资料说明：如果没有特别说明，默认 osu 使用的版本是 stable，malody 使用的版本是 4.3.7。资料目录把稳定版放在“官方名词”下，写法为稳定版/stable/stb。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "稳定版/stable/stb",
+   "aliases": [
+    "稳定版",
+    "stable",
+    "stb"
+   ],
+   "tags": [
+    "osu!mania",
+    "基本常识",
+    "版本"
+   ],
+   "category": "基本常识",
+   "summary": "目前较多人使用的 osu 版本。",
+   "details": "目前较多人使用的版本，一般情况下对配置要求低，稳定性高于其他版本，现已没有大版本更新，在玩家完全转移到 lazer 前还会进行维护。资料中本节（专用名词/官方名词）标注为未定稿。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "下落式音游齐民要术",
+   "aliases": [
+    "齐民要术"
+   ],
+   "tags": [
+    "通用",
+    "osu!mania",
+    "Malody"
+   ],
+   "category": "基本常识",
+   "summary": "整合 osu!mania、Malody 等社区名词解释的社区词典，用于看懂群里的专用名词。",
+   "details": "资料前言说明：本文会尽量整合 osu!mania、malody 社区和少量其他社区对于各种名词的解释，仅帮助玩家用于看懂群里各种专用名词是什么意思，并非新手指南。资料标注为未定稿：测试版前言、封面、卷一极简版都不代表最终定稿。",
+   "tips": [
+    "Ctrl+F 可以快速查找关键词；游戏内出现的名词如 OD、HP、PP 等都可以去 wiki 查找。",
+    "本文不对任何争论负责；音游名词和语言文化一样，每个时期对同一词语含义的解释不尽相同。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "押",
+   "aliases": [
+    "chord",
+    "单押",
+    "双押",
+    "double",
+    "jump",
+    "三押",
+    "triple",
+    "hand",
+    "四押",
+    "quad",
+    "五押",
+    "quintuple",
+    "六押",
+    "sex"
+   ],
+   "tags": [
+    "基本常识",
+    "键型",
+    "通用"
+   ],
+   "category": "基本常识",
+   "summary": "一行所含的键数，按一行键数分成单押到六押。",
+   "details": "一行所含的键数，1-6 键分别称为单押、双押/double/jump、三押/triple/hand、四押/quad、五押/quintuple、六押/sex。当一行轨道均有键时称为全押；除单押以外的押又称为多押。四押用 quad 正好代表「四」。",
+   "tips": [
+    "写法是 sex 不是 six，和 sextet/六重奏类似。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "KPS/keys per second",
+   "aliases": [
+    "KPS",
+    "keys per second",
+    "CPS",
+    "NPS"
+   ],
+   "tags": [
+    "通用",
+    "基本常识",
+    "数据"
+   ],
+   "category": "基本常识",
+   "summary": "每秒键盘打击次数，平均水平为 6.69。",
+   "details": "每秒键盘打击次数，平均水平为 6.69；CPS/Clicks Per Second 是每秒鼠标点击次数；NPS/Note Per Second 是每秒按键下落次数。资料还给出 arealme.com 的数据（按占比列出 1 秒、10 秒、180 秒的数值）：前 0.94% 为 16+/12.6+/10.7+，前 2.12% 为 15/11.3/10.1，高于平均为 8/6.1/5.2，平均为 7/5.4/5.0，低于平均为 6/5.0/4.2，后 3.69% 为 1/0.7/0.7。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Lazer/lzr",
+   "aliases": [
+    "Lazer",
+    "lzr"
+   ],
+   "tags": [
+    "osu!mania",
+    "基本常识",
+    "版本"
+   ],
+   "category": "基本常识",
+   "summary": "未来将取代 stb 的 osu 版本。",
+   "details": "未来将取代 stb 的版本，有非常多 stb 没有的功能，如自定义倍速等，但目前也有部分 stb 的功能未移植到 lzr。stb 和 lzr 对比以及一些常见问题见帮助中心/升级到 lazer·wiki|osu!。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "爆发",
+   "aliases": [
+    "dense",
+    "speed"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "较高 bpm 的秒杀，但持续时间较短。",
+   "details": "资料定义为「较高 bpm 的秒杀，但持续时间较短」，属秒杀/V 下的子项。资料标注该名称为远古名称，无人使用。",
+   "tips": [
+    "资料标注为远古名称，无人使用。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "变速",
+   "aliases": [
+    "SV",
+    "speedvariation"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "下落速度有改变的谱面。",
+   "details": "资料定义为「下落速度有改变的谱面」。资料注明本条目无法配图，演示详情可见传统下落式音游键型与玩法详解。",
+   "tips": [
+    "本条目无法配图。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "常规",
+   "aliases": [
+    "常规键型",
+    "rice",
+    "RC",
+    "regular"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "狭义指仅由米构成的键型。",
+   "details": "资料定义为「狭义指仅由米构成的键型」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "串/stream",
+   "aliases": [
+    "串",
+    "stream"
+   ],
+   "tags": [
+    "osu!mania",
+    "键型"
+   ],
+   "category": "键型",
+   "summary": "一组排列非常紧密、需要快速打击的键。",
+   "details": "Osu！Standard 的一种键型，指一组排列非常紧密、需要快速打击的键。被部分主模式玩家带入 mania 模式，将 mania 中一组排列紧密的键称为串。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "大叠",
+   "aliases": [
+    "highchordjack",
+    "chordjack"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "叠键中密度较大的一类。",
+   "details": "资料在叠键下收录大叠/highchordjack/chordjack，但明确不区别大中小三种叠键，未给出单独定义，仅有配图（KEEP IT UP [dance] by LTD）。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "单乱",
+   "aliases": [
+    "singlestream",
+    "SS"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "没有多押的乱键。",
+   "details": "资料定义为「没有多押的乱键」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "叠技",
+   "aliases": [
+    "jackytech"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "难度更倾向于叠键的技巧。",
+   "details": "资料定义为「难度更倾向于叠键」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "叠键",
+   "aliases": [
+    "叠",
+    "jack",
+    "jackhammer",
+    "chordjack",
+    "CJ"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "相邻行之间允许按键重叠的谱面，常见分度为 16 分。",
+   "details": "资料定义为「相邻行之间允许按键重叠的谱面」，常见分度为 16 分。资料称其为重灾区其一：大中小叠键之间没有明确区分，其中中叠是近年才出现的键型用以归类中等密度的叠键，在此仅做收录，不区别这三种键型，相信后人能确立标准区分三者。",
+   "tips": [
+    "资料明确说明大中小叠键之间没有明确区分，仅做收录。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "断叠",
+   "aliases": [
+    "间断叠",
+    "jackcontrol"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "未填充所有行的叠键。",
+   "details": "资料定义为「未填充所有行的叠键」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "断切",
+   "aliases": [
+    "间断切",
+    "brokenjumpstream",
+    "broken handstream",
+    "碎切"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "未填充所有行的切换。",
+   "details": "资料定义为「未填充所有行的切换」。原文并列的别名写作「断切/间断切/broken jumpstream/broken handstream/碎切」。资料同时配有断叠（Ten Thousand Tons of Anonymous Letters [4KHD] by imoe）的图。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "对拍",
+   "aliases": [
+    "jumptrill"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "12/34 轨交替出现双押。",
+   "details": "12/34 轨交替出现双押；有时也称之为一种打法，例如高速对切和高速 roll 都能用对拍技巧打出较高准度。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "对切",
+   "aliases": [
+    "splittrill",
+    "jumptrill"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "13/24 轨或 14/23 轨交替出现双押。",
+   "details": "13/24 轨或 14/23 轨交替出现双押。有时候不区分 jumptrill 和 spittrill。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "盾",
+   "aliases": [
+    "shield",
+    "反盾",
+    "reverseshield"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "一个单键后紧跟一根较长分度面条。",
+   "details": "资料定义为「一个单键后紧跟一根较长分度面条」。盾这个称呼有时包括反盾，也可代含有大量盾和反盾的键型；反盾/reverseshield 则是「一根较长分度的面条后紧跟一个单键」。",
+   "tips": [
+    "盾这个称呼有时包括反盾，也可代含有大量盾和反盾的键型。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "多级乱",
+   "aliases": [
+    "polystream"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "同时使用多种分度的乱键。",
+   "details": "资料定义为「同时使用多种分度的乱键」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "反键",
+   "aliases": [
+    "inverse",
+    "lnwall",
+    "fullLN"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "同一列只留下少量、并且相同分度的空间，其余全填充面条的键型。",
+   "details": "资料定义为「同一列只留下少量，并且相同分度的空间，其余全填充面条的键型」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "放手",
+   "aliases": [
+    "release"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "面条的结尾长度不一致或无规律，考验放手时机。",
+   "details": "资料定义为「面条的结尾长度不一致或无规律，考验放手时机」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "钩子",
+   "aliases": [
+    "楼梯",
+    "staircase"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "向同一方向排列的单键突然向相反方向排列并形成拐角。",
+   "details": "资料定义为「向同一方向排列的单键突然向相反方向排列并形成拐角」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "古典排列",
+   "aliases": [],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "乱键的三种排列之一，锚键数量少于现代排列和脚排列。",
+   "details": "脚排列、古典排列、现代排列由锚键的多少区分，其中脚排列＞现代排列＞古典排列，因此古典排列的锚键最少。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "滚动",
+   "aliases": [
+    "roll"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "向同一方向排列的一定分度的单键，只能是四个一组。",
+   "details": "资料定义为「向同一方向排列的一定分度的单键，不限方向，只能是四个一组」。英文名 roll 的使用频率远高于中文名。",
+   "tips": [
+    "英文名 roll 的使用频率远高于中文名。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "混合",
+   "aliases": [
+    "HB",
+    "hybrid"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "混合米和面的键型。",
+   "details": "资料定义为「混合米和面的键型」，并说明面的键型很多其实都可以归类于混合，无法简单区分 RC、LN 和 HB。",
+   "tips": [
+    "资料称无法简单区分 RC、LN 和 HB。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "混合技巧",
+   "aliases": [
+    "mixedtech"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "切换难度和叠键难度比较平均的技巧。",
+   "details": "资料定义为「切换难度和叠键难度比较平均的技巧」，有时是同时含有大段叠键、切换以及技巧的谱面。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "技巧",
+   "aliases": [
+    "技",
+    "technical",
+    "tech"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "无法归类于切换、叠键、乱键的常规键型统称为技巧。",
+   "details": "资料定义为「无法归类于切换、叠键、乱键的常规键型统称为技巧」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "交互",
+   "aliases": [
+    "trill",
+    "单手交互",
+    "onehandtrill",
+    "双手交互",
+    "twohanddtrill"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "两列的单键重复排列，形成错位的纵连。",
+   "details": "资料定义为「两列的单键重复排列，形成错位的纵连」。其下分单手交互/onehandtrill（在同一只手的交互）与双手交互/twohanddtrill（在两只手的交互），资料中各只有一句话。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "脚排列",
+   "aliases": [],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "一四列固定配色、二三列配色无明显要求的乱键排列。",
+   "details": "一四列固定配色，二三列配色无明显要求；谱面中锚键出现频率高，且多集中于两侧；脚排列一般仅包含单乱。在乱键的三种排列中脚排列的锚键最多（脚排列＞现代排列＞古典排列）。",
+   "tips": [
+    "脚排列一般仅包含单乱。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "扣洞叠",
+   "aliases": [],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "密度极高的大叠，通常只有少量三押，其余均为四押。",
+   "details": "资料定义为「密度极高的大叠，通常只有少量三押，其余均为四押」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "乱技",
+   "aliases": [
+    "speedytech"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "难度更倾向于切换或乱键的技巧。",
+   "details": "资料定义为「难度更倾向于切换或乱键」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "乱键",
+   "aliases": [
+    "乱",
+    "大乱",
+    "stream",
+    "speed",
+    "dumpstream"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "相邻行之间不存在重叠的谱面，含极少量或不含双押和三押。",
+   "details": "资料定义为「相邻行之间不存在重叠的谱面，含有极少量或不含双押和三押」，常见分度为 32 分。脚排列、古典排列、现代排列由锚键的多少区分，其中脚排列＞现代排列＞古典排列。DDM 之后 speed 可代指乱键。",
+   "tips": [
+    "DDM 之后 speed 可代指乱键。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "满叠",
+   "aliases": [
+    "densechordjack"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "密度很高的大叠，通常仅由四押和三押构成。",
+   "details": "资料定义为「密度很高的大叠，通常仅由四押和三押构成」，部分人认为类似 Break [Smash] by beary605 的 4342 和 4242 排列也是满叠。bpm 较高时可以用 vc/vibro control 的技巧打出较高准度。",
+   "tips": [
+    "bpm 较高时可以用 vc/vibro control 的技巧打出较高准度。",
+    "是否包含 4342、4242 这类排列存在分歧，只是「部分人认为」。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "满切",
+   "aliases": [
+    "大切",
+    "密切",
+    "densejumpstream",
+    "dense handstream",
+    "DJS",
+    "DHS"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "密度较大的切换。",
+   "details": "资料定义为「密度较大的切换」。原文并列的别名写作「满切/大切/密切/dense jumpstream/dense handstream/DJS/DHS」，其下有双押满切与三押满切两种配图。",
+   "tips": [
+    "原文中 DJS 同时出现在「轻切」和「满切」的别名里。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "锚键",
+   "aliases": [
+    "锚",
+    "anchor"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "同一列中连续出现的等间距单键，常见于切换。",
+   "details": "资料定义为「同一列中连续出现的等间距单键，常见于切换」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "密度",
+   "aliases": [
+    "density",
+    "DE"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "几乎所有时候都有一根较长的面条的键型。",
+   "details": "资料定义为「几乎所有时候都有一根较长的面条的键型」，较常用英文名。",
+   "tips": [
+    "较常用英文名。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "面点",
+   "aliases": [],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "一根较长面周围有非常多米的排列，常见于远古谱面。",
+   "details": "资料定义为「一根较长面周围有非常多米的排列」，常见于远古谱面。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "面技",
+   "aliases": [
+    "技巧面",
+    "techLN",
+    "TL"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "技巧与面条的结合，也就是所有排列的杂糅。",
+   "details": "资料定义为「技巧与面条的结合，也就是所有排列的杂糅」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "秒杀",
+   "aliases": [
+    "歪脖",
+    "vibro",
+    "V",
+    "manipulatingelbowjack"
+   ],
+   "tags": [
+    "键型",
+    "游玩技巧",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "快速抖点击的一种技巧，也代指一些需要使用这种技巧的谱面。",
+   "details": "资料定义为「快速抖点击的一种技巧，也代指一些需要使用这种技巧的谱面」，有时指可以用糊全押谱的方式打的谱面。",
+   "tips": [
+    "有时指可以用糊全押谱的方式打的谱面。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "耐力",
+   "aliases": [
+    "stamina"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "较长的高潮段，考察稳定性和耐力。",
+   "details": "资料定义为「较长的高潮段，考察稳定性和耐力」，属秒杀/V 下的子项。关于 stamina 一词，资料前言区分过：DDM 之后 stamina 可代指切换，本条的 stamina 则指秒杀/V 下的耐力。",
+   "tips": [
+    "stamina 一词在本资料中有分歧：DDM 之后可代指切换，此处则指秒杀/V 下的耐力。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "拍/拍砖",
+   "aliases": [
+    "拍",
+    "拍砖"
+   ],
+   "tags": [
+    "通用",
+    "键型",
+    "手法"
+   ],
+   "category": "键型",
+   "summary": "单手或双手快速全按的玩法，由手腕发力。",
+   "details": "狭义中是单手或双手快速全按的游玩方式，由手腕发力；有时指用拍的手法游玩谱面的技巧。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "切叠",
+   "aliases": [
+    "jumpjack",
+    "切叠（jumpjack）"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "有争议的键型划分图对jumpjack的中文叫法。",
+   "details": "资料称有争议的键型划分图把jumpjack称为“切叠”；jumpjack在《StepMania排列入门v1.0》中有精确定义。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "切换",
+   "aliases": [
+    "切键",
+    "切",
+    "stamina",
+    "stream",
+    "ST"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "相邻行之间不存在重叠、含有较大量的双押和三押的谱面。",
+   "details": "资料定义为「相邻行之间不存在重叠的谱面，含有较大量的双押和三押」，常见分度为 16 分。关于 stamina 一词存在社区分歧：英文中并没有完美对应切换的词，DDM 之后 stamina 可代指切换，Malody 侧则是直接将切换称为 stream。",
+   "tips": [
+    "stamina 是否指切换有争议：英文中并没有完美对应切换的词，DDM 之后 stamina 可代指切换。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "轻切",
+   "aliases": [
+    "稀切",
+    "lightjumpstream",
+    "light handstream",
+    "LJS",
+    "DJS"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "密度较小的切换。",
+   "details": "资料定义为「密度较小的切换」。原文并列的别名写作「轻切/稀切/light jumpstream/light handstream/LJS/DJS」，其下有双押轻切与三押轻切两种配图。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "塞",
+   "aliases": [
+    "塞爆",
+    "dump",
+    "荡谱",
+    "荡"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "没有采音的地方强行放置音符，是一种写谱技巧。",
+   "details": "资料定义为「没有采音的地方强行放置音符，是一种写谱技巧」，常见用于练习的谱面。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "三押叠",
+   "aliases": [
+    "handjack"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "全是三押的叠。",
+   "details": "资料定义为「全是三押的叠」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "三押切",
+   "aliases": [
+    "handstream",
+    "hs"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "含有大量三押的切换谱面。",
+   "details": "资料定义为「含有大量三押的切换谱面」，常用 3131、3111 来粗略表示排列；注意，允许出现双押甚至允许双押数量大于三押。",
+   "tips": [
+    "允许出现双押甚至允许双押数量大于三押。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "散点",
+   "aliases": [
+    "splitrail",
+    "singlestream",
+    "splitrolls",
+    "running man",
+    "ladder"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "有争议的键型划分图对singlestream等键型的统称。",
+   "details": "资料称有争议的键型划分图把singlestream、splitrolls、running man、ladder称为“散点”，这些在《StepMania排列入门v1.0》中有精确定义。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "双押叠",
+   "aliases": [
+    "切叠",
+    "jumpjack"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "全是双押的叠。",
+   "details": "资料定义为「全是双押的叠」。此处存在争议：圈内最常见的键型划分图（见附录 3）将 jumpjack 和切叠划等号。",
+   "tips": [
+    "有争议：圈内最常见的键型划分图将 jumpjack 和切叠划等号。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "双押切",
+   "aliases": [
+    "jumpstream",
+    "JS"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "没有三押的切换谱面。",
+   "details": "资料定义为「没有三押的切换谱面」，常用 2121、2111 来粗略表示排列，这里的数字代表每行的键数。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "四押叠",
+   "aliases": [
+    "四押纵",
+    "quadjack"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "全是四押的叠，一般放在其他键型的衔接处。",
+   "details": "资料定义为「全是四押的叠」，一般放在其他键型的衔接处。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "四押切",
+   "aliases": [
+    "quadstream"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "常见四押切是在切键的每拍或每两拍出现一个四押。",
+   "details": "常见四押切是在切键的每拍或每两拍出现一个四押，这一定会导致产生子弹，所以资料认为四押切其实是叠。",
+   "tips": [
+    "资料认为四押切其实是叠，因为它一定会导致产生子弹。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "速叠",
+   "aliases": [
+    "speedjack",
+    "jackspeed"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "有说法是切指较多的叠，也有说法是密度较小的叠，和大叠相反。",
+   "details": "资料记有两种说法：「有说法是切指较多的叠，也有说法是密度较小的叠，和大叠相反」——资料未给出定论。",
+   "tips": [
+    "资料未给出定论，存在两种说法。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "梯子",
+   "aliases": [
+    "rail",
+    "ladder"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "向同一方向重复排列的单键，不限方向，不要求四个一组。",
+   "details": "资料定义为「向同一方向重复排列的单键，不限方向，不要求四个一组」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "现代排列",
+   "aliases": [],
+   "tags": [
+    "键型",
+    "osu!mania"
+   ],
+   "category": "键型",
+   "summary": "乱键的三种排列之一，锚键数量介于脚排列和古典排列之间。",
+   "details": "脚排列、古典排列、现代排列由锚键的多少区分，其中脚排列＞现代排列＞古典排列。在 om 中现代排列为某列蓝色，另一列红或白色。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "小叠",
+   "aliases": [
+    "lowchordjack",
+    "minijack"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "叠键中密度较小的一类。",
+   "details": "资料在叠键下收录小叠/lowchordjack/minijack，但明确不区别大中小三种叠键，未给出定义，仅有配图（Galaxy Collapse [Cataclysmic Hypernova] by Mat）。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "协调",
+   "aliases": [
+    "coordination",
+    "CO"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "几乎所有时候都有一到两根较长的面条，并且分布在两只手。",
+   "details": "资料定义为「几乎所有时候都有一到两根较长的面条，并且分布在两只手」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "协调（秒杀）",
+   "aliases": [
+    "control",
+    "VC"
+   ],
+   "tags": [
+    "键型",
+    "游玩技巧",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "考察多指协调能力的秒杀键型。",
+   "details": "资料定义为「考察多指协调能力的秒杀键型」，属秒杀/V 下的子项。资料标注该名称为远古名称，无人使用。",
+   "tips": [
+    "资料标注为远古名称，无人使用。",
+    "与面条键型下的「协调/coordination/CO」不是同一个词条。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "有争议的键型划分图",
+   "aliases": [
+    "键型划分图",
+    "图0-1有争议的键型划分图"
+   ],
+   "tags": [
+    "键型",
+    "通用",
+    "StepMania"
+   ],
+   "category": "键型",
+   "summary": "附录中作者本人标注为有争议的一张键型划分图。",
+   "details": "这是资料作者自己标注有争议的内容：标题即为“有争议的键型划分图”。资料举例说该图将jumpjack称为“切叠”，将singlestream、splitrolls、running man、ladder称为“散点”，而这些键型在《StepMania排列入门v1.0》中有精确定义；作者说明本文仍会采用该图的部分译名，即这些叫法并非统一用法。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "中叠",
+   "aliases": [
+    "midchordjack"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "近年才出现的键型，用以归类中等密度的叠键。",
+   "details": "中叠是近年才出现的键型，用以归类中等密度的叠键。资料明确写「本文不定义中叠」，且不区别大中小三种叠键。",
+   "tips": [
+    "资料明确写「本文不定义中叠」。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "子弹",
+   "aliases": [
+    "短纵",
+    "小纵",
+    "minijack"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "在一定分度的谱面里出现极小分度的连续单键。",
+   "details": "资料定义为「在一定分度的谱面里出现极小分度的连续单键」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "纵叠",
+   "aliases": [
+    "anchorjack"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "含有大量纵连的叠键。",
+   "details": "资料定义为「含有大量纵连的叠键」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "纵连",
+   "aliases": [
+    "纵",
+    "longjack"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "同一列中连续出现的等间距单键，常见于叠键。",
+   "details": "资料定义为「同一列中连续出现的等间距单键，常见于叠键；可以是单押或者多押；有时不要求等距」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "BPM nomalisation",
+   "aliases": [
+    "BPMnormalisation"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "将下落速度矫正为原先的下落速度。",
+   "details": "资料定义为「将下落速度矫正为原先的下落速度」。资料标注为未定稿：所属的「2.2 写谱/edit」这一节在目录和正文中均标为 wip。",
+   "tips": [
+    "资料标注为未定稿（写谱/edit 一节标为 wip）。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "bump",
+   "aliases": [],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "下落速度快速改变，然后又快速恢复正常。",
+   "details": "资料定义为「下落速度快速改变，然后又快速恢复正常」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "burst",
+   "aliases": [
+    "爆发"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "比高潮段平均更高分度排列，且长度非常短。",
+   "details": "资料定义为「比高潮段平均更高分度排列，且长度非常短」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "fastjam",
+   "aliases": [],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "下落速度变得很高。",
+   "details": "资料定义为「下落速度变得很高」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "grace",
+   "aliases": [
+    "flam"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "以极小分度排列的一组单键。",
+   "details": "资料定义为「以极小分度排列的一组单键」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "negative",
+   "aliases": [],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "下落速度变为负数，note 向上滚动。",
+   "details": "资料定义为「下落速度变为负数，note 向上滚动」，并注明上落式模式则相反。",
+   "tips": [
+    "上落式模式则相反。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "slowjam",
+   "aliases": [],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "下落速度变得很低。",
+   "details": "资料定义为「下落速度变得很低」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "stop",
+   "aliases": [],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "下落速度变为零。",
+   "details": "资料定义为「下落速度变为零」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "teleport",
+   "aliases": [],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "Note 快速移动并停止，视觉上就像传送或掉帧一样。",
+   "details": "资料定义为「Note 快速移动并停止，视觉上就像传送或掉帧一样」。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "wc",
+   "aliases": [
+    "wildcard",
+    "speedyWC",
+    "jackyWC"
+   ],
+   "tags": [
+    "键型",
+    "通用"
+   ],
+   "category": "键型",
+   "summary": "含有多种面条排列的键型，同时考察面和米。",
+   "details": "资料定义为「含有多种面条排列的键型，同时考察面和米」。其下 speedyWC 类似多级乱的面图，手感接近乱键；jackyWC 类似叠键的面图，常含有大量盾和反盾，手感接近叠键。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "4K LN Dan Courses v2",
+   "aliases": [
+    "面段",
+    "LN段",
+    "新面段",
+    "uj面段"
+   ],
+   "tags": [
+    "难度体系",
+    "osu!mania"
+   ],
+   "category": "难度体系",
+   "summary": "Osu!!mania 现在通行的面条段位，由 _underjoy/UJ 主持制作。",
+   "details": "一共 15 个段位：Level 1-10，Extra Level Yoake、Yuugure、Yoru、Yami、Yume。详情可见 Various Artists - 4K LN Dan Courses v2 - Level 1。常用 ln4 代表数字段的 4 段，字母段也常用数字表示，或者对应的日文而非罗马音。",
+   "tips": [
+    "字母段也常用数字表示，或者用对应的日文而非罗马音。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "4K Rank区进化史",
+   "aliases": [
+    "4K rank区",
+    "rank区进化史"
+   ],
+   "tags": [
+    "Rank区",
+    "难度体系",
+    "osu!mania"
+   ],
+   "category": "难度体系",
+   "summary": "记录osu!mania 4K rank区第一张各星数谱面出现的时间。",
+   "details": "资料记录的4K里程碑：5星2013/7/23 Yuuna Sasara feat. Taino Kobone - Imperishable Night 2006；6星2014/8/31 Yuyoyuppe - AiAe；7星2016/6/11 Camellia as “Bang Riot” - Blastix Riotz；旧8星2023/4/10（8.45星→7.57星）Ludicin - Fallen Symphony；旧10星2023/11/10（10.01星→9.32星）Noah feat. Ai Ohsera - Rebirth the end；九星被跳过，最接近的是Camellia - Parallel Universe Shifter（8.93星→8.54星）。新8星2023/9/30 Frums - HALL；新9星2023/11/10 Noah feat. Ai Ohsera - Rebirth the end；新10星2025/9/27 Camellia - Kikai No Tsubasa (feat. Kasane Teto)。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "4K Skill Analysis Mapset -4SAM-",
+   "aliases": [
+    "4SAM",
+    "4K Skill Analysis Mapset",
+    "LeiN-段位"
+   ],
+   "tags": [
+    "难度体系",
+    "osu!mania",
+    "段位",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "Osu!mania 可考的最早段位，由 LeiN- 主持制作。",
+   "details": "一共 21 个段位，分为 Level 1-17 和 overwhelming Level 1-4。详情可见 [WIP] 4K Skill Analysis Mapset -4SAM- 1.21v，资料标注为未定稿。。",
+   "tips": [
+    "资料标注为未定稿。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "4K高难段位难度排行",
+   "aliases": [
+    "4KHardDanCourseDifficultyRanking",
+    "4k hard dan new course difficulty ranking v3"
+   ],
+   "tags": [
+    "段位",
+    "4K",
+    "通用"
+   ],
+   "category": "难度体系",
+   "summary": "资料中的表2-2与图2-69，用于对4K高难段位做难度排行。",
+   "details": "资料列出表2-2《4K Hard Dan Course Difficulty Ranking》与图2-69《4k hard dan new course difficulty ranking v3》，用于给4K高难段位做难度排序；资料未给出具体排行数值，另注明还有附录2段位难度天梯表。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "7K Rank区进化史",
+   "aliases": [
+    "7K rank区"
+   ],
+   "tags": [
+    "Rank区",
+    "难度体系",
+    "osu!mania"
+   ],
+   "category": "难度体系",
+   "summary": "记录osu!mania 7K rank区第一张各星数谱面出现的时间。",
+   "details": "资料记录的7K里程碑：5星2013/2/24 sakuzyo - ChaiN De/structioN (siilento's solid remix)；6星2013/7/17或2013/11/23 xi - Akasha与RYO - Shuffle Heaven（前者为7+1K，后者为7K）；7星2013/7/23 Yuuna Sasara feat. Taino Kobone - Imperishable Night 2006；旧8星2015/7/31（8.04星→7.99星）D(ABE3) - MANIERA，旧9-10和新相同；旧11星2023/3/6（11.21星→10.33星）Aoi - King Atlantis；旧12星2023/3/23（12.04星→11.39星）HyuN feat. Sennzai - Duplicity Shade。新8星2018/4/16 Gekikara Mania - Deublithick；新9星2017/5/12 LeaF - Doppelganger；新10星2020/3/22 xi - Last Resort；新11星2023/3/23 HyuN feat. Sennzai - Duplicity Shade。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "毕业",
+   "aliases": [
+    "常规毕业"
+   ],
+   "tags": [
+    "Etterna",
+    "难度体系"
+   ],
+   "category": "难度体系",
+   "summary": "主要指常规毕业，达到 10dan 段位。",
+   "details": "主要指常规毕业，指 clear reform 10dan，regular 10dan v2，regular 10dan v3，具体根据语境区分。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "段位",
+   "aliases": [
+    "dancourse",
+    "dan",
+    "段位/dancourse/dan"
+   ],
+   "tags": [
+    "难度体系",
+    "通用",
+    "段位",
+    "osu!mania"
+   ],
+   "category": "难度体系",
+   "summary": "用来测定玩家实力水平的测试体系。",
+   "details": "资料引用 Shoegazer 的说法：「段位是用来测定你在 BMS、PMS、围棋以及其他游戏中实力水平的测试体系」。段位会不可避免的产生个人差，段位设计的初衷是 XX% acc，不要因为某某谱面打上 97.5%、段位比它低的谱面打了 98% 而断定后者更简单，少数情况是因为段位在设计时有问题，绝大多数情况下是因为每个谱面打上同一个准度的难度不一样。资料标注为未定稿（wip），且此处不讨论 Malody 的官方定级和 Quaver 的定级。",
+   "tips": [
+    "资料标注为未定稿（wip）。",
+    "此处不讨论 Malody 的官方定级和 Quaver 的定级。",
+    "即便是最新的 Malody CN Dan Course v3 段位也会不可避免出现难度不匹配的问题。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "段位练习谱",
+   "aliases": [],
+   "tags": [
+    "Etterna",
+    "难度体系",
+    "练习"
+   ],
+   "category": "难度体系",
+   "summary": "练习段位的谱包，注意星数标注是否正常。",
+   "details": "搜索使用的网站是谱面列表|osu!。注意星数是否正常，部分 beta 包和 alpha 包难度明显标注不正常；段位低于 10dan 谱面较少，可以开启 HT mod 将高段位图包降到低段位，如 delta+HT≈9dan。实际难度与标注难度不对应属于正常范畴，测试者并不能完美测试出谱面难度。",
+   "tips": [
+    "部分 beta 包和 alpha 包难度明显标注不正常。",
+    "段位低于 10dan 谱面较少，可开 HT mod 把高段位图包降到低段位，如 delta+HT≈9dan。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "段位难度标记“+”与“-”",
+   "aliases": [
+    "e9+",
+    "ln10-",
+    "g++",
+    "段位加减号"
+   ],
+   "tags": [
+    "难度体系",
+    "段位",
+    "通用"
+   ],
+   "category": "难度体系",
+   "summary": "在段位名后加减号表示高于或低于该段位一点难度的民间标注法。",
+   "details": "资料说明可以在段位名后加“+”和“-”来表示高于某段位一点或低于某段位一点的难度，如e9+、t+、ln10-等；也有带多个“+”和“-”来表示远难于或远简单于某段位的难度，如g++。",
+   "tips": [
+    "不要带太多符号，容易被认为乱标难度"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "段位难度天梯表",
+   "aliases": [
+    "附录2",
+    "表0-2",
+    "表0-3",
+    "RC与LN段位难度天梯表"
+   ],
+   "tags": [
+    "难度体系",
+    "段位",
+    "osu!mania"
+   ],
+   "category": "难度体系",
+   "summary": "附录2的两张段位难度天梯表，用DanReworkSR把各段位排成难度序列。",
+   "details": "资料附录2给出表0-2“RC段位难度天梯表”与表0-3“LN段位难度天梯表”，两张表都只有“DanRework / SR”两列，即段位名与其对应的SR值，正文其他位置也称这套数据为DanReworkSR、与ReworkSR天梯同类；表0-2覆盖reform intro1-3与reform1-10、alpha/beta/gamma/delta/epsilon、emik epsilon A/B/C与emik zeta、thaumiel zeta/eta、regular0-10的v2与v3、shoegazer1-10 v1与shoegazerluminal、shoegazertachyon各版本、extra1-9的v2与v3、extra9 v1.75、extrafinal v2/v3，表0-3覆盖LNTier I-XII、LN1-LN20（含hypersovae LN16/19/20、Lnlism LN17/18）、xfpsb1-6与xfpsbfinal、Pre-Numeral-I/II/III、Numeral-Stigma/Koppa/Sampi。用法上按SR值从小到大排列即为段位难度顺序，可用来比较不同段位体系之间的难度（资料中数值大体从1.825排到10.516）。资料未说明该SR的具体算法，也未给出口径说明。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "段位制作史",
+   "aliases": [
+    "段位制作",
+    "段位发展史",
+    "段位发布时间线"
+   ],
+   "tags": [
+    "段位",
+    "osu!mania",
+    "Malody"
+   ],
+   "category": "难度体系",
+   "summary": "资料按时间线记录osu!mania与Malody段位体系的制作与更新。",
+   "details": "2013/10/27 osu!mania第一个段位4K Skill Analysis Mapset -4SAM- 由LeiN-主持制作；2015/2/23 jinjin主持制作的7K段位发布，划时代地同时制作了常规和面条段位，是osu第一个成体系的段位；同日4K第一个成体系的段位osu!mania 4K Dan(段) Courses发布，由Shoegazer主持制作；2017/3-4 Malody段位v1发布，并于2018年2月做出第一个成体系的段位；2017/5/22 osu!mania 4K Dan~REFORM~Project发布，由DDMythical主持制作；2019/11/5 jinjin的7K段位开启大更新；2022/2/18 Malody V3段位发布。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "段位clear",
+   "aliases": [
+    "dan clear",
+    "段位首杀",
+    "段位通关记录"
+   ],
+   "tags": [
+    "段位",
+    "osu!mania",
+    "clear"
+   ],
+   "category": "难度体系",
+   "summary": "段位通关记录，资料记录了各顶级段位的首次clear成绩。",
+   "details": "资料列出epsilon、zeta、eta、regular stellium、LN stellium五个档位的clear记录，成绩都在96%上下，并附完成日期与玩家ID。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "难度转换",
+   "aliases": [
+    "不同体系的转换",
+    "段位难度转换",
+    "难度对照"
+   ],
+   "tags": [
+    "难度体系",
+    "段位",
+    "通用"
+   ],
+   "category": "难度体系",
+   "summary": "把不同段位与星数体系互相换算的章节，资料只做了4K部分段位。",
+   "details": "资料说明作者能力有限，仅制作了4k部分段位难度转换；该节先给SunnyRework对照表，再给4k高难段位难度排行，并注明附录2为段位难度天梯表。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "入门",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "难度体系"
+   ],
+   "category": "难度体系",
+   "summary": "对音游入门门槛的判定。",
+   "details": "每个玩家对入门门槛的定义都不一样，笔者认为 4dan 及以上是个分水岭，也就是说，懂得常见键型的处理方式就算是入门了。“没入门”也可作为部分人用来卖弱/谦虚的说辞。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "星数",
+   "aliases": [
+    "starrate",
+    "sr",
+    "星"
+   ],
+   "tags": [
+    "难度体系",
+    "osu!mania",
+    "通用"
+   ],
+   "category": "难度体系",
+   "summary": "Osu使用的一种难度评级系统，用星数表示谱面难度。",
+   "details": "资料说明：现行版本中，密度对星数的影响远大于排列对星数的影响。Sunny-rework算法对于难度和星级的对应更加合理，是目前所有下落式音游系统定级系统最准确、最全面的算法。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "acc定级法/acc计算法",
+   "aliases": [
+    "acc定级法",
+    "acc计算法"
+   ],
+   "tags": [
+    "通用",
+    "难度体系",
+    "acc"
+   ],
+   "category": "难度体系",
+   "summary": "用游走不同图的 acc 判断其他图的难度。",
+   "details": "已知某图的难度，用游玩不同图的 acc 做为标准来判断其他图的难度；该方法正常情况有一定参考性，但不够科学。如 X 图分数为 96%，已知其难度为 7dan，Y 图打了 96.5%，Z 图打了 95.5%，断定 Y 图为 7-，Z 图为 7+。",
+   "tips": [
+    "该方法正常情况有一定参考性，但不够科学。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Dan~REFORM~FINAL段位",
+   "aliases": [
+    "reform段",
+    "reform dan",
+    "Dan~REFORM~FINAL"
+   ],
+   "tags": [
+    "段位",
+    "osu!mania",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "由Thaumiel制作的osu!mania 4K常规段位，包含zeta、eta两个段位。",
+   "details": "资料记载该体系包含zeta、eta两个段位，其中eta被社区视为正统段位。资料另注明：往后的osu!mania 4K常规段位目前没有公认段位。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Emik段位",
+   "aliases": [
+    "Emik",
+    "Emik03",
+    "emik段"
+   ],
+   "tags": [
+    "段位",
+    "osu!mania",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "Emik/Emik03继承DDM reform段位制作的一套osu!mania 4K段位。",
+   "details": "资料记载它继承了DDM reform段位，制作了sample v2的epsilon A、B、C，zeta四个段位。其中zeta被社区视为正统段位。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "epsilon段位",
+   "aliases": [
+    "epsilon",
+    "ε段",
+    "epsilon clear"
+   ],
+   "tags": [
+    "段位",
+    "osu!mania",
+    "clear"
+   ],
+   "category": "难度体系",
+   "summary": "资料记录的epsilon段位clear：myuka与kalkai的成绩。",
+   "details": "2020/4/10，96.03% by myuka（有手元的世界首杀，成绩被质疑）；2020/12/15，96.11% by kalkai（kalkai自认为myuka是首杀）。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "eta段位",
+   "aliases": [
+    "eta",
+    "η段",
+    "eta clear"
+   ],
+   "tags": [
+    "段位",
+    "osu!mania",
+    "clear"
+   ],
+   "category": "难度体系",
+   "summary": "资料记录的eta段位clear：Saragi达成96.13%。",
+   "details": "资料记2024/12/20，96.13% by Saragi。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Etterna星数算法",
+   "aliases": [
+    "Etterna定级",
+    "Etterna sr"
+   ],
+   "tags": [
+    "难度体系",
+    "Etterna"
+   ],
+   "category": "难度体系",
+   "summary": "Etterna的星数定级算法，资料指其对chordjack偏低且无法计算面条难度。",
+   "details": "资料注明：Etterna现行版本对于chordjack键型定级偏低；Etterna无法计算面条难度。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "ex5",
+   "aliases": [
+    "extra5danv3"
+   ],
+   "tags": [
+    "段位",
+    "Malody",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "Malody发狂段extra5dan v3的常用缩写。",
+   "details": "资料说明常用ex5代表发狂段的extra5danv3，与exf、sp4同属Malody CN Dan Course发狂段的缩写写法。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "exf",
+   "aliases": [
+    "extrafinaldanv3"
+   ],
+   "tags": [
+    "段位",
+    "Malody",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "Malody发狂段extra final dan v3的常用缩写。",
+   "details": "资料说明常用exf代表发狂段的extrafinaldanv3；Malody CN Dan Course最新版本共21个段位，Final是其中最高的一段。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "imp包/StepMania Impossible Pack",
+   "aliases": [
+    "imp包",
+    "StepMania Impossible Pack",
+    "Rachel's Impossible Pack",
+    "Impossible Pack"
+   ],
+   "tags": [
+    "Etterna",
+    "难度体系",
+    "谱包"
+   ],
+   "category": "难度体系",
+   "summary": "难度 delta- 以上的高难谱包。",
+   "details": "StepMania Impossible Pack？/imp包：难度 delta- 以上；这个包也催生出各种 imp 包，如 Rachel's Impossible Pack，难度 epsilon- 以上。读者可根据自己的能力开 HT mod 游玩这类谱包。",
+   "tips": [
+    "读者可根据自己的能力开 HT mod 游玩这类谱包。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "ImpossibleJack/imp叠包",
+   "aliases": [
+    "ImpossibleJack",
+    "imp叠包"
+   ],
+   "tags": [
+    "Etterna",
+    "难度体系",
+    "谱包"
+   ],
+   "category": "难度体系",
+   "summary": "难度 epsilon- 以上的叠键高难谱包。",
+   "details": "难度 epsilon- 以上，数字越往后的起步难度越高。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Jinjin 7K常规段位",
+   "aliases": [
+    "Jinjin Regular Dan",
+    "Stellium Dan (Regular)",
+    "stellium",
+    "zenith",
+    "azimuth",
+    "gamma"
+   ],
+   "tags": [
+    "段位",
+    "7K",
+    "osu!mania"
+   ],
+   "category": "难度体系",
+   "summary": "Jinjin's osu!mania 7K Dan Courses中的常规段位部分，已完成15个。",
+   "details": "已完成15个常规段位，为0-10、gamma、azimuth、zenith、stellium。资料以图2-64 Stellium Dan (Regular)作为最高常规段的例图。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Jinjin 7K面条段位",
+   "aliases": [
+    "Jinjin LN Dan",
+    "Stellium Dan (LN)"
+   ],
+   "tags": [
+    "段位",
+    "LN",
+    "7K",
+    "osu!mania"
+   ],
+   "category": "难度体系",
+   "summary": "Jinjin's osu!mania 7K Dan Courses中的面条段位部分，已完成15个。",
+   "details": "已完成15个面条段位，段位名与常规段位相同（同上：0-10、gamma、azimuth、zenith、stellium）。资料以图2-65 Stellium Dan (LN)作为最高面条段的例图。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Jinjin's osu!mania 7K Dan Courses",
+   "aliases": [
+    "jinjin dan",
+    "Jinjin段位",
+    "Jinjin's 7K Dan",
+    "Jinjin7KDan"
+   ],
+   "tags": [
+    "段位",
+    "7K",
+    "osu!mania"
+   ],
+   "category": "难度体系",
+   "summary": "osu!mania现在通行的7K常规和面条段位，由Jinjin主持制作。",
+   "details": "目前已完成的有15个常规段位（0-10、gamma、azimuth、zenith、stellium），15个面条段位（同上），1个kyu段位（0）。历经多次更新现已成为无可争议的官方段位，除Dan Phase IV和未完成的Normal Kyu Phase I外均为loved状态。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Jinjin的7K段位",
+   "aliases": [
+    "jinjin段位",
+    "jinjin dan",
+    "Jinjin's osu!mania 7K Dan Courses",
+    "7K Dan Courses"
+   ],
+   "tags": [
+    "段位",
+    "7K",
+    "osu!mania"
+   ],
+   "category": "难度体系",
+   "summary": "jinjin主持制作的7K段位，是osu第一个成体系的段位。",
+   "details": "2015/2/23发布，划时代地同时制作了常规和面条段位。2019/11/5开启大更新，受RF段影响将叠技乱切顺序固定下来；该更新直到2022/2/7无限期停更，其中beginner dan/normal kyuu phase I至今仍未完工。附录1注明在osu官网搜索“dan”即可。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "LN stellium段位",
+   "aliases": [
+    "LN stellium",
+    "面条stellium"
+   ],
+   "tags": [
+    "段位",
+    "osu!mania",
+    "LN"
+   ],
+   "category": "难度体系",
+   "summary": "LN stellium的clear由Delay完成，排列由Mario Paint修改。",
+   "details": "资料记为By Delay，并由Mario Paint[D-ANOTHOR]修改排列。资料另注明：Stellium段位允许在曲目间无时间限制暂停。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "LNTier Alternative-Numeral段位",
+   "aliases": [
+    "LNTierAlternative-Numeral",
+    "Numeral段",
+    "LNTier Alternative"
+   ],
+   "tags": [
+    "段位",
+    "LN",
+    "osu!mania",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "Kizuna继承arcwinolivirus制作的六个面条段位，属LNTier体系。",
+   "details": "由Kizuna继承arcwinolivirus制作的Pre-Numeral-I、II、III和Numeral-Stigma、Koppa、Sampi六个段位。资料给出的难度对应用“段位//LNTier（UJ段）”写法。",
+   "tips": [
+    "资料中的对应关系逐条见Pre-Numeral I/II/III与Numeral-Stigma/Koppa/Sampi各条"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Malody CN Dan Course",
+   "aliases": [
+    "Malody4K社区段位",
+    "Malody社区4K段位",
+    "CN Dan Course"
+   ],
+   "tags": [
+    "段位",
+    "Malody",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "Malody现行通行也是官方的4K常规段位体系，由MoMoEven主持制作。",
+   "details": "资料称它是体系最完整、键型最现代的段位，作者曾在v3二测时测试过部分发狂段位；V1版本较为冷门。最新的版本有21个段位：Regular0-10、Extra1-9、Final。详情可见《关于Malody4K社区段位v3说明》和《Malody社区4K段位变迁发展史》。",
+   "tips": [
+    "常用rg7代表常规段regular7danv3；ex5、exf和sp4代表发狂段的extra5danv3、extrafinaldanv3和sampleextra4danv2",
+    "V3在缩写中一般不会特意标注，v1和v2会特别标注",
+    "sample extra v4正在制作中（2025/9/21），sp或许在今后会代指它"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Malody V3段位",
+   "aliases": [
+    "Malody段位V3",
+    "malody v3",
+    "V3段位"
+   ],
+   "tags": [
+    "段位",
+    "Malody"
+   ],
+   "category": "难度体系",
+   "summary": "2022/2/18发布的Malody段位版本，系统性分割了每个阶段的难度。",
+   "details": "资料称它虽然在现在看来仍有小瑕疵，但相对于先前的段位已经非常完善，系统性分割了每个阶段的难度，新手或是顶尖玩家都能游玩。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Malody段位v1/v2",
+   "aliases": [
+    "Malody段位v1",
+    "Malody段位v2",
+    "malody dan v1",
+    "malody dan v2"
+   ],
+   "tags": [
+    "段位",
+    "Malody"
+   ],
+   "category": "难度体系",
+   "summary": "Malody早期段位版本，常规段没有对键型的区分。",
+   "details": "资料记录Malody段位v1于2017/3-4发布，并于2018年2月做出第一个成体系的段位。与后世段位相比，shoegazer段位、malody段位v1、v2的常规段没有对键型的区分，可能会出现多首歌全是同一键型的情况。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Malody星数算法",
+   "aliases": [
+    "Malody定级",
+    "malody sr"
+   ],
+   "tags": [
+    "难度体系",
+    "Malody"
+   ],
+   "category": "难度体系",
+   "summary": "Malody的星数定级算法，资料指其只和平均密度有关。",
+   "details": "资料注明：malody的算法只和平均密度有关。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Numeral段",
+   "aliases": [
+    "Numeral",
+    "Numeral-Stigma",
+    "Numeral-Koppa",
+    "Numeral-Sampi",
+    "Stigma",
+    "Koppa",
+    "Sampi"
+   ],
+   "tags": [
+    "段位",
+    "LN",
+    "osu!mania",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "LNTier Alternative-Numeral体系中Stigma、Koppa、Sampi三个高级面条段位。",
+   "details": "由Kizuna继承arcwinolivirus制作。资料给出的难度对应：Numeral Stigma=13th-//---，Numeral Koppa=14th-//---，Numeral Sampi=14th++//---（“---”表示没有对应的LNTier项）。资料附图2-61 Numeral-Sampi。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Osu! Mania 4-Key Long Note Tier Series",
+   "aliases": [
+    "旧LN段",
+    "旧面段",
+    "4KLNPHASE",
+    "4K Long Note Tier",
+    "4K LN Tier Series"
+   ],
+   "tags": [
+    "难度体系",
+    "osu!mania",
+    "资源",
+    "段位"
+   ],
+   "category": "难度体系",
+   "summary": "如今几乎无人游玩的段位，由 arcwinolivirus 主持制作。",
+   "details": "键型受时代局限性与现在有很大不同。一共 12 个段位，Tier I-XII。详情可见 Osu! Mania 4-Key Long Note Tiers - 4KLN 1ST PHASE。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "osu!mania 4K Dan ~REFORM~ Project",
+   "aliases": [
+    "reform dan",
+    "RF段",
+    "reform段",
+    "DDM reform段位",
+    "Dan~REFORM~"
+   ],
+   "tags": [
+    "难度体系",
+    "osu!mania",
+    "段位",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "Om 现在通行的常规段位，由 DDMythical/DDM 主持制作。",
+   "details": "版本非常复杂，通行版本共 18 个段位：v2 INTRO 1-3、1-10、EXTRA alpha、beta、gamma、delta、epsilon（其中包含由 Emik 制作的 4TH pack）。V3 段位没有 7 段以及 9 段以后的段位，资料标注为烂尾。详情可见 danreform.com 等来源。",
+   "tips": [
+    "V3 段位没有 7 段以及 9 段以后的段位。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "osu!mania 4K Dan(段) Courses",
+   "aliases": [
+    "Shoegazer dan",
+    "鞋",
+    "嘎子段",
+    "4K Dan Courses",
+    "Shoegazer段位",
+    "shoegazer dan",
+    "4K Dan"
+   ],
+   "tags": [
+    "难度体系",
+    "osu!mania",
+    "段位",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "Osu!mania 最早的成体系的段位，由 Shoagazer 主持制作。",
+   "details": "现在仍有非常高的热度。常见的版本一共 21 个段位：v1 1-10、luminal、tachyon；v2 1-4、7-10、luminal、tachyon；v3 tachyon。常用「鞋10v1」代表数字段的 shoegazer 10dan v1，t2 和 l1 代表 tachyon v2 和 luminal v1。",
+   "tips": [
+    "常用「鞋10v1」代表数字段的 shoegazer 10dan v1，t2 和 l1 代表 tachyon v2 和 luminal v1。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Pre-Numeral段",
+   "aliases": [
+    "Pre-Numeral",
+    "Pre-Numeral I",
+    "Pre-Numeral II",
+    "Pre-Numeral III",
+    "Pre-Numeral-I",
+    "Pre-Numeral-II",
+    "Pre-Numeral-III"
+   ],
+   "tags": [
+    "段位",
+    "LN",
+    "osu!mania",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "LNTier Alternative-Numeral段位体系中I、II、III三段的前置段位组。",
+   "details": "由Kizuna继承arcwinolivirus制作。资料给出的难度对应LNTier和UJ段：Pre-Numeral I=9th+//Tier X，Pre-Numeral II=10th+//Tier XI，Pre-Numeral III=12th-//Tier XII。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "regular stellium段位",
+   "aliases": [
+    "regular stellium",
+    "常规stellium"
+   ],
+   "tags": [
+    "段位",
+    "osu!mania",
+    "clear"
+   ],
+   "category": "难度体系",
+   "summary": "regular stellium的clear由Jakads于2020/5/22达成，96.91%。",
+   "details": "资料记2020/5/22，96.91% by Jakads（无暂）。资料另注明：Stellium段位允许在曲目间无时间限制暂停。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "rg7",
+   "aliases": [
+    "regular7danv3"
+   ],
+   "tags": [
+    "段位",
+    "Malody",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "Malody CN Dan Course中常规段regular7dan v3的常用缩写。",
+   "details": "资料说明常用rg7代表常规段regular7danv3。V3在缩写中一般不会特意标注，v1和v2会特别标注。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "sp4",
+   "aliases": [
+    "sampleextra4danv2"
+   ],
+   "tags": [
+    "段位",
+    "Malody",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "Malody发狂段sample extra 4 dan v2的常用缩写。",
+   "details": "资料说明常用sp4代表发狂段的sampleextra4danv2。sample extra v4正在制作中（2025/9/21），sp或许在今后会代指它。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "SunnyRework",
+   "aliases": [
+    "Sunny-rework",
+    "rework",
+    "ReworkSR"
+   ],
+   "tags": [
+    "难度体系",
+    "osu!mania",
+    "段位"
+   ],
+   "category": "难度体系",
+   "summary": "用星数对照段位难度的算法与对照表，把各段位换算为Rework星数。",
+   "details": "资料中的表2-1《SunnyRework难度对照表》以“段位 / ReworkSR”两列给出大量对照值，覆盖reform intro 1-3、reform1-10、alpha、beta、gamma、delta、epsilon、emik epsilon A/B/C、emik zeta、thaumiel zeta、thaumiel eta，以及大量LN段与xfpsb段。作者说明如有ReworkSR与实际不同，可能是rework更新或是谱师更新了谱面。",
+   "tips": [
+    "表格的v是version的缩写，有时也写作ver，即版本",
+    "表2-1列出的部分对照谱面：Break、FutureCandy、MoonGate、PacificGirl、Log-in、Nhelv、CyberInductance、SpeedofLink、RoseQuartz、ShadowsofCats、MarioPaint、TriumphalReturn",
+    "extra9 v1.75是民间称谓，官方的v1.75和v2名称完全相同；osu官网搜索extradan9v1.75即可"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Wild 7K Dan Course",
+   "aliases": [
+    "Wild段",
+    "Wild7K",
+    "wilddan"
+   ],
+   "tags": [
+    "段位",
+    "7K",
+    "osu!mania",
+    "资源"
+   ],
+   "category": "难度体系",
+   "summary": "由tyrcs主持制作的7K段位，拥有比jinjin dan更难的段位。",
+   "details": "有9个常规段位，I-IX。资料称其拥有比jinjin dan更难的段位。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "xfpsb 4K LN Advanced Dan Course",
+   "aliases": [
+    "xfpsb",
+    "xfpsb面段",
+    "xfpsbdan",
+    "xfpsb段"
+   ],
+   "tags": [
+    "段位",
+    "LN",
+    "osu!mania",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "由Hylotl主持制作的面条段位，包含1-6和final共七个段。",
+   "details": "资料给出的难度对应UJ段：1st~UJ9.5，2nd~UJ10.5，3rd~UJ11.5，4th~UJ12.5，5th~UJ13.5，6th~UJ14.5，Final~UJ15.5。另注明新面段15以后还有非官方段位，链接也在附录1。",
+   "tips": [
+    "资料中出现的例图包括Final Dan-Nirvana、16th Dan-Yokaze"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "xfpsb final",
+   "aliases": [
+    "Final Dan-Nirvana"
+   ],
+   "tags": [
+    "段位",
+    "LN",
+    "osu!mania",
+    "4K"
+   ],
+   "category": "难度体系",
+   "summary": "xfpsb 4K LN Advanced Dan Course的最高段，难度对应UJ15.5。",
+   "details": "资料记载xfpsb体系包含1-6与final七个段，Final~UJ15.5；资料以图2-62 Final Dan-Nirvana作为该段的例图。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "zeta段位",
+   "aliases": [
+    "zeta",
+    "ζ段",
+    "zeta clear"
+   ],
+   "tags": [
+    "段位",
+    "osu!mania",
+    "clear"
+   ],
+   "category": "难度体系",
+   "summary": "资料记录的zeta段位clear：Kanemining达成96.38%。",
+   "details": "资料记2022/7/28，96.38% by Kanemining。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "存疑的sv2判定区间",
+   "aliases": [
+    "附录3",
+    "存疑的一种sv2判定区间表",
+    "表0-4",
+    "图0-1"
+   ],
+   "tags": [
+    "判定与结算",
+    "osu!mania",
+    "sv2"
+   ],
+   "category": "判定与结算",
+   "summary": "附录3中作者本人标注为存疑的一份sv2判定区间数据。",
+   "details": "这是资料作者自己标注不确定的内容：附录3的标题为“有争议的数据”，条目名直接写作“存疑的一种sv2判定区间表”，并以表0-4与图0-1给出数据，按判定等级逐档列出各列毫秒区间。因此该表只能作为存疑材料看待，不能当作定论使用。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "分数系统/score",
+   "aliases": [
+    "分数系统",
+    "score",
+    "ScoreV1",
+    "osu!mania scoring system"
+   ],
+   "tags": [
+    "osu!mania",
+    "判定与结算",
+    "分数"
+   ],
+   "category": "判定与结算",
+   "summary": "osu 的分数系统，资料标注为未定稿。",
+   "details": "资料标注为未定稿（wip），资料来源为 ScoreV1/osu!mania scoring system·wiki|osu!。有时准度高但分数低，是因为 osu 分数一半是由连击分构成的。",
+   "tips": [
+    "有时准度高但分数低，是因为 osu 分数一半是由连击分构成的。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "结算评级常见问题",
+   "aliases": [
+    "显示95.00%但是A评级",
+    "评级四舍五入",
+    "判定等级与结算评级"
+   ],
+   "tags": [
+    "判定与结算",
+    "osu!mania",
+    "通用"
+   ],
+   "category": "判定与结算",
+   "summary": "解释显示95.00%却评为A的原因，以及判定等级不等于结算评级。",
+   "details": "资料给出算式：(2473×305+1551×300+279×200+29×100+19×50)÷[(2473+1551+279+29+19+64)×305]≈94.997679%，由于osu只能显示两位小数，于是四舍五入为95.00%；其他评级同理。资料另指出常有一个误区：图中的①是判定等级，而非其他音游的结算评级，②才是结算评级。",
+   "tips": [
+    "资料以图2-73 Filing的结算界面作为该误区的示例"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "判定对KPS要求的影响",
+   "aliases": [
+    "最低KPS",
+    "357bpm的子弹",
+    "纵连最低kps"
+   ],
+   "tags": [
+    "判定与结算",
+    "游玩技巧",
+    "通用"
+   ],
+   "category": "判定与结算",
+   "summary": "同一张谱在不同判定下难度不同，判定越严所需最低KPS越高。",
+   "details": "资料举例：对于一个357bpm的子弹，在od9判定下两个note均为100acc对于手速理想状况的最低要求是 1,000÷(357÷60×4)+37.5×2≈117.02ms，即 1000÷[1,000÷(357÷60×4)+37.5×2]≈8.55kps；在PCB判下则为≈130.02ms、≈7.69kps。资料还给出纵连长度与理想状况下最低KPS的公式：N次点击最大间隔 ={1000÷[纵连等效bpm÷60×4×(N-1)]+100%判定区间×2}÷(N-1) =[15000÷纵连等效bpm÷(N-1)+100%判定区间×2]÷(N-1)，N纵连理想状况下最低kps =1000÷N次点击最大间隔。",
+   "tips": [
+    "理想状况下第一个note在100%判定刚开始时打击，第二个note在100%判定即将结束时打击",
+    "纵连越长，所需最低KPS越大；判定越严，最低kps要求越高、越难糊",
+    "大叠或满切，判定对于手速要求影响较小，而小叠和技巧则影响较大"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "音游的结算评级",
+   "aliases": [
+    "结算评级",
+    "评级",
+    "表2-6"
+   ],
+   "tags": [
+    "判定与结算",
+    "通用"
+   ],
+   "category": "判定与结算",
+   "summary": "资料表2-6汇总Malody、osu!mania、Quaver、Etterna各自的结算评级要求。",
+   "details": "该表按游戏分组给出评级所需acc条件：Malody为M5至M0，osu!mania为SS至F，Quaver为X、S+、S至F，Etterna(wife)为AAAAA至F。各游戏的详细条件见对应各条。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "音游的判定区间",
+   "aliases": [
+    "判定区间",
+    "判定区间表",
+    "表2-3"
+   ],
+   "tags": [
+    "判定与结算",
+    "通用"
+   ],
+   "category": "判定与结算",
+   "summary": "资料表2-3汇总osu!mania、Quaver、Stepmania/Etterna、Malody各判定的毫秒区间。",
+   "details": "该表按游戏分组，分别列出osu!mania的od等级、Quaver的Peaceful至Impossible、Stepmania与Etterna的J1-J8和Justice、Malody的EASY(PC)/A至HARD(PC)/E。各游戏的具体数值见对应各条。",
+   "tips": [
+    "单位均为毫秒/ms；osu判定由于四舍五入导致所有实际判定区间比理论判定区间宽0.5ms，这里标注实际判定区间"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "音游的判定区间（常见问题）",
+   "aliases": [
+    "判定区间常见问题",
+    "判定区间FAQ"
+   ],
+   "tags": [
+    "判定与结算",
+    "通用"
+   ],
+   "category": "判定与结算",
+   "summary": "资料以问答形式整理判定区间相关的两个常见疑问。",
+   "details": "资料在该节下以问答形式收了两问：移动端判定补正的问题，以及“新版本判定和老版本有区别吗？”；具体答复分别见Malody移动端判定补正与Malody新老版本判定区别两条。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Etterna(wife)结算评级",
+   "aliases": [
+    "AAAAA",
+    "AAA",
+    "AA",
+    "wife"
+   ],
+   "tags": [
+    "判定与结算",
+    "Etterna"
+   ],
+   "category": "判定与结算",
+   "summary": "Etterna(wife)的AAAAA、AAAA、AAA至F细分结算评级。",
+   "details": "资料给出的条件：AAAAA acc＝100%；AAAA: acc≥99.99%；AAAA. acc≥99.98%；AAAA acc≥99.97%；AAA: acc≥99.92%；AAA. acc≥99.85%；AAA acc≥99.75%；AA: acc≥99%；AA. acc≥96.5%；AA acc≥93%；A: acc≥90%；A. acc≥85%；A acc≥80%；B acc≥70%；C acc≥60%；D acc＜60%；F failed。",
+   "tips": [
+    "此类在原有基础上加“:”和“.”的细分评级从2020年宣布至今仍未实装"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Etterna判定区间",
+   "aliases": [
+    "J1",
+    "J8",
+    "Justice",
+    "Stepmania判定"
+   ],
+   "tags": [
+    "判定与结算",
+    "Etterna"
+   ],
+   "category": "判定与结算",
+   "summary": "表2-3中Stepmania/Etterna的J1-J8与Justice各档判定区间（毫秒）。",
+   "details": "资料按J1至J8与Justice逐行列出判定区间，例如J1为33/68/135/203/270，J8为7/15/30/45/180，Justice为4/9/18/27/180。",
+   "tips": [
+    "数值抄自资料表格（v0.74），与游戏内不一致时以游戏内为准。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Malody加速mod对于判定区间的影响",
+   "aliases": [
+    "加速mod",
+    "RUSH",
+    "DASH",
+    "1.5倍速",
+    "1.2倍速"
+   ],
+   "tags": [
+    "判定与结算",
+    "Malody"
+   ],
+   "category": "判定与结算",
+   "summary": "Malody 的加速 mod 会改变判定等级的对应关系。",
+   "details": "资料表2-5 列出加速 mod 下「判定名」与「判定等级」的对应关系（H/G/F+/F/F-/E/D/C/B/A 等档位在不同倍速下对应哪个判定）。该表是并列多列结构，在文本抽取中被压平、列与列之间已无法可靠对应，因此**具体对应关系不予收录**，只记这件事本身：开了加速 mod 之后，同一谱面的判定松紧与常规打法不同。需要精确对应关系请查原资料第 66 页。",
+   "tips": [
+    "表格未能可靠抽取，具体对应关系未收录。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Malody结算评级",
+   "aliases": [
+    "M5",
+    "M4",
+    "M0",
+    "Malody M评级"
+   ],
+   "tags": [
+    "判定与结算",
+    "Malody"
+   ],
+   "category": "判定与结算",
+   "summary": "Malody的M5至M0六档结算评级，按acc条件划分。",
+   "details": "资料给出的条件：M5 acc＝100%；M4 acc≥95%，且没有MISS；M3 acc≥90%；M2 acc≥80%；M1 acc≥70%；M0 acc＜70%。",
+   "tips": [
+    "由于Malody断连不扣acc，所以即使没有全连也能达到M5评价",
+    "M1这类成绩在登录状态下也不会被上传"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Malody判定区间",
+   "aliases": [
+    "EASY(PC)/A",
+    "HARD(PC)/E",
+    "Malody A判",
+    "Malody E判"
+   ],
+   "tags": [
+    "判定与结算",
+    "Malody"
+   ],
+   "category": "判定与结算",
+   "summary": "表2-3中Malody的EASY(PC)/A至HARD(PC)/E各档判定区间（毫秒）。",
+   "details": "资料按 EASY(PC)/A、EASY+(PC)/B、NORMAL(PC)/C、NORMAL+(PC)/D、HARD(PC)/E 逐行列出判定区间。其中 A(EASY) 那一行的数值在文本抽取中串位（读出来是 5/29/21/26/150，前后不单调，明显有误），故不予收录；B/C/D/E 四档照抄资料：44/84/118/150、36/76/110/150、28/68/102/150、20/60/94/150。",
+   "tips": [
+    "A 档数值未收录（抽取串位）；数值与游戏内不一致时以游戏内为准。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Malody新老版本判定区别",
+   "aliases": [
+    "新版本判定",
+    "旧版本判定",
+    "ProJudge"
+   ],
+   "tags": [
+    "判定与结算",
+    "Malody"
+   ],
+   "category": "判定与结算",
+   "summary": "Malody V统一了各平台默认判定，并用ProJudge选项区分新旧PC判定。",
+   "details": "资料以问答形式说明：过去Malody的PC版和移动版使用两套不同的判定体系，PC的判定更难，移动版判定相对较宽松；但考虑到越来越多的移动设备支持外接键盘，部分PC也自带触屏，旧版本的设定显得多余。因此Malody V在所有平台上，判定默认与旧版本的移动版判定相同，玩家打出的成绩也与旧版本移动端处于同一个榜。而对喜欢挑战的玩家，所有平台均提供一个叫做“ProJudge”的选项，开启后判定与旧版PC版相同，打出成绩与旧版PC处于同一个榜。",
+   "tips": [
+    "同时，旧PC榜也将改名“Pro榜”",
+    "该段资料标注引自萌娘百科（——Malody公式娘）"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Malody移动端判定补正",
+   "aliases": [
+    "移动端判定补正",
+    "BEST判定补正"
+   ],
+   "tags": [
+    "判定与结算",
+    "Malody"
+   ],
+   "category": "判定与结算",
+   "summary": "Malody移动端因设备延迟偏大，判定难度有补正，比PC端更宽松。",
+   "details": "资料称Malody移动端因为设备延迟偏大，判定难度具有一定的补正，较PC端相比更为宽松；目前主流说法认为移动端的BEST判定具有4-6ms的补正，但移动端玩家体感上可能略微会超过或小于这个数值区间。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "osu score v2/sv2/v2判定",
+   "aliases": [
+    "sv2",
+    "scorev2",
+    "score v2"
+   ],
+   "tags": [
+    "判定与结算",
+    "osu!mania"
+   ],
+   "category": "判定与结算",
+   "summary": "osu现行的第二代计分与判定体系，对sv1判定做了更改。",
+   "details": "资料以图89（wiki对于sv2的解释）和图90（sv2对sv1判定的更改）说明该体系对sv1判定的更改，截图自萌娘百科；并给出表2-4《sv2判定区间》，列出各判定等级在面头判定/面尾偏快判定、米判定、面尾偏慢判定三类下的毫秒区间。",
+   "tips": [
+    "面头判定/面尾偏快判定指面尾松早了，导致少按了一段时间",
+    "面尾偏慢判定指面尾松慢了，导致多按了一段时间；也就是说，松慢了比松早了的判定宽松1.5倍",
+    "附录3存疑的一种sv2判定区间表"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "osu!mania结算评级",
+   "aliases": [
+    "SS",
+    "S",
+    "osu mania评级"
+   ],
+   "tags": [
+    "判定与结算",
+    "osu!mania"
+   ],
+   "category": "判定与结算",
+   "summary": "osu!mania的SS、S至F结算评级，按acc条件划分。",
+   "details": "资料给出的条件：SS acc=100%；S acc≥95%；A acc≥90%；B acc≥80%；C acc≥70%；D acc＜70%；F failed，指没有完成曲目，与acc无关。",
+   "tips": [
+    "acc=100%且启用阻碍视线类模组（HD、FL和FI mod）也列入该表的评级条件"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "osu!mania判定区间",
+   "aliases": [
+    "od0",
+    "od10",
+    "mania od判定"
+   ],
+   "tags": [
+    "判定与结算",
+    "osu!mania"
+   ],
+   "category": "判定与结算",
+   "summary": "表2-3中osu!mania按od0-od10列出的各档判定区间（毫秒）。",
+   "details": "资料按od0至od10逐行列出六档判定区间，例如od0为16.5/64.5/97.5/127.5/151.5/188.5，od1为16.5/61.5/94.5/124.5/148.5/185.5，od10为16.5/34.5/67.5/97.5/121.5/158.5；数值随od升高逐档收紧。",
+   "tips": [
+    "osu判定由于四舍五入导致所有实际判定区间比理论判定区间宽0.5ms，这里标注实际判定区间",
+    "数值抄自资料表格（v0.74），与游戏内不一致时以游戏内为准。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "pp系统",
+   "aliases": [
+    "pp",
+    "表现分",
+    "Performance points"
+   ],
+   "tags": [
+    "osu!mania",
+    "判定与结算",
+    "pp"
+   ],
+   "category": "判定与结算",
+   "summary": "osu 的表现分系统及其两次大版本更新。",
+   "details": "表现分(Performance points)·wiki|osu! 最下方历史。两次较大版本更新分别为：第一次更新，Shoegazer 为主要负责人，此次更新将每张图的 pp 几乎都削减了一半多；第二次更新是 2024/10/28 实装的，由 Hydria 为主要负责人，削弱了定级不合理的面图，如 Rebirth the end 10.01 星→9.32 星，Duplicity Shade 12.06 星→11.39 星。资料中本节（常见事件及人物）标注为未定稿。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Quaver结算评级",
+   "aliases": [
+    "X",
+    "S+",
+    "Quaver评级"
+   ],
+   "tags": [
+    "判定与结算",
+    "Quaver"
+   ],
+   "category": "判定与结算",
+   "summary": "Quaver的X、S+、S至F结算评级，按acc条件划分。",
+   "details": "资料给出的条件：X acc=100%；S+ acc≥99%；S acc≥95%；A acc≥90%；B acc≥80%；C acc≥70%；D acc＜70%；F failed。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Quaver判定区间",
+   "aliases": [
+    "Peaceful",
+    "Lenient",
+    "Chill",
+    "Standard",
+    "Strict",
+    "Tough",
+    "Extreme",
+    "Impossible"
+   ],
+   "tags": [
+    "判定与结算",
+    "Quaver"
+   ],
+   "category": "判定与结算",
+   "summary": "表2-3中Quaver的Peaceful至Impossible各档判定区间（毫秒）。",
+   "details": "资料按Peaceful、Lenient、Chill、Standard*、Strict、Tough、Extreme、Impossible逐行列出六档判定区间，例如Peaceful为23/57/101/141/169/218，Standard*为18/43/76/106/127/164，Impossible为8/20/35/49/59/76。",
+   "tips": [
+    "数值抄自资料表格（v0.74），与游戏内不一致时以游戏内为准。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "sv2判定区间",
+   "aliases": [
+    "表2-4",
+    "面头判定/面尾偏快判定",
+    "面尾偏慢判定"
+   ],
+   "tags": [
+    "判定与结算",
+    "osu!mania",
+    "LN"
+   ],
+   "category": "判定与结算",
+   "summary": "表2-4按判定等级列出面头判定/面尾偏快判定、米判定、面尾偏慢判定三类区间。",
+   "details": "该表以判定等级（101至0）逐行给出三组数值，例如判定等级10为13.9/34/67/97/121/158、20.8/55/110/145.5/181.5/237；判定等级0为22.4/64/97/127/151/188、33.6/95.5/145/190/226/281.5。资料另在附录3标注存疑的一种sv2判定区间表。",
+   "tips": [
+    "面头判定/面尾偏快判定指面尾松早了，导致少按了一段时间",
+    "面尾偏慢判定指面尾松慢了，导致多按了一段时间；也就是说，松慢了比松早了的判定宽松1.5倍",
+    "资料附录3 另标注了\"存疑的一种 sv2 判定区间表\"，且该表列结构复杂；此数值仅供理解结构，实际以游戏内为准。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "比赛/tournament/competition/锦标赛",
+   "aliases": [
+    "比赛",
+    "tournament",
+    "competition",
+    "锦标赛"
+   ],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "比赛"
+   ],
+   "category": "社区与工具",
+   "summary": "osu 各类比赛总览，资料标注为未定稿。",
+   "details": "资料标注为未定稿（wip），资料来源为 Tournaments·wiki|osu!。Osu!WorldCup/osu！世界杯是官方比赛，四个模式均有，分别为 OWC、TWC、CWC、MWC；GBCup/GBC 由 GB 举办；DigitWorldCup 四个模式均有，taiko 和 catch 模式近几年没有举办；TouhouProjectManiaCup 由 KoyoriChan 举办。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "单曲ACC计算器",
+   "aliases": [
+    "段位ACC计算器"
+   ],
+   "tags": [
+    "通用",
+    "工具",
+    "acc"
+   ],
+   "category": "社区与工具",
+   "summary": "段位 acc 与单曲 acc 互相转化的计算器。",
+   "details": "支持段位 acc 和单曲 acc 互相转化。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "多人游戏/multiplayer",
+   "aliases": [
+    "多人游戏",
+    "联机游戏",
+    "multiplayer",
+    "multi",
+    "mp"
+   ],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "联机"
+   ],
+   "category": "社区与工具",
+   "summary": "osu 的多人/联机模式，资料标注为未定稿。",
+   "details": "资料标注为未定稿（wip）。注意，mp 界面也可使用 ctrl+o 呼出设置，不需要退出再更改皮肤或键位。",
+   "tips": [
+    "mp 界面也可使用 ctrl+o 呼出设置，不需要退出再更改皮肤或键位。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "国密",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "房间密码"
+   ],
+   "category": "社区与工具",
+   "summary": "国人常用的联机房间密码。",
+   "details": "指房间密码为 114514 或 111144551144，是国人常用的密码；资料中提到的常见房间密码还有 123456、123、0d000721。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "基本礼仪",
+   "aliases": [
+    "mp基本礼仪"
+   ],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "礼仪"
+   ],
+   "category": "社区与工具",
+   "summary": "联机房间的常见礼仪。",
+   "details": "不炸房，不选标题禁止的图；如果是 rotate 房，应及时更换房主；不发表不当言论，但面对不当言论应及时举报；有外国人的情况下在野房尽量说英语。",
+   "tips": [
+    "不炸房，不选标题禁止的图。",
+    "有外国人的情况下在野房尽量说英语。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "鉴挂",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "反外挂"
+   ],
+   "category": "社区与工具",
+   "summary": "识别玩家是否开挂，资料标注为未定稿。",
+   "details": "资料标注为未定稿（wip），该节仅有标题、没有正文内容。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "卖弱",
+   "aliases": [],
+   "tags": [
+    "社区俚语",
+    "通用",
+    "osu!mania",
+    "Malody"
+   ],
+   "category": "社区与工具",
+   "summary": "资料前言提到的评论方式，例句为“我的一辈子”“我什么时候这么强”。",
+   "details": "前言希望读者看到标题为“[Malody]XXXXXX（staminaalpha+++）”的视频时能友善评论，如“大神啊”“无敌”，甚至卖弱也可以，如“我的一辈子”“我什么时候这么强……”。",
+   "tips": [
+    "资料明确反对“stamina 不是切，而是耐力”“stamina 表示切是错的”“带这么多+早就加到 beta 了，你懂段位吗”这类争论。",
+    "不提倡学习。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "私服",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "社区与工具"
+   ],
+   "category": "社区与工具",
+   "summary": "由玩家开设、数据与官服不互通的服务器。",
+   "details": "私服指由玩家开设的服务器，其数据与官服不互通，意味着任何数据都可由服主自行更改。相较于官服多的功能包括但不限于：免费私服 supporter，免费 direct，全服务器排行榜，指令免费查看官服排行榜，更多 ranked 图，段位认定，免费更改 ID，全 mod 上传成绩等；具体某服务器支持以上哪些功能请移步《osu 私服的游玩以及相较于官服的优势》（bilibili）。缺点也很明显：随时可能停服，运营团队人数少导致的外挂比例较高，玩家数量少，服务器相较于官服可能好不到哪里去，甚至更差。",
+   "tips": [
+    "随时可能停服，外挂比例较高，玩家数量少。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "特别鸣谢",
+   "aliases": [
+    "鸣谢名单",
+    "致谢名单"
+   ],
+   "tags": [
+    "社区与工具",
+    "osu!mania",
+    "通用"
+   ],
+   "category": "社区与工具",
+   "summary": "书末列出的鸣谢玩家名单。",
+   "details": "资料列出Leo_Black、sumsnow、_Asterism、mowu233、[GB]yobrevelc、SimYtNa、[Crz]xuyonghao，均附“玩家信息|osu!”链接。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "小蓝皮肤编辑器/XiaoLanSkinEditor",
+   "aliases": [
+    "小蓝皮肤编辑器",
+    "XiaoLanSkinEditor"
+   ],
+   "tags": [
+    "osu!mania",
+    "工具",
+    "皮肤"
+   ],
+   "category": "社区与工具",
+   "summary": "带 GUI 的 osu! 皮肤 ini 编辑器（目前只支持 mania）。",
+   "details": "osu! 皮肤 ini 带 GUI 编辑器，目前只支持 mania，便捷更改皮肤；资料还给出《osu!皮肤 ini 编辑器 v1.2 更新！调整&缝皮肤更方便！》（bilibili）。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "野房",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "联机"
+   ],
+   "category": "社区与工具",
+   "summary": "房间都是不认识的人的房间。",
+   "details": "房间都是不认识的人的房间，意味着可能全是外国人。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "音游判定渲染器/ManiaRender/ManiaReplayMaster",
+   "aliases": [
+    "音游判定渲染器",
+    "ManiaRender",
+    "ManiaReplayMaster"
+   ],
+   "tags": [
+    "osu!mania",
+    "Malody",
+    "工具",
+    "回放"
+   ],
+   "category": "社区与工具",
+   "summary": "把谱面和回放做成可视化回放的工具。",
+   "details": "有网页界面，也有软件可供下载。用途是导入 osu!mania、taiko 或 Malody 谱面和回放文件制作可视化回放；详情可见《如何科学地观看 osu!mania 回放：判定可视化工具演示》（bilibili）。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "炸房",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "联机"
+   ],
+   "category": "社区与工具",
+   "summary": "选太难以至于几乎无人能打的图。",
+   "details": "选太难以至于几乎无人能打的图。资料提到很多群友都遇见过 5 星房选 7 星图，甚至在 4k 房选 7k 图或 std 图。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "组织/战队/team",
+   "aliases": [
+    "组织",
+    "战队",
+    "team"
+   ],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "战队"
+   ],
+   "category": "社区与工具",
+   "summary": "osu 的玩家组织/战队形式。",
+   "details": "Team 是一个相对松散的组织形式；osu 在 2025 年 2 月之前的战队为自发的组织，在此之后 osu 更新官方战队系统；与竞技类游戏的战队不同，osu 的战队与比赛阵容无关，osu 官方比赛阵容只和国籍有关。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Abcdullah",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "玩家"
+   ],
+   "category": "社区与工具",
+   "summary": "2014 mwc 冠军，老年音游玩家。",
+   "details": "2014 mwc 冠军，老年音游玩家，至今仍活跃在 DJMAX。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "alphaosu",
+   "aliases": [
+    "AlphaOsu!"
+   ],
+   "tags": [
+    "osu!mania",
+    "网站",
+    "pp"
+   ],
+   "category": "社区与工具",
+   "summary": "根据已有 bp 推荐新 pp 图的网站。",
+   "details": "根据已有的 bp 推荐新的 pp 图，在藏 pp、没打满 bp 或严重偏科的情况下推荐谱面可能不准确。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "ATTang/droptable/droptablue/無名の王/裴永进/裴哥",
+   "aliases": [
+    "ATTang",
+    "droptable",
+    "droptablue",
+    "無名の王",
+    "[Crz]Player",
+    "裴永进",
+    "裴哥"
+   ],
+   "tags": [
+    "Etterna",
+    "社区与工具",
+    "玩家"
+   ],
+   "category": "社区与工具",
+   "summary": "StepMania 玩家，DeltaDan 首杀。",
+   "details": "StepMania 玩家，DeltaDan 首杀，曾被认为是最有可能 Clear EpsilonDan 的人其一，擅长除乱键以外的常规键型，尤其是叠键和切换，至今仍活跃在 ETTerna。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "butanic",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "玩家"
+   ],
+   "category": "社区与工具",
+   "summary": "最早通过 OVERJOY 段位认定的人之一。",
+   "details": "最早通过 OVERJOY 段位认定的人之一，老年音游玩家。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Crz/Chinacrazy/吃人族",
+   "aliases": [
+    "Crz",
+    "Chinacrazy",
+    "吃人族"
+   ],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "战队"
+   ],
+   "category": "社区与工具",
+   "summary": "需要按考核条件通过考核才能加入的组织。",
+   "details": "按照考核条件通过考核即可加入，考核难度较高。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Etterna",
+   "aliases": [],
+   "tags": [
+    "社区与工具",
+    "Etterna",
+    "通用"
+   ],
+   "category": "社区与工具",
+   "summary": "StepMania分裂出的分支音游中玩家群体最大的一个，2016/12/4诞生。",
+   "details": "资料称它于2016年12月4日诞生，并注明详情可见视频《音游界的扛把子游戏——细说Etterna的历史，发展与展望》（bilibili）。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "FFR",
+   "aliases": [
+    "FFR论坛"
+   ],
+   "tags": [
+    "社区与工具",
+    "Etterna",
+    "StepMania"
+   ],
+   "category": "社区与工具",
+   "summary": "许多知名谱师曾经入坑的音游论坛。",
+   "details": "资料称FFR是现在许多熟知谱师曾经入坑的论坛，举例IcyWorld/icontrolyourworld、shoegazer/Wiosna、Fullerene/rCaliverGX、Wh1teh、Staiain等，并给出图2-149“IcyWorld在FFR的主页”。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "GB",
+   "aliases": [
+    "GBCup",
+    "GBC"
+   ],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "战队"
+   ],
+   "category": "社区与工具",
+   "summary": "举办 GBCup 比赛的玩家组织。",
+   "details": "资料给出《GB 组织成立宣言》（bilibili）；由 GB 举办的比赛为 GBCup/GBC。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "hiosu/你好osu导航页",
+   "aliases": [
+    "hiosu",
+    "你好osu",
+    "你好osu导航页"
+   ],
+   "tags": [
+    "osu!mania",
+    "网站",
+    "导航"
+   ],
+   "category": "社区与工具",
+   "summary": "集成下载加速、曲包与论坛入口的 osu! 导航页。",
+   "details": "你好osu导航页包含你好osu论坛、LLin 下载页、Rankd 曲包一键下载、免安装版 osu stable、小夜镜像站；其中你好osu论坛包含 Q 群大全、网站导航、新手教程等。同页还提及一个集成了 Sayobot 下载加速、播放器和 Gosu 支持的 lazer 插件；Gosu 和 Tosu 类似，而 Tosu 是 Gosu 的上位替代。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "IcyWorld/icontrolyourworld",
+   "aliases": [
+    "IcyWorld",
+    "icontrolyourworld"
+   ],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "玩家"
+   ],
+   "category": "社区与工具",
+   "summary": "FFR 玩家，改变了切换键型的著名谱师。",
+   "details": "FlashFlashRevolution/FFR 玩家，最著名的谱师之一，改变了切换这个键型，后来的切换谱师或多或少都受到他的影响，至今仍活跃在 osu，联机房间内可能随机刷新 IcyWorld。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Jakads/假卡",
+   "aliases": [
+    "Jakads",
+    "假卡",
+    "DeletedUser_259972"
+   ],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "玩家"
+   ],
+   "category": "社区与工具",
+   "summary": "mwc 多届冠军，RegularStelliumDan 首杀。",
+   "details": "Mwc 2016 2017 4k，2017 2018 2019 7k 冠军，RegularStelliumDan 首杀，因不会 vibro 早年已退坑 om4k，退坑前长期世界第一，擅长叠键；发表暂停圣经之一：Pause is not cheating. 现在仍活跃在其他音游社区。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "jhlee0133",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "玩家"
+   ],
+   "category": "社区与工具",
+   "summary": "2014 mwc 冠军，最跨时代的 mania 玩家。",
+   "details": "2014 mwc 冠军，最跨时代的 mania 玩家，曾一晚上刷了 11311pp，从 #76 12308pp 刷到 #22 3719pp，随后不久便刷到了世界第一，擅长大乱散点，传闻面条略低于常规；第一次回归打出 4k DeltaDan 首 99acc，不久便再次退坑，油管已隐藏所有视频，沉迷于钢琴。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Kanemining",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "玩家"
+   ],
+   "category": "社区与工具",
+   "summary": "Sample zeta 首杀，短时间当过 4k pp#1。",
+   "details": "Sample zeta 首杀，短时间当过 4k pp#1，沉迷于钢琴。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "KMCounter",
+   "aliases": [
+    "KMC",
+    "KMCounter v3.7"
+   ],
+   "tags": [
+    "通用",
+    "辅助软件",
+    "统计"
+   ],
+   "category": "社区与工具",
+   "summary": "用热力图显示鼠标与键盘使用情况的工具。",
+   "details": "KMCounter v3.7，使用热力图显示鼠标与键盘使用情况的工具。除图中展示的以外还支持显示单个键按压次数，支持较高程度的自定义，如数据保存时间、布局定制等。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "MillionMaster超高校/MM超高校",
+   "aliases": [
+    "MillionMaster超高校",
+    "MM超高校",
+    "MillionMaster"
+   ],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "战队"
+   ],
+   "category": "社区与工具",
+   "summary": "多端战队，考核方法非常多。",
+   "details": "按照考核条件通过考核即可加入，考核难度较高；多端战队，考核方法非常多。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Mug-Diffusion",
+   "aliases": [
+    "MuGDiffusion"
+   ],
+   "tags": [
+    "osu!mania",
+    "辅助软件",
+    "AI写谱"
+   ],
+   "category": "社区与工具",
+   "summary": "用 AI 写谱的工具。",
+   "details": "AI 写谱。资料给出 GitHub 仓库 Keytoyze/Mug-Diffusion（README_CN.md），详情可见《【音游界的 GPT 时刻？】MuGDiffusion 首发：用 AI 创作一张 4K 音游谱》（bilibili）。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Myuka/myucchii/米优奇",
+   "aliases": [
+    "Myuka",
+    "myucchii",
+    "米优奇",
+    "sointu",
+    "arrese"
+   ],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "玩家"
+   ],
+   "category": "社区与工具",
+   "summary": "常年代表智利参加 mwc，epsilon dan 首杀。",
+   "details": "常年代表智利参加 mwc，致力于发展完善智利 4k 社区；saragi 时期前常年 4k 世界第一；拿下 epsilon dan 首杀；以高难度下的高彩率闻名。",
+   "tips": [
+    "资料注：epsilon dan 首杀有争议，可自行查阅。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "oii",
+   "aliases": [
+    "ii",
+    "improvement indicator"
+   ],
+   "tags": [
+    "osu!mania",
+    "插件",
+    "数据"
+   ],
+   "category": "社区与工具",
+   "summary": "在玩家页面显示 ii（飞升速度）的浏览器扩展。",
+   "details": "资料给出 GitHub 仓库 ferryhmm/oii：一个浏览器扩展，把 ii（improvement indicator，一个将你的 pp 与平均玩家和你的游戏时间进行比较的指标）加到 osu! 网站的用户资料上，在玩家页面的游戏时间旁边显示 ii。人话就是飞升速度，数值偏高说明这位玩家 1.顿悟了 2.开挂了 3.之前藏了，突然开刷 4.有其他音游基础。需要科学上网，下载压缩包后用支持插件的浏览器加载解压缩的扩展。",
+   "tips": [
+    "需要科学上网，下载压缩包后用支持插件的浏览器加载解压缩的扩展。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "osu-kps",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "辅助软件",
+    "kps"
+   ],
+   "category": "社区与工具",
+   "summary": "小窗实时显示 KPS 的工具，可读回放。",
+   "details": "资料给出 Releases·UnnamedOrange/osu-kps。小窗实时显示 kps/keys per second/每秒按键次数，支持按键自定义，读回放。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "osu-trainer",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "辅助软件",
+    "练习"
+   ],
+   "category": "社区与工具",
+   "summary": "修改谱面倍速与 od 等参数的练习工具。",
+   "details": "资料给出 GitHub 仓库 FunOrange/osu-trainer: Beatmap difficulty controls for osu!。可修改谱面倍速，支持两位小数或直接修改 bpm；也可修改 od 等。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "osu!streamspeedtest",
+   "aliases": [
+    "osu!streamspeedtest-oskinu"
+   ],
+   "tags": [
+    "osu!mania",
+    "网站",
+    "手速"
+   ],
+   "category": "社区与工具",
+   "summary": "切指手速测试网站。",
+   "details": "切指手速测试网站，同时按会导致 UR 特别高。",
+   "tips": [
+    "同时按会导致 UR 特别高。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "osu!tourney/比赛管理指令",
+   "aliases": [
+    "osu!tourney",
+    "比赛管理指令",
+    "!mphost",
+    "!mpstart"
+   ],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "指令"
+   ],
+   "category": "社区与工具",
+   "summary": "联机房间中可用的比赛管理指令。",
+   "details": "资料来源为 osu!tourney/比赛管理指令·wiki|osu!。!mphost 玩家名称：将房主转移到指定玩家。!mpstart(数字)：在指定的时间（秒）后开始比赛，如果没有提供时间，则立即开始比赛；在 stb 可用于单人开启联机游玩。",
+   "tips": [
+    "!mpstart 在 stb 可用于单人开启联机游玩。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "OSUDownloadBooster",
+   "aliases": [
+    "OSU!DownloadBooster",
+    "OSU!DownloadBooster-雨凝"
+   ],
+   "tags": [
+    "osu!mania",
+    "插件",
+    "下载"
+   ],
+   "category": "社区与工具",
+   "summary": "加速 osu 谱面下载的浏览器插件。",
+   "details": "支持雨凝和小夜镜像加速，并可以直接显示在 osu 官网。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "osuwiki/osu维基百科",
+   "aliases": [
+    "osuwiki",
+    "osu维基百科",
+    "osu! wiki"
+   ],
+   "tags": [
+    "osu!mania",
+    "网站",
+    "资料"
+   ],
+   "category": "社区与工具",
+   "summary": "osu! 的维基百科，可查游戏机制。",
+   "details": "可以查一些游戏机制，比如总 pp 计算方式和谱面状态，但和社区脱离严重，基本无法查到本文的内容，wiki 有的内容本文也会尽量避免讲解以免造成冗余。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "ppcalculator",
+   "aliases": [
+    "ppcalculator Chrome扩展"
+   ],
+   "tags": [
+    "osu!mania",
+    "插件",
+    "pp"
+   ],
+   "category": "社区与工具",
+   "summary": "在官网谱面界面显示该谱面 pp 数的扩展。",
+   "details": "资料标注为 ppcalculator|Chrome 扩展-Crx 搜搜；官网谱面界面提供一个显示该谱面 pp 数的小窗。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "PPRankings(rework)",
+   "aliases": [
+    "PPRankings",
+    "Scorecalculator-SunnyRework"
+   ],
+   "tags": [
+    "osu!mania",
+    "网站",
+    "pp"
+   ],
+   "category": "社区与工具",
+   "summary": "发布 osu 各模式 pp rework 的网站。",
+   "details": "Osu 所有 rework 均在此网站发布，点击左上角可查看其他模式的 rework；还可以查看自己在 rework 之后的 bp 以及总榜部分 bp。资料中该站的 Scorecalculator-SunnyRework 标注 WIP，资料标注为未定稿。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "rmstZ",
+   "aliases": [
+    "lrfasd"
+   ],
+   "tags": [
+    "通用",
+    "网站",
+    "谱面转换"
+   ],
+   "category": "社区与工具",
+   "summary": "可互相转换各种音游谱面的在线工具。",
+   "details": "网址为 lrfasd.github.io/rmstZ/rmstZ_20221022.html。可互相转换各种音游的谱面，支持格式详情可见 rmstZ|lrfasd。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Rotate/轮流",
+   "aliases": [
+    "Rotate",
+    "轮流"
+   ],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "联机"
+   ],
+   "category": "社区与工具",
+   "summary": "房内从上到下轮流选图的规则。",
+   "details": "从上到下轮流选图，在 stb 意味着轮流当房主；lzr 则可设置强制轮流选图。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "sayobot/小夜镜像站",
+   "aliases": [
+    "sayobot",
+    "小夜镜像站",
+    "Sayobot osu!镜像站",
+    "Beatmap mirror"
+   ],
+   "tags": [
+    "osu!mania",
+    "网站",
+    "下载"
+   ],
+   "category": "社区与工具",
+   "summary": "用于加速下载 osu! 谱面的国内镜像站。",
+   "details": "Sayobot osu!镜像站/Beatmap mirror。国内在官网下载谱面速度较慢，把网址复制到镜像站下载更快。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Shoegazer/鞋嘎子/鞋",
+   "aliases": [
+    "Shoegazer",
+    "鞋嘎子",
+    "鞋"
+   ],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "玩家"
+   ],
+   "category": "社区与工具",
+   "summary": "osu pp 系统 2016 年更新的主要负责人。",
+   "details": "Osu pp 系统 2016 年更新的主要负责人；留下大量优质谱面，包含大量赛事谱面；制作了 4k 首个成体系的段位。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "SillyFangirl",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "玩家"
+   ],
+   "category": "社区与工具",
+   "summary": "2020 和 2021 mwc 4k 冠军。",
+   "details": "2020 和 2021 mwc 4k 冠军，曾被认为是最有可能 Clear EpsilonDan 的人其二，擅长大乱和糊，准度也非常高；至今仍活跃在 FNF。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "StepMania",
+   "aliases": [
+    "SM"
+   ],
+   "tags": [
+    "社区与工具",
+    "通用",
+    "Etterna"
+   ],
+   "category": "社区与工具",
+   "summary": "2001年为在桌面端模拟街机音游DDR而开发的老牌音游，已停止更新。",
+   "details": "资料称其于2016/8/14完成了最后一次更新v5.0.12，此后分裂出无数分支音游，其中玩家群体最大的音游是Etterna。小节标题为“stepmania的陨落”；DDR模拟器历史相关详情指向视频《DDR与模拟器历史》。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Tosu",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "辅助软件",
+    "计数器"
+   ],
+   "category": "社区与工具",
+   "summary": "游戏内实时计数器叠加层工具。",
+   "details": "资料给出 Releases·tosuapp/tosu。支持各种 tosu 插件，包括但不限于游戏内实时显示 pp 数、各判定打击数量；详情可见《Osu!游戏内实时计数器叠加层-tosu v4（现已支持 Lazer 并可同时运行 Stable）》。（bilibili）",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Web!Mania",
+   "aliases": [
+    "WebMania"
+   ],
+   "tags": [
+    "通用",
+    "网站",
+    "在线音游"
+   ],
+   "category": "社区与工具",
+   "summary": "可导入 osu 等谱面的在线音游。",
+   "details": "可导入 osu 等谱面的在线音游。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "wonder5193",
+   "aliases": [],
+   "tags": [
+    "osu!mania",
+    "社区与工具",
+    "玩家"
+   ],
+   "category": "社区与工具",
+   "summary": "2018 mwc 4k 冠军，2019 4k 7k 双冠。",
+   "details": "2018 mwc 4k 冠军，2019 mwc 4k 7k 双冠，是继 ATTang 和 Sillyfangirl 之后最有可能 Clear EpsilonDan 的人；时不时回坑，但已经好几年没消息了。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "薄膜键盘",
+   "aliases": [],
+   "tags": [
+    "通用",
+    "外设",
+    "键盘"
+   ],
+   "category": "外设",
+   "summary": "靠导电触点接触触发的键盘，寿命较短。",
+   "details": "带有导电触点的上下两层电路被中间带有开孔的隔离层分开，电路处于断开状态；按下键帽时力量传递到底部的硅胶或橡胶帽使其变形，推动上电路层穿过隔离层的开孔与下电路层接触形成通路，键盘控制器检测到这个信号后就完成了一次按键输入。手感比较随机；整体比较轻；使用寿命在 100 万-300 万之间，较短；薄膜容易因各种原因老化，用力敲击会加速此过程，手感逐渐变差。结构上分为火山口结构（键帽的键柱直接套在橡胶帽上，键程较长但按键可能不够稳定、容易晃动）和剪刀脚结构/X 结构（在键帽和橡胶帽之间增加了一个类似剪刀的支架，按键受力更均匀、稳定性好、键程较短，常见于笔记本电脑和超薄键盘）。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "磁轴键盘",
+   "aliases": [
+    "磁轴",
+    "RT",
+    "rapid trigger",
+    "快速触发"
+   ],
+   "tags": [
+    "通用",
+    "外设",
+    "键盘"
+   ],
+   "category": "外设",
+   "summary": "基于霍尔效应触发的键盘，音游最常用。",
+   "details": "基于霍尔效应，通过按键下压时磁铁与传感器距离改变引起的磁场变化来触发信号；无接触延迟，触发速度比机械轴快；没有物理磨损，寿命可达 1 亿次以上；可通过驱动软件精细设定触发点。音游最常用的功能是 RT/rapid trigger/快速触发：基于磁轴可自定义触发电位的特性，松开极短距离即可重置按键；磁轴也是大多数顶尖音游玩家的键盘。在 mania 几乎用不上的功能包括但不限于 DKS/动态键程、MT/双效点击、SOCD/瞬时释放、TK/切换开关、ANAIN/模拟输入；其中 DKS/动态键程可极大提升 std 模式水平，存在争议。",
+   "tips": [
+    "在 mania 几乎用不上的功能：DKS/动态键程、MT/双效点击、SOCD/瞬时释放、TK/切换开关、ANAIN/模拟输入。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "光轴键盘",
+   "aliases": [
+    "光轴"
+   ],
+   "tags": [
+    "通用",
+    "外设",
+    "键盘"
+   ],
+   "category": "外设",
+   "summary": "利用红外光线通断进行光学感应的键盘。",
+   "details": "利用红外光线通断进行光学感应。寿命可达 1 亿次以上；响应快；噪音较小；环境抗性高。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "机械键盘",
+   "aliases": [
+    "机械轴"
+   ],
+   "tags": [
+    "通用",
+    "外设",
+    "键盘"
+   ],
+   "category": "外设",
+   "summary": "每个按键使用独立机械开关（轴）的键盘。",
+   "details": "每个按键都使用独立机械开关（称为轴）进行触发的键盘；市面上除某些特殊轴体外均可视为几种常见轴体的各种子类型。青轴：具有强烈的段落感和清脆的按键声，但声音较大，可能影响他人。茶轴：有轻微的段落感，声音比青轴安静。红轴：手感直上直下，没有段落感，触发力度轻，既能兼顾长时间打字，又能满足游戏快速反应。黑轴：手感直上直下，但按压需要的力度更大，回弹更有力，较重的压力可能让长时间打字感到疲劳。快银轴：极短触发键程和快速响应为主要特点的轴体，容易误触。使用寿命在 5000 万次左右。商品介绍写类茶轴、类红轴即类似于茶轴或红轴的轴体。",
+   "tips": [
+    "商品介绍写类茶轴、类红轴即类似于茶轴或红轴的轴体。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "静电容键盘",
+   "aliases": [
+    "分区压力"
+   ],
+   "tags": [
+    "通用",
+    "外设",
+    "键盘"
+   ],
+   "category": "外设",
+   "summary": "靠电容值变化触发的无触点键盘。",
+   "details": "通过按压导致轴体内电容值变化实现触发，无物理触点接触。由于触发依赖于电容值变化量而非固定的触点通断，一些键盘支持通过软件或快捷键调整触发点；一些传统静电容键盘采用分区压力设计，即不同区域的按键采用不同的触发压力。寿命可达 1 亿次以上；触发稳定；噪音较小；部分产品支持可调触发键程。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "模拟光轴键盘",
+   "aliases": [
+    "模拟光轴"
+   ],
+   "tags": [
+    "通用",
+    "外设",
+    "键盘"
+   ],
+   "category": "外设",
+   "summary": "通过测量光通量来检测按压深度的键盘。",
+   "details": "通过测量穿过轴体的光通量来检测按压深度。可调节触发与快速触发；响应快；寿命长。资料中该部分图片截取自《【硬核科普】一个视频了解磁轴，静电容，机械轴，光轴键盘的原理》（bilibili）。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "外设",
+   "aliases": [],
+   "tags": [
+    "通用",
+    "外设"
+   ],
+   "category": "外设",
+   "summary": "显示器、帧数限制与键盘配件互通性等常识。",
+   "details": "显示器够用就行，有条件可追求高刷；游戏卡顿可以试试更改帧数限制解决（osu 设置-画面-渲染器-帧数限制）。不同类型键盘的 PCB/Printed Circuit Board/印制电路板和轴体不能互通，更换配件时注意自己使用的键盘类型；这些键盘都有不同的轴体、品牌等，可自行查找适合自己的键盘。",
+   "tips": [
+    "游戏卡顿可以试试更改帧数限制解决。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "读/读谱/read",
+   "aliases": [
+    "读",
+    "读谱",
+    "read"
+   ],
+   "tags": [
+    "通用",
+    "游玩技巧",
+    "读谱"
+   ],
+   "category": "游玩技巧",
+   "summary": "对谱面图形拆分的技巧。",
+   "details": "对谱面图形拆分的技巧，与“看得清”不同，读谱要求能反应的过来并能够接住 note。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "发力",
+   "aliases": [],
+   "tags": [
+    "通用",
+    "游玩技巧",
+    "姿势"
+   ],
+   "category": "游玩技巧",
+   "summary": "与键盘摆放、手臂姿势等相关的用力方式。",
+   "details": "发力和键盘摆放、手臂姿势、桌子高度、手指弯曲程度有关，找到适合自己并且不易受伤的即可；一般双手靠的比较近适合打爆发，但具体距离和每个人肩宽有关。",
+   "tips": [
+    "发力和键盘摆放、手臂姿势、桌子高度、手指弯曲程度有关，找到适合自己并且不易受伤的即可。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "糊/manip",
+   "aliases": [
+    "糊",
+    "manip"
+   ],
+   "tags": [
+    "通用",
+    "游玩技巧",
+    "手法"
+   ],
+   "category": "游玩技巧",
+   "summary": "不按谱面排列方式游玩，准度低但有时省耐力。",
+   "details": "不按照谱面排列的方式游玩谱面，这样通常会得到较低的准度，但有时能省下耐力。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "热手/warmup",
+   "aliases": [
+    "热手",
+    "warmup"
+   ],
+   "tags": [
+    "通用",
+    "游玩技巧"
+   ],
+   "category": "游玩技巧",
+   "summary": "间隔一段时间没游玩后需要的预热。",
+   "details": "音游玩家间隔一段时间没有游玩需要一段时间预热，这段时间叫作热手。资料中图为 kanemining 最经典的 warmup。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "悬腕/wrist down/抬腕",
+   "aliases": [
+    "悬腕",
+    "wrist down",
+    "抬腕"
+   ],
+   "tags": [
+    "通用",
+    "游玩技巧",
+    "姿势"
+   ],
+   "category": "游玩技巧",
+   "summary": "手腕悬浮在上空的姿势，对耐力要求较高。",
+   "details": "手腕悬浮在上空，对耐力要求较高。与压腕对比：学习成本高、发力累、切指排列不利、叠键排列有利、锚/纵排列简单、手腕受伤风险较低；部分玩家打不同键型采用不同姿势。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "压腕/wrist up",
+   "aliases": [
+    "压腕",
+    "wrist up"
+   ],
+   "tags": [
+    "通用",
+    "游玩技巧",
+    "姿势"
+   ],
+   "category": "游玩技巧",
+   "summary": "由打字姿势自然形成的姿势，大多数人使用。",
+   "details": "由打字姿势自然形成的姿势，也是大多数人的姿势。与悬腕对比：学习成本低、发力自然、切指排列有利、叠键排列不利、锚/纵排列困难、手腕容易受伤；部分玩家打不同键型采用不同姿势。",
+   "tips": [
+    "手腕受伤风险较高。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "越级",
+   "aliases": [],
+   "tags": [
+    "通用",
+    "游玩技巧",
+    "练习"
+   ],
+   "category": "游玩技巧",
+   "summary": "游玩超过自己能力的谱面。",
+   "details": "游玩超过自己能力的谱面。对于每个人都有不同的定义，如 Etienne 的 96% 准则；笔者认为高潮段和水段正常分布的情况下，OD9 S/PCC95/standard95 评级以上就达到了一定的练习效果；osu 对于准确度的计算合理度在这方面不如 ett，所以读者可自行定制原则。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Ctrl++与Ctrl+-",
+   "aliases": [
+    "Ctrl++",
+    "Ctrl+-",
+    "下落速度快捷键"
+   ],
+   "tags": [
+    "游玩技巧",
+    "osu!mania",
+    "社区与工具"
+   ],
+   "category": "游玩技巧",
+   "summary": "osu快捷键：增加或减少下落速度。",
+   "details": "Ctrl++增加下落速度，Ctrl+-减少下落速度；适用范围：游玩选歌和编辑选歌界面。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Ctrl+Alt+Shift+S",
+   "aliases": [
+    "重新加载皮肤"
+   ],
+   "tags": [
+    "游玩技巧",
+    "osu!mania",
+    "社区与工具"
+   ],
+   "category": "游玩技巧",
+   "summary": "osu快捷键：重新加载皮肤（skin）。",
+   "details": "适用范围：除游玩以外的界面。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Ctrl+O",
+   "aliases": [
+    "弹出设置"
+   ],
+   "tags": [
+    "游玩技巧",
+    "osu!mania",
+    "社区与工具"
+   ],
+   "category": "游玩技巧",
+   "summary": "osu快捷键：弹出设置（option）。",
+   "details": "适用范围：除游玩、编辑以外的界面。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Malody快捷键",
+   "aliases": [],
+   "tags": [
+    "Malody",
+    "快捷键",
+    "游玩技巧"
+   ],
+   "category": "游玩技巧",
+   "summary": "Malody 的暂停、跳过前奏等操作按键。",
+   "details": "暂停界面按 1、2、3 分别对应重开、继续、退出。对于 PE 端，歌曲如果有前奏的话，点屏幕中间的倒计时可以跳过；对于 PC 端，Enter 键可以跳过。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "osu快捷键",
+   "aliases": [
+    "快捷键",
+    "osu客户端快捷键"
+   ],
+   "tags": [
+    "游玩技巧",
+    "osu!mania",
+    "社区与工具"
+   ],
+   "category": "游玩技巧",
+   "summary": "资料汇总的osu客户端常用快捷键及其适用范围。",
+   "details": "资料列出：Ctrl+O：弹出设置（option）；Ctrl+Alt+Shift+S：重新加载皮肤（skin）；Shift+Tab：隐藏/显示游戏时界面；Ctrl++：增加下落速度；Ctrl+-：减少下落速度。各键适用范围见对应各条。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Shift+Tab",
+   "aliases": [
+    "隐藏游戏时界面"
+   ],
+   "tags": [
+    "游玩技巧",
+    "osu!mania",
+    "社区与工具"
+   ],
+   "category": "游玩技巧",
+   "summary": "osu快捷键：隐藏/显示游戏时界面。",
+   "details": "隐藏/显示的内容为分数、acc、连击数、游戏进度、开启的mod；适用范围：游玩界面。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "段位本体与单曲的区别",
+   "aliases": [
+    "段位本体",
+    "单曲合集",
+    "段位本体和单曲"
+   ],
+   "tags": [
+    "资源",
+    "段位",
+    "osu!mania"
+   ],
+   "category": "资源",
+   "summary": "下载段位时要区分整段合集（本体）与按曲拆分的单曲合集。",
+   "details": "资料在附录1多次提醒“注意段位本体和单曲的区别”（LN Dan Courses v2、Malody CN Dan Course等条目），并另有一句“此段位均为单曲”紧跟在附录1的LN段位下载说明之后；REFORM的官方版则被注明含reform所有单曲和所有版本。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "段位下载方式",
+   "aliases": [
+    "附录1",
+    "段位下载",
+    "段位下载方式附录"
+   ],
+   "tags": [
+    "资源",
+    "段位",
+    "osu!mania"
+   ],
+   "category": "资源",
+   "summary": "资料附录1汇总的各段位体系下载与搜索方式。",
+   "details": "资料说明段位多可通过osu官网搜索关键词下载，Malody的段位合集则在商店搜索sid下载；并反复提醒要注意“段位本体和单曲的区别”，例如LN Dan Courses v2需搜索4kLNDan、Malody CN Dan Course需搜索malodydanv2或v3、Extradan9 v1.75目前仅有本体。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "段位专项键型练习谱包",
+   "aliases": [
+    "XXXdanXXXpractice",
+    "XXXdanpractice",
+    "段位专项键型包",
+    "段位混合键型包"
+   ],
+   "tags": [
+    "Etterna",
+    "资源",
+    "练习"
+   ],
+   "category": "资源",
+   "summary": "用段位加键型关键词搜索的段位练习谱包。",
+   "details": "段位、专项键型的命名形式为 XXXdanXXXpractice，如 alphadanstaminapractice；段位、混合键型的形式为 XXXdanpractice，如 gammapracticepack，但这类方法搜索的图包内单曲键型需自行区分。",
+   "tips": [
+    "用 XXXdanpractice 搜到的图包，单曲键型需自行区分。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "非_underjoy制作的面段",
+   "aliases": [
+    "4K LN Dan Courses v3-ExtraLevel-",
+    "4K LN Dan Courses-EXTRA-",
+    "4K LN Dan Courses-FINAL"
+   ],
+   "tags": [
+    "资源",
+    "段位",
+    "osu!mania",
+    "LN"
+   ],
+   "category": "资源",
+   "summary": "附录1中列为“非_underjoy制作的面段”的组合条目。",
+   "details": "资料列出Various Artists - 4K LN Dan Courses v3-ExtraLevel-、Various Artist - 4K LN Dan Courses-EXTRA-（原文出现两次）、Various Artists - 4K LN Dan Courses-FINAL。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "练习谱/practice beatmap",
+   "aliases": [
+    "练习谱",
+    "practice beatmap",
+    "speedjack"
+   ],
+   "tags": [
+    "Etterna",
+    "osu!mania",
+    "练习",
+    "资源"
+   ],
+   "category": "资源",
+   "summary": "用于针对性练习的谱面，按键型挑选。",
+   "details": "低密度的切、乱适合练切速，jackytech 和低密度的叠适合练叠速；低密度叠关键词常为 speedjack。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "米图谱师",
+   "aliases": [
+    "mapper",
+    "谱师",
+    "麻婆"
+   ],
+   "tags": [
+    "Etterna",
+    "osu!mania",
+    "谱师",
+    "资源"
+   ],
+   "category": "资源",
+   "summary": "4K 主流（米图）谱师及其谱面风格。",
+   "details": "按平均谱面难度降序排列：Hinako 常规键型包、有大量赛图；Shoegazer 主要为技巧和切换倍速包，冲击段位技巧图可练习他的图，有大量赛图；Leo137 主要为切换倍速包、2121 排列发明人；Xingyue 高密度双押切和高密度大叠倍速包；Fullerene 主要为切换倍速包；Lynessa 常规键型均有，切换和叠键图较多、密度较高；IcyWorld 高密度切换倍速包、夹大量对拍或乱键，有小众技巧谱，生涯后期（2024-）的图比较有自己的特色；Rachel 高密度叠键、满叠、高密度切换、乱键包，也有单曲倍速包；Ena 主要为高密度叠键倍速包、有少量超高密度切换倍速包；Jhown 高密度叠键倍速包；MintApril 常规键型均有；Teradora 常规键型均有、有倍速包；Doshowz osu 官网传的谱面较少，请移步 etterna；underjoy 常规均有，有切换、叠键倍速包；Beajak 超高密度切换倍速包、切换段位和 bpm 练习谱包，制作的切换休息段较少、倍速给的很足，在难度名标记了 handstream 便于查找；Glorionoly 低密度切换、排列比较有自己的特色；Oceanus 高密度切换倍速包、bpm 练习谱包；Evening 技巧和切换倍速包、大部分切换夹乱键；flashnias 叠键 bpm 练习谱包；ATTang 高密度乱键、锚比较多而且难度较高；frolica 常规键型和 vibro 均有、技巧图含大量子弹、有倍速包；Ska 技巧和乱键倍速包、有大量赛图；lemonguy 技巧、切换和叠键，切换密度较低，包括大量赛图；Anto vibro（200bpm 以上）、高 bpm 满叠（190bpm 左右）包。",
+   "tips": [
+    "为避免混淆，本节不使用轻切、大叠等词汇。",
+    "善用浏览器的 ctrl+f 搜索功能。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "面图谱师",
+   "aliases": [],
+   "tags": [
+    "Etterna",
+    "osu!mania",
+    "谱师",
+    "资源"
+   ],
+   "category": "资源",
+   "summary": "群友推荐的 4K 面图谱师名单。",
+   "details": "笔者游玩面图较少，这是群友推荐的一些谱师供读者参考：-mint-、Begin、Hylotl、V1do、YuEast、eZmmR、Muses、underjoy、Seiran。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "皮肤/skin",
+   "aliases": [
+    "皮肤",
+    "skin"
+   ],
+   "tags": [
+    "osu!mania",
+    "皮肤",
+    "资源"
+   ],
+   "category": "资源",
+   "summary": "音游的视觉皮肤及其常见分类。",
+   "details": "千万不要用默认皮肤/原皮。分类包括砖皮/bar（方块皮肤）、箭皮/arrow（箭头皮肤，有方形和圆角两种）、球皮/circle（球形皮肤，也是目前使用人数最多的皮肤类型）、菱皮/钻石皮/diamond（菱形，有方形和圆角两种）；其他还有换神人图标皮肤、故意改的难读的神人皮肤（如旋转 note 皮、理发店灯管皮），除此之外还有十字皮等等。",
+   "tips": [
+    "千万不要用默认皮肤/原皮。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "投皮/投机取巧皮",
+   "aliases": [
+    "投皮",
+    "投机取巧皮"
+   ],
+   "tags": [
+    "osu!mania",
+    "资源",
+    "皮肤"
+   ],
+   "category": "资源",
+   "summary": "把面条尾部改短的皮肤，减少读谱难度。",
+   "details": "用修改皮肤图片文件的方式得到面条尾部较短的皮肤，具体方法操作可见《osu!mania 的投机取巧皮肤中面条的机制简述与修改》（bilibili）；此类皮肤在减少读谱难度的同时又不会损失太多准度，故得名投机取巧皮。除此之外还有非常多种类的投皮。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "新手教程",
+   "aliases": [],
+   "tags": [
+    "通用",
+    "osu!mania",
+    "Malody",
+    "Etterna"
+   ],
+   "category": "资源",
+   "summary": "资料前言推荐的新手入门教程；本文本身并非新手指南。",
+   "details": "资料列出的新手教程有：【Malody】完全入坑指南_哔哩哔哩_bilibili、OSU!Mania4k 新人指南 2.0 版本（2023.1.9 发布）、Etterna 安装及设置教学、下载、安装、与升级 | etterna 教程、Quaver 教程-单人游戏_演示。",
+   "tips": [
+    "本文仅帮助玩家看懂群里的专用名词，并非新手指南。",
+    "游戏内出现的名词如 OD、HP、PP 等都可以去 wiki 查找。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "找皮肤",
+   "aliases": [
+    "皮肤站",
+    "osu!名站导航"
+   ],
+   "tags": [
+    "osu!mania",
+    "Malody",
+    "Etterna",
+    "资源"
+   ],
+   "category": "资源",
+   "summary": "去哪里找音游皮肤，以及皮肤的制作与修改。",
+   "details": "QQ 群和 b 站能找到所有游戏的皮肤；malody、etterna 和 quaver 皮肤有官方的下载渠道；对于 osu 还有皮肤网站可供查询，即皮肤站-osu!名站导航-你好osu论坛（osu 综合论坛/皮肤论坛/交流论坛/赛事论坛/osu!Skins 下载网站）。适合自己的皮肤才是最好的，但大多数现代玩家不会选择轨道较长的皮肤，如原皮。皮肤的制作与修改方面，笔者能力有限，请移步至《OSU!皮肤制作教程（完结？）》（bilibili 专栏），或直接使用皮肤修改工具。",
+   "tips": [
+    "适合自己的皮肤才是最好的，但大多数现代玩家不会选择轨道较长的皮肤，如原皮。"
+   ],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "bpm练习谱包",
+   "aliases": [
+    "JackHouse"
+   ],
+   "tags": [
+    "Etterna",
+    "资源",
+    "练习"
+   ],
+   "category": "资源",
+   "summary": "按 bpm 关键词搜索的练习谱包。",
+   "details": "搜索 XXXXXXpractice，如 140jackpractice。JackHouse 的整体平均密度较低，其它包的密度较高。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Dan~REFORM~段位下载",
+   "aliases": [
+    "danreform.com",
+    "danreformthaumiel",
+    "danreformyzuio",
+    "reformdaninuiyumeganv3"
+   ],
+   "tags": [
+    "资源",
+    "段位",
+    "osu!mania"
+   ],
+   "category": "资源",
+   "summary": "资料附录1给出的REFORM系列段位各版本下载与搜索方式。",
+   "details": "官方版（不可上传成绩，reform所有单曲和所有版本）见danreform.com；官网版现行段位本体合集（可上传成绩，pack2的6dan为常见版）在osu官网搜索danreformthaumiel；官网版现行段位单曲合集（可上传成绩，speed包的6dan为另一版本）搜索danreformyzuio；官网samplev3段位本体合集搜索reformdaninuiyumeganv3。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Dan~REFORM~FINAL",
+   "aliases": [
+    "etadanthaumiel",
+    "REFORM FINAL"
+   ],
+   "tags": [
+    "资源",
+    "段位",
+    "osu!mania"
+   ],
+   "category": "资源",
+   "summary": "REFORM的FINAL段位，在osu官网搜索etadanthaumiel即可。",
+   "details": "资料附录1只给出这一搜索方式；该段位在天梯表0-2中以thaumiel eta等写法出现。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "DDR与模拟器历史",
+   "aliases": [
+    "DDR模拟器历史",
+    "DDR与模拟器历史-哔哩哔哩"
+   ],
+   "tags": [
+    "资源",
+    "通用"
+   ],
+   "category": "资源",
+   "summary": "资料推荐的介绍DDR与模拟器历史的视频（bilibili）。",
+   "details": "资料在2.6.6中写“DDR模拟器历史详情可见DDR与模拟器历史-哔哩哔哩”，用于补充StepMania与DDR模拟器的历史。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Extradan9 v1.75",
+   "aliases": [
+    "extra9 v1.75"
+   ],
+   "tags": [
+    "资源",
+    "段位",
+    "osu!mania"
+   ],
+   "category": "资源",
+   "summary": "段位Extradan9 v1.75，在osu官网搜索extradan9v1.75即可。",
+   "details": "资料注明目前仅有本体；该段位在天梯表0-2中列为extra9 v1.75 9.59。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "LN Dan Courses v2",
+   "aliases": [
+    "4kLNDan",
+    "LN Dan Courses",
+    "面条段位v2"
+   ],
+   "tags": [
+    "资源",
+    "段位",
+    "osu!mania",
+    "LN"
+   ],
+   "category": "资源",
+   "summary": "面条段位LN Dan Courses v2，在osu官网搜索4kLNDan即可。",
+   "details": "资料提醒要“注意段位本体和单曲的区别”。附录1另有“非_underjoy制作的面段”条目，列出4K LN Dan Courses v3-ExtraLevel-、4K LN Dan Courses-EXTRA-、4K LN Dan Courses-FINAL。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "LN Tier Alternative",
+   "aliases": [
+    "kizunalntieralternative",
+    "LNTier Alternative段位"
+   ],
+   "tags": [
+    "资源",
+    "段位",
+    "osu!mania",
+    "LN"
+   ],
+   "category": "资源",
+   "summary": "面条段位LN Tier Alternative，在osu官网搜索kizunalntieralternative。",
+   "details": "资料附录1只给出这一搜索方式；该体系在附录2的LN天梯表0-3中以LNTier I-XII的写法出现。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Malody CN Dan Course下载",
+   "aliases": [
+    "malodydanv2",
+    "malodydanv3"
+   ],
+   "tags": [
+    "资源",
+    "段位",
+    "Malody"
+   ],
+   "category": "资源",
+   "summary": "Malody段位合集，在osu官网搜索malodydanv2或v3即可。",
+   "details": "资料提醒要“注意段位本体和单曲以及版本的区别”。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "Malody段位sid",
+   "aliases": [
+    "sid",
+    "Malody段位合集sid",
+    "表0-1"
+   ],
+   "tags": [
+    "资源",
+    "段位",
+    "Malody"
+   ],
+   "category": "资源",
+   "summary": "Malody段位合集在商店搜索sid下载，不同sid对应不同合集。",
+   "details": "资料表0-1列出：s1000发狂段本体合集、s1111叠键单曲合集、s1222技巧单曲合集、s1333乱键单曲合集、s1444切换单曲合集、s2000常规段本体合集、s2111至s2444为第一至第四首单曲合集、s5000常规段本体合集、s5011至s5044为叠键/技巧/乱键/切换单曲合集、s5055为Starter合集、s6000发狂段本体合集、s6011至s6044为叠键/技巧/乱键/切换单曲合集。资料注明在Malody商店搜索sid下载对应合集。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "osu!mania 4K Dan(段) Courses官网版与合集版",
+   "aliases": [
+    "4K Dan Courses官网版",
+    "4K Dan Courses合集版",
+    "4K Shoegazer Dan Course"
+   ],
+   "tags": [
+    "资源",
+    "段位",
+    "osu!mania"
+   ],
+   "category": "资源",
+   "summary": "附录1中给出的4K Dan Courses官网版与合集版下载条目。",
+   "details": "官网版可上传成绩，含Various Artists - 4K 1st Dan至4K 10th Dan、4K Luminal、4K Tachyon、4K Tachyon v2、4K Luminal v2、4K 7th Dan v2、4K 8th Dan v2、4K 9th Dan v2、4K 10th Dan v2、4K Tachyon v3等条目；合集版可上传成绩，含4K Shoegazer Dan Course v1(7th-Tachyon)、4K Shoegazer Dans(1-6)、4K Shoegazer Dans(7th-Tachyon)，其中后两个不可上传成绩。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "osu!mania 4K Dan~REFORM~Samplev2",
+   "aliases": [
+    "REFORM Samplev2",
+    "Samplev2",
+    "sample epsilon B"
+   ],
+   "tags": [
+    "资源",
+    "段位",
+    "osu!mania"
+   ],
+   "category": "资源",
+   "summary": "REFORM的Samplev2段位，官方版无单曲且不可上传成绩。",
+   "details": "资料记录：官方版（无单曲、不可上传成绩，sample epsilon B为乘0.95版）见danreform.com；官网版本体中sample epsilon B为原速版且包含单曲，条目如Various Artists - Original SAMPLE EPSILON Dan v2、Dan~REFORM~SAMPLEPack4-EXTEND；官网版单曲（sample epsilon B单曲为乘0.95版）包括DJ Sharpnel - Dan~REFORM~SAMPLEPack4(Epsilon Training)、Dan~REFORM~SAMPLEPack4(First Epsilon Sample Training)等。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  },
+  {
+   "title": "StepMania排列入门v1.0",
+   "aliases": [
+    "StepMania排列入门",
+    "排列入门v1.0"
+   ],
+   "tags": [
+    "资源",
+    "键型",
+    "通用"
+   ],
+   "category": "资源",
+   "summary": "资料引用的键型定义文档，对多种键型有精确定义。",
+   "details": "资料称jumpjack、singlestream、splitrolls、running man、ladder等键型在《StepMania排列入门v1.0》里有精确定义。",
+   "tips": [],
+   "source": "《下落式音游齐民要术 v0.74》"
+  }
+ ]
+}
